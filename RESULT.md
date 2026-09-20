@@ -94,7 +94,7 @@ Completed the descriptive second-round sample re-audit requested by `fertility/S
 
 ## Commit SHA
 
-Pending publication.
+`a782b001480b80533cecd79d72008127edebad0e` (sample re-audit implementation; this metadata line is finalized in the immediately following documentation commit)
 
 ## PR
 
