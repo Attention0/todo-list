@@ -51,3 +51,14 @@ Completed the first-round data audit and minimal first look required by `WORK.md
 - Implementation commit SHA: `485d8e23226e248f362117cfe9ab6414ad196606`
 - PR: https://github.com/Attention0/todo-list/pull/3
 - Merge status: not merged.
+
+## Heterogeneity exploration update
+
+Completed the full `HETEROGENEITY_WORK.md` scope on the same branch and PR:
+
+- Added `HETEROGENEITY_AUDIT.md` and `HETEROGENEITY_RESULTS.md`.
+- Added a reproducible theory-guided, ordered-outcome, regularized, prediction, and honest/cross-fitted HTE pipeline.
+- Added aggregate heterogeneity tables and figures; no respondent-level records were committed.
+- Distinguished stated-MPC level associations, randomized treatment-effect heterogeneity, and conditional fungibility contrasts throughout.
+- Applied raw/clean and outcome-coding robustness, family-level BH-FDR, amount-specific scans, ordered-logit direction checks, repeated cross-validation, and held-out CATE-quintile calibration.
+- Main synthesis: objective resources/needs weakly predict stated-MPC level; food-cash HTE is an important null; medical-related heterogeneity is stronger, with income, education, and past medical spending robustly differentiating medical from food responses.
