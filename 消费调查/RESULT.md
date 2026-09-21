@@ -211,5 +211,6 @@ Implemented `NATURE_REVISION_WORK.md` as a targeted addition to the locked packa
 ### Git
 
 - Branch: `feature/nature-targeted-revision`.
-- Commit SHA and PR: recorded after publication.
+- Nature targeted revision implementation commit SHA: `33a5723fea18c1441018d61fda754978b6db0bd2`.
+- PR: https://github.com/Attention0/todo-list/pull/5 (stacked on PR #3).
 - Merge status: not merged.
