@@ -123,3 +123,44 @@ Completed `FINAL_EXPLORATION_WORK.md` without selecting a paper story. The final
 - Final exploration commit: this section is part of the final exploration commit.
 - PR: https://github.com/Attention0/todo-list/pull/3
 - Merge status: not merged.
+
+## Nature-series locked empirical package update
+
+### Summary
+
+Implemented the fixed `NATURE_EMPIRICAL_ROADMAP.md` and `NATURE_FIGURE_BLUEPRINT.md` against the existing survey delivery. This is a locked post-hoc re-estimation, not a new open-ended story search or prospective confirmation. The package adds formal portability and HTE-asymmetry tests, reliability sensitivity, common global folds, quality-screen HTE/prediction, cross-fitted DR policy value, amount and policy seed stability, and publication-scale candidate figures. The results explicitly downgrade Nature-style claims that fail quality or measurement checks.
+
+### Files changed
+
+- `NATURE_EMPIRICAL_AUDIT.md` and `NATURE_EMPIRICAL_RESULTS.md`.
+- `analysis/nature_empirical.py` and `analysis/nature_figures.py`.
+- 67 aggregate `tables/nature_*.csv` files, including 27 figure-panel source CSVs.
+- Six main and ten Extended Data figures, each in vector PDF and 600-dpi PNG, plus `figures/nature_figure_legends.md`.
+
+### Key implementation decisions
+
+- All headline ML comparisons inherit a single global five-fold assignment stratified by the nine randomized cells; level prediction uses the same two repeated partitions for all feature sets and models.
+- The Food-versus-Medical HTE predictability contrast directly bootstraps calibration and top–bottom differences, with shared Cash respondents resampled jointly.
+- Reliability adjustment is explicitly a scenario calculation, not an estimate.
+- DR policy evaluation uses OOF form-specific nuisance predictions and known randomized assignment propensity.
+- Quality screens remain sensitivity checks and are never used to silently redefine the primary estimand.
+
+### Testing performed
+
+- Ran the full empirical pipeline end to end on the specified external Stata file; completed with R=5,497, A=5,480, C=5,171 and ten fixed HTE seeds.
+- Executed the ten-seed amount-specific stability extension and generated all 16 figure pairs from aggregate tables.
+- Re-rendered figure PDFs and visually inspected the six-figure portfolio and selected Extended Data panels after correcting crowded labels and direct-comparison scales.
+- Verified 16 single-page vector PDFs, 16 600-dpi PNGs, panel source data, and no exported respondent-level observations or OOF predictions.
+
+### Acceptance Criteria
+
+- Formal portability, reliability, Food-versus-Medical HTE asymmetry, common folds, quality-screen predictability/HTE, DR policy, and repeated-seed stability: met.
+- Roadmap theory-guided/amount/inframarginal/RI/FE checks and generalizability diagnostics: met, with explicit no-raking limitation.
+- Six main figures, ten Extended Data figures, panel CSVs, legends, audit/results: met.
+- No changed core estimand, no new paper story, no respondent-level data committed: met.
+
+### Known issues
+
+- Outcome reliability is not observed; under plausible assumed reliability, the true cross-form correlation could be materially higher than the observed one.
+- Medical−Cash HTE is formally more predictable than Food−Cash but Q1/Q2 quality-screen validation is inconclusive; it is not yet an unqualified Nature-style main claim.
+- The study remains hypothetical, post hoc, single-sample, and without realized-spending validation.
