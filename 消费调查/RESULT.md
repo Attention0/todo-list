@@ -69,3 +69,57 @@ Completed the full `HETEROGENEITY_WORK.md` scope on the same branch and PR:
 - Added `analysis/heterogeneity_formal.py`, 18 aggregate `formal_*.csv` tables, and three reproducible figures.
 - Corrected nominal/ordered categorical handling; added saturated Type×Amount×X checks, HC3, FE/cluster robustness, 2,000-permutation randomization inference, unified nested CV, and treatment-cell-stratified OOF HTE validation.
 - Preserved all first-pass outputs for comparison and did not commit respondent-level data or predictions.
+
+## Final exploration update
+
+### Summary
+
+Completed `FINAL_EXPLORATION_WORK.md` without selecting a paper story. The final pass tests stable observable traits against transfer-form-specific response mappings, repairs DR/R cross-fitting, evaluates latent subjective dimensions, amount context, policy value, response quality, and generalizability, and separates strongest facts from strongest nulls.
+
+### Files changed
+
+- `FINAL_EXPLORATION_AUDIT.md`: estimands, transformations, cross-fitting, psychometrics, policy evaluation, quality screens, external benchmarks, limitations, and deviations.
+- `FINAL_EXPLORATION_RESULTS.md`: Q1–Q8 results plus the required A–G synthesis and positioning audit.
+- `analysis/final_exploration.py`: reproducible final pipeline.
+- `tables/final_*.csv`: aggregate-only results.
+- `figures/final_*.png`: seven candidate main-text figures.
+
+### Key implementation decisions
+
+- Used outer cell-stratified folds and inner nuisance folds for standard DR; used Robinson residualization without treatment in the marginal outcome nuisance for R learning.
+- Evaluated treatment-effect rankings only on untouched outer folds and treated calibration/top-bottom agreement across learners as primary ML evidence.
+- Estimated domain PCA loadings in a discovery half and evaluated scores in held-out observations.
+- Used OOF policy assignments and randomized-design IPW; no respondent-level predictions were exported.
+- Used official census margins descriptively but did not rake incompatible online-adult and total-population frames.
+
+### Testing performed
+
+- Executed all final analysis modules against the specified Stata delivery and generated the aggregate tables and seven figures.
+- Confirmed N_R=5,497, N_A=5,480, and N_C=5,171 in the reproducible output.
+- Syntax-compiled the final script after compatibility fixes.
+- Visually inspected a contact sheet containing all seven final figures.
+- Verified aggregate output schemas and excluded respondent-level scores, OOF predictions, and fold assignments.
+
+### Acceptance Criteria
+
+- Stable-trait versus form-specific prediction, cross-form transfer, and decomposition: met.
+- Standard cross-fitted T/DR/R HTE for all three contrasts: met; causal forest unavailable and documented.
+- Subjective incremental prediction, practical-equivalence bounds, and outcome sensitivity: met.
+- Held-out latent dimensions and HTE: met.
+- Amount, Medical-vs-Food, policy-value, response-quality, and generalizability analyses: met with documented limits.
+- Required final audit/results and exact A–G synthesis: met.
+- No premature paper story and no respondent-level data committed: met.
+
+### Known issues
+
+- No reliable causal-forest dependency was available, and no fragile package was installed.
+- Policy value is evaluated with honest IPW but not a second DR policy estimator.
+- The delivery lacks timing, IP/device, attention checks, realized expenditure, or independent replication.
+- Population benchmarks are not sufficiently compatible for defensible raking.
+
+### Git
+
+- Branch: `feature/consumer-survey-initial-audit`
+- Final exploration commit: this section is part of the final exploration commit.
+- PR: https://github.com/Attention0/todo-list/pull/3
+- Merge status: not merged.
