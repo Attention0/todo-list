@@ -1,0 +1,22 @@
+domain,comparison,difference,lo,hi,bootstrap_B,method
+resources_position,cash-food,0.0013523328630438887,-0.006894880510230282,0.010572599755788186,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+resources_position,cash-medical,0.0032410657292626746,-0.0030178941584773334,0.009529389401169527,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+resources_position,food-medical,0.001888732866218786,-0.006357984153999074,0.009809623797591722,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+liquidity,cash-food,-0.0010160644209340117,-0.004710382403158689,0.003006618072202571,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+liquidity,cash-medical,-0.001101741061991383,-0.004655863638929218,0.0024004067153305213,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+liquidity,food-medical,-8.567664105737138e-05,-0.0040681707308318086,0.0034986988021924225,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+household_needs,cash-food,-0.002475648118490806,-0.015566531003508537,0.010270339939960318,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+household_needs,cash-medical,-0.003522479258440847,-0.017605041745330185,0.011811176712290813,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+household_needs,food-medical,-0.001046831139950041,-0.016266065529872722,0.013284501487528069,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+expectations,cash-food,-6.860690849926532e-05,-0.005647152594601305,0.005347704533209075,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+expectations,cash-medical,0.0010444245461399548,-0.0039028320072024307,0.005998193231779538,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+expectations,food-medical,0.0011130314546392202,-0.0034511267421002438,0.005743512853093041,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+security_pressure,cash-food,0.0004502328057452245,-0.003939032464670143,0.005008932401904194,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+security_pressure,cash-medical,-0.0025103265957670358,-0.0066461648406912766,0.0016275836090459312,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+security_pressure,food-medical,-0.00296055940151226,-0.007262292864802516,0.0011801185606735863,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+social_wellbeing,cash-food,0.004614896848868955,-0.0027930496532826816,0.011315129960212849,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+social_wellbeing,cash-medical,0.0012369705446455177,-0.0053854379350063335,0.007850443253712525,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+social_wellbeing,food-medical,-0.0033779263042234367,-0.009180294009534597,0.0023959965279575094,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+demographics_exposure,cash-food,0.006002737373900817,-0.0020536210582556454,0.01414457049647612,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+demographics_exposure,cash-medical,0.0015909204973401465,-0.00790727223608637,0.010853463107446693,1000,independent arm respondent bootstrap; fixed repeated OOF fits
+demographics_exposure,food-medical,-0.00441181687656067,-0.012178095203114022,0.0029026693771514065,1000,independent arm respondent bootstrap; fixed repeated OOF fits
