@@ -62,3 +62,10 @@ Completed the full `HETEROGENEITY_WORK.md` scope on the same branch and PR:
 - Distinguished stated-MPC level associations, randomized treatment-effect heterogeneity, and conditional fungibility contrasts throughout.
 - Applied raw/clean and outcome-coding robustness, family-level BH-FDR, amount-specific scans, ordered-logit direction checks, repeated cross-validation, and held-out CATE-quintile calibration.
 - Main synthesis: objective resources/needs weakly predict stated-MPC level; food-cash HTE is an important null; medical-related heterogeneity is stronger, with income, education, and past medical spending robustly differentiating medical from food responses.
+
+## Formal heterogeneity robustness update
+
+- Added `HETEROGENEITY_FORMAL_AUDIT.md` and `HETEROGENEITY_FORMAL_RESULTS.md`.
+- Added `analysis/heterogeneity_formal.py`, 18 aggregate `formal_*.csv` tables, and three reproducible figures.
+- Corrected nominal/ordered categorical handling; added saturated Type×Amount×X checks, HC3, FE/cluster robustness, 2,000-permutation randomization inference, unified nested CV, and treatment-cell-stratified OOF HTE validation.
+- Preserved all first-pass outputs for comparison and did not commit respondent-level data or predictions.
