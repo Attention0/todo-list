@@ -164,3 +164,10 @@ Implemented the fixed `NATURE_EMPIRICAL_ROADMAP.md` and `NATURE_FIGURE_BLUEPRINT
 - Outcome reliability is not observed; under plausible assumed reliability, the true cross-form correlation could be materially higher than the observed one.
 - Medical−Cash HTE is formally more predictable than Food−Cash but Q1/Q2 quality-screen validation is inconclusive; it is not yet an unqualified Nature-style main claim.
 - The study remains hypothetical, post hoc, single-sample, and without realized-spending validation.
+
+### Git
+
+- Branch: `feature/consumer-survey-initial-audit`
+- Nature empirical package commit SHA: `098ceb84d3a0479bdd6a14176400d9fb31bd9539`
+- PR: https://github.com/Attention0/todo-list/pull/3
+- Merge status: not merged.
