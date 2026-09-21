@@ -60,8 +60,10 @@
 
 ## Commit SHA
 
-待发布后记录交付文件所在提交。
+交付文件提交：`7fbe026d76411d92baf26f48b3b07db333c683de`。本文件随后补充发布信息。
 
 ## PR
 
-待创建。默认不合并 main。
+https://github.com/Attention0/todo-list/pull/4 （Open，未合并）。原生 git push 遇到网络连接失败后，通过已授权 GitHub 接口创建 blob、tree、commit 和分支发布。
+
+
