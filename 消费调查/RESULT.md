@@ -171,3 +171,45 @@ Implemented the fixed `NATURE_EMPIRICAL_ROADMAP.md` and `NATURE_FIGURE_BLUEPRINT
 - Nature empirical package commit SHA: `098ceb84d3a0479bdd6a14176400d9fb31bd9539`
 - PR: https://github.com/Attention0/todo-list/pull/3
 - Merge status: not merged.
+
+## Nature targeted revision package update
+
+### Summary
+
+Implemented `NATURE_REVISION_WORK.md` as a targeted addition to the locked package: broad domain-drop RF and standardized ridge maps, conditional outcome-reliability R² sensitivity, exact cross-fitted DR policy-value decomposition, predicted-crossing validation, RMB 1,000 Cash/Medical targeting stress test, and limited composition robustness. The locked estimands, results, and six-figure portfolio were not modified.
+
+### Files changed
+
+- `NATURE_REVISION_AUDIT.md`, `NATURE_REVISION_RESULTS.md`, `NATURE_REVISION_MANUSCRIPT_NOTES.md`.
+- `analysis/nature_revision.py`, `analysis/nature_revision_figures.py`.
+- Aggregate `tables/nature_revision_*.csv`, four candidate figure PDF/PNG pairs, and `figures/nature_revision_figure_legends.md`.
+
+### Key implementation decisions
+
+- All 41 locked predictors are mapped once into seven broad, theory-guided domains. Three common global nine-cell-stratified five-fold seeds are reused by form-specific held-out RF comparisons.
+- Domain differences resample disjoint form arms independently; ridge coefficients use a fixed pooled treatment-blind display subset and stratified bootstrap refits.
+- Reliability is an assumed classical-error grid, not an estimated correction. Quality screens remain separate sample restrictions.
+- Full policy decomposition exactly reproduces the locked argmax DR gain; RMB 1,000 two-arm policy learning is explicitly exploratory and does not replace the pooled estimand.
+
+### Testing performed
+
+- Ran the final revision pipeline twice on the external Stata delivery, once in a separate verification directory and once into the repository; 15 aggregate tables matched to tolerance (maximum numeric difference 4.00×10⁻¹⁶) and four PNGs were byte-identical.
+- Regenerated the repository deliverables, compiled the scripts, checked exact policy decomposition against the locked DR result, and rendered/inspected all four PDF figures.
+- Verified only aggregate tables and figure-panel source data are exported; no respondent records or OOF predictions were added.
+
+### Acceptance Criteria
+
+- Targeted modules A–D, interpretation gates, manuscript notes, specified tables, panel-source CSVs, legends, and four candidate figure pairs: met.
+- No open-ended moderator scan, core-estimand change, pseudo-national weighting, or alteration of locked six figures: met.
+
+### Known issues
+
+- Outcome reliability and true individual counterfactual rankings are not observed; domain-drop and ridge map results cannot identify causal mechanisms.
+- No broad domain passes the two-representation context-localization gate.
+- The RMB 1,000 two-arm policy has small positive point gains, but DR intervals cross zero; the full-sample policy null must not be universalized.
+
+### Git
+
+- Branch: `feature/nature-targeted-revision`.
+- Commit SHA and PR: recorded after publication.
+- Merge status: not merged.

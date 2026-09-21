@@ -1,0 +1,19 @@
+# Targeted revision figure legends
+
+These four figures are revision candidates. They do not replace or renumber the six locked Nature figures. All outcomes are hypothetical stated responses, not realized spending or welfare. Source data for every panel are `tables/nature_revision_panel_*.csv`.
+
+## Revision Fig. R1 | Domain-level predictive signal across randomized transfer forms
+
+The heatmap shows the change in held-out midpoint stated-MPC R² when each fixed baseline predictor domain is removed from the full 41-predictor random forest. Columns are separate Cash (N=1,798), Food (N=1,836), and Medical (N=1,863) randomized arms; rows are the seven prespecified domains. Each value averages three five-fold global nine-cell-stratified OOF partitions (seeds 20260921–20260923). Brackets are 95% respondent-bootstrap intervals (1,000 draws), conditional on fitted OOF models. Respondents are resampled independently across disjoint arms for formal context differences in `nature_revision_domain_differences.csv`. Negative importance is retained. The colour scale is common across forms. Importance is predictive and non-causal. Panel source: `nature_revision_panel_predictor_map.csv`.
+
+## Revision ED Fig. R2 | Standardized ridge predictor maps
+
+Rows show a fixed 20-feature display subset chosen by largest absolute coefficient in a pooled treatment-blind ridge fit, not separately in each form. Columns are form-specific ridge coefficients for Cash, Food, and Medical on midpoint stated MPC (N=1,798, 1,836, and 1,863). All 41 raw predictors and their common standardized one-hot encoding are retained in the fits; only display rows are filtered. The full coefficient vector, 300 stratified-refit bootstrap distributions, and domain mean-absolute-coefficient summaries are in the aggregate tables. Colour is predictive association, not causal mechanism. Panel source: `nature_revision_panel_ridge_map.csv`.
+
+## Revision Fig. R3 | Outcome-reliability sensitivity and response-quality screens
+
+Panel A divides the locked repeated-CV O, ALL, and O+S-minus-O midpoint stated-MPC R² estimates and their fold-bootstrap interval endpoints by assumed outcome reliability, from 0.30 to 1.00. Dashed guides mark 0.40, 0.60, and 0.80. This classical independent-error calculation is conditional sensitivity, **not** an estimated reliability correction or a theoretical predictability ceiling. Panel B plots the separate observed five-fold OOF R² in Raw R (N=5,497), Clean C (N=5,171), Q1 (N=2,715), and Q2 (N=1,208) screens; those restrictions do not measure reliability. Panel source: `nature_revision_panel_reliability_r2.csv`.
+
+## Revision Fig. R4 | Why learned form personalization does not improve the full-sample stated response
+
+Panel A shows distributions of out-of-fold predicted Food-minus-Cash and Medical-minus-Cash midpoint stated-MPC advantages among all N=5,497 respondents. Positive predicted differences indicate predicted crossing, not individual true benefit. Panel B shows the cross-fitted doubly robust (DR) randomized contrast versus Cash within each predicted-positive subgroup; error bars are 95% paired respondent-bootstrap intervals. Panel C decomposes the exact full-sample DR value difference of the OOF three-form argmax rule versus uniform Cash into Food-selected and Medical-selected contributions; labels show assignment shares and error bars are paired-bootstrap intervals. Panel D is an exploratory two-arm, RMB 1,000-only Cash-versus-Medical stress test (N=1,207), with OOF response predictions and DR/IPW gain versus uniform Cash. The panel shows headline seed 20260921; all three fixed-seed estimates are in `nature_revision_policy_1000.csv`. The randomized propensity is 1/3 in the full three-form analysis and 1/2 in the restricted two-form test. This is a stated-consumption objective, not welfare. Panel source: `nature_revision_panel_policy_decomposition.csv`.
