@@ -54,5 +54,5 @@ No respondent-level raw data, IDs, or OOF prediction rows are included.
 ## Branch / Commit / PR
 
 - Branch: `feature/nhb-review-reanalysis`
-- Commit SHA: recorded in the final handoff after commit
-- PR: recorded in the final handoff after push
+- Analysis commit SHA: `cc338f4a1e0fb7e41dba32125f66fda9d78f852f`
+- PR: https://github.com/Attention0/todo-list/pull/6
