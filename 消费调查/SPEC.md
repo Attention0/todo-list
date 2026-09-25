@@ -1,5 +1,7 @@
 # 消费调查项目 — Research Specification
 
+> **Current-phase update — 2026-09-25.** The project has progressed from initial data audit to an NHB manuscript and is now in a reviewer-driven claim-validation round. For execution, `消费调查/NHB_REVIEW_REANALYSIS.md` and `消费调查/WORK.md` supersede any older “first-look/JDE-stage” wording below. The central current question is whether the data support broad cross-context non-portability, a narrower boundary-condition result (cash-food relatively stable but medical different), or mainly low predictability without strong evidence of remapping. Do not rewrite the manuscript before this re-analysis is complete.
+
 ## 1. 当前研究目标
 
 本项目使用“社会心态小调查”中的随机情景实验，研究政府转移支付的形式与金额如何影响居民的边际消费反应，并进一步判断能否形成具有一般经济学意义的研究问题。
