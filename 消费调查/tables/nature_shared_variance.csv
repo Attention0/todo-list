@@ -1,0 +1,6 @@
+component,variance,ratio_to_observed,warning
+actual_outcome,0.0662748673005839,1.0,Descriptive non-additive variances; not a partition of total variance
+shared_prediction,0.0013262009703583,0.020010616759795697,Descriptive non-additive variances; not a partition of total variance
+deviation_cash,0.0007784230415558,0.011745373069180658,Descriptive non-additive variances; not a partition of total variance
+deviation_food,0.0005999782742801,0.009052877790896972,Descriptive non-additive variances; not a partition of total variance
+deviation_medical,0.0008160472438687,0.012313072467841973,Descriptive non-additive variances; not a partition of total variance

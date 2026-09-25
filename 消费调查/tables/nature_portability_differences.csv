@@ -1,0 +1,15 @@
+metric,comparison,difference,lo,hi,bootstrap_B,method
+spearman,CF_minus_CM,0.07584688940832521,0.011454403182441937,0.13701208398178205,3000,fixed source models; target-observation bootstrap
+spearman,CF_minus_FM,0.047895585362211585,-0.015440920906876314,0.10902350611689648,3000,fixed source models; target-observation bootstrap
+coef_correlation_O_needs,CF_minus_CM,0.42299257437708027,-0.04309399486420729,0.5348861419372164,600,stratified respondent bootstrap with source-model refits
+coef_correlation_O_needs,CF_minus_FM,0.390305883012689,-0.025899273376308686,0.5137233298339798,600,stratified respondent bootstrap with source-model refits
+cosine_O_needs,CF_minus_CM,0.41948909007737123,-0.04382270986732163,0.5346827790208185,600,stratified respondent bootstrap with source-model refits
+cosine_O_needs,CF_minus_FM,0.3900868468678511,-0.026544741604837295,0.5132001469574216,600,stratified respondent bootstrap with source-model refits
+sign_agreement_O_needs,CF_minus_CM,0.16393442622950816,-0.09836065573770492,0.2459016393442623,600,stratified respondent bootstrap with source-model refits
+sign_agreement_O_needs,CF_minus_FM,0.180327868852459,-0.08196721311475408,0.2295081967213115,600,stratified respondent bootstrap with source-model refits
+coef_correlation_ALL,CF_minus_CM,0.5951978671744126,0.029709067046710072,0.6346336668582632,600,stratified respondent bootstrap with source-model refits
+coef_correlation_ALL,CF_minus_FM,0.4878807973141742,-0.07368662945029131,0.6029034538678625,600,stratified respondent bootstrap with source-model refits
+cosine_ALL,CF_minus_CM,0.5955359764409376,0.030822059714046748,0.6345364372241872,600,stratified respondent bootstrap with source-model refits
+cosine_ALL,CF_minus_FM,0.48892126639230543,-0.07312416896018344,0.6028848882988992,600,stratified respondent bootstrap with source-model refits
+sign_agreement_ALL,CF_minus_CM,0.15909090909090906,-0.045454545454545414,0.23863636363636365,600,stratified respondent bootstrap with source-model refits
+sign_agreement_ALL,CF_minus_FM,0.09090909090909083,-0.06818181818181823,0.21590909090909088,600,stratified respondent bootstrap with source-model refits
