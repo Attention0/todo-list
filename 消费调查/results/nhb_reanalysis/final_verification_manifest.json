@@ -1,0 +1,15 @@
+{
+  "seed": 20260927,
+  "seeds": [
+    20260927,
+    20260928,
+    20260929,
+    20260930,
+    20261001
+  ],
+  "bootstrap": 1000,
+  "folds": 5,
+  "rf_trees_primary": 180,
+  "rf_trees_bootstrap": 120,
+  "subjective_items": 27
+}

@@ -56,3 +56,18 @@ No respondent-level raw data, IDs, or OOF prediction rows are included.
 - Branch: `feature/nhb-review-reanalysis`
 - Analysis commit SHA: `cc338f4a1e0fb7e41dba32125f66fda9d78f852f`
 - PR: https://github.com/Attention0/todo-list/pull/6
+
+## Final verification addendum — 2026-09-27
+
+The locked five-check verification in `消费调查/NHB_FINAL_VERIFICATION.md` is complete:
+
+- pooled Food−Cash in the strict-inframarginal sample;
+- 1,000-draw model-refit portability bootstrap;
+- amount-adjusted and amount-specific portability;
+- held-out person-score × transfer-form invariance;
+- ordinal robustness and subjective-item correlation/PCA/Cronbach diagnostics.
+
+The evidence remains closest to Pattern C. Strict-inframarginal Food−Cash is negative and precise in R/A/C, while both 1,000-draw portability intervals include zero. Medical held-out person-score interactions are suggestive in midpoint/random-forest models but weaker on the primary ordinal outcome. No manuscript file was edited, and analysis expansion stops with these five checks.
+
+- Final-verification branch: `feature/nhb-final-verification`
+- Final-verification commit/PR: recorded after publication
