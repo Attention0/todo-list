@@ -70,4 +70,5 @@ The locked five-check verification in `消费调查/NHB_FINAL_VERIFICATION.md` i
 The evidence remains closest to Pattern C. Strict-inframarginal Food−Cash is negative and precise in R/A/C, while both 1,000-draw portability intervals include zero. Medical held-out person-score interactions are suggestive in midpoint/random-forest models but weaker on the primary ordinal outcome. No manuscript file was edited, and analysis expansion stops with these five checks.
 
 - Final-verification branch: `feature/nhb-final-verification`
-- Final-verification commit/PR: recorded after publication
+- Final-verification analysis commit: `dddc561caeb05fddc74c3541d7f67f2e9f15a0ad`
+- Final-verification PR: https://github.com/Attention0/todo-list/pull/7
