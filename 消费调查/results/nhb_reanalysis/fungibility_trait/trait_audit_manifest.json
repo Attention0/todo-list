@@ -1,0 +1,12 @@
+{
+  "N_rows": 5497,
+  "N_unique_ID": 5497,
+  "N_missing_ID": 0,
+  "N_duplicate_ID_rows": 0,
+  "N_rows_one_MPC": 5497,
+  "N_ID_multiple_forms": 0,
+  "N_ID_repeated_same_item": 0,
+  "data_sha256": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "pandas": "3.0.6",
+  "numpy": "2.5.3"
+}

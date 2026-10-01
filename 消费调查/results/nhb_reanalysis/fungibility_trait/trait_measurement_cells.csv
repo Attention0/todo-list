@@ -1,0 +1,10 @@
+item,form,amount,N_observed
+q32_cash200,cash,200,619
+q33_cash1k,cash,1000,595
+q34_cash5k,cash,5000,584
+q35_vouch200,food,200,614
+q36_vouch1k,food,1000,620
+q37_vouch5k,food,5000,602
+q38_med200,medical,200,615
+q39_med1k,medical,1000,612
+q40_med5k,medical,5000,636
