@@ -1,0 +1,10 @@
+form_1,form_2,N_ID_with_both
+cash,cash,1798
+cash,food,0
+cash,medical,0
+food,cash,0
+food,food,1836
+food,medical,0
+medical,cash,0
+medical,food,0
+medical,medical,1863

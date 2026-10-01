@@ -1,0 +1,7 @@
+outcome,specification,N,total_variance,between_fitted_cell_variance,unresolved_residual_variance,r2,interpretation
+ordinal,form,5497,2.391133814733285,0.016385610066575573,2.374748204666709,0.006852652898643563,"Residual includes unmeasured person heterogeneity, measurement error and other variation; not identified noise"
+ordinal,amount,5497,2.391133814733285,0.0021397962234561696,2.3889940185098286,0.0008948876931365035,"Residual includes unmeasured person heterogeneity, measurement error and other variation; not identified noise"
+ordinal,form_amount,5497,2.391133814733285,0.02112787773974878,2.370005936993536,0.008835924451224275,"Residual includes unmeasured person heterogeneity, measurement error and other variation; not identified noise"
+midpoint,form,5497,0.06626281074840995,0.0004062932003586067,0.06585651754805134,0.006131541897630544,"Residual includes unmeasured person heterogeneity, measurement error and other variation; not identified noise"
+midpoint,amount,5497,0.06626281074840995,0.00013400049125968094,0.06612881025715027,0.0020222578810971115,"Residual includes unmeasured person heterogeneity, measurement error and other variation; not identified noise"
+midpoint,form_amount,5497,0.06626281074840995,0.0006235860080178318,0.06563922474039212,0.009410799224704003,"Residual includes unmeasured person heterogeneity, measurement error and other variation; not identified noise"
