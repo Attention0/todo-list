@@ -1,42 +1,45 @@
 # 消费调查项目 — CURRENT WORK INSTRUCTIONS
 
-## Current phase: NHB reviewer-driven claim validation and re-analysis
+## Current phase: NHB round-2 reviewer closure
 
-This file supersedes the previous initial-audit execution brief.
+The core empirical story has already been rebuilt. This round is **not** a new exploration round.
 
 Read, in this order:
 
-1. `消费调查/SPEC.md` — project background and evidence discipline.
-2. `消费调查/NHB_REVIEW_REANALYSIS.md` — **the binding execution protocol for the current round**.
+1. `消费调查/SPEC.md`
+2. `消费调查/NHB_REVIEW_REANALYSIS.md`
+3. `消费调查/NHB_FINAL_VERIFICATION.md`
+4. `消费调查/NHB_ROUND2_REVIEW_WORK.md` — **binding protocol for the current round**
 
-Then locate the existing survey data, questionnaire/codebook, current manuscript-analysis scripts, and existing results in the Work environment and execute the protocol.
+Then locate the raw survey data, questionnaire/codebook, existing NHB analysis scripts and prior aggregate results.
 
-### Critical instruction
+### Core story that must not be changed by default
 
-Do **not** begin by editing the manuscript.
+> Transfer form can shift average stated spending without generating a clearly identifiable set of responders or broadly remapping observable individual differences.
 
-The first objective is to determine whether the current “limited cross-context portability” interpretation survives:
-- a proper within-context benchmark;
-- target-normalized portability comparisons;
-- direct X×transfer-form invariance tests;
-- adult-only / clean-sample robustness;
-- food-voucher inframarginality analysis;
-- corrected HTE validation and inference.
+The current round closes reviewer questions around:
+- full mean-effect/ordinal robustness;
+- food-voucher bindingness and wording sensitivity;
+- model-family robustness, feature ablation and learning curves;
+- complete six-direction target-normalized portability uncertainty;
+- equal-training-size remapping tests;
+- direct Food and Medical HTE validation;
+- HTE detectability simulations;
+- medical-spending/bindingness and floor-effect checks.
 
-Reviewer-provided numerical claims are **not data**. Independently reproduce or reject them using the raw data and code.
+Do **not** open broad moderator searches, SHAP fishing, new policy exercises, or new manuscript stories.
 
 ### Required return path
 
-Commit code and aggregate outputs to:
+Write code and aggregate outputs to:
 
-`消费调查/results/nhb_reanalysis/`
+`消费调查/results/nhb_round2/`
 
-Never commit respondent-level raw data or sensitive identifiers.
+Do not commit respondent-level raw data, identifiers, respondent-level predictions or bootstrap samples.
 
-The final substantive decision must be one of the empirical patterns defined in `NHB_REVIEW_REANALYSIS.md`:
-- A: broad non-portability;
-- B: boundary condition (cash-food relatively stable, medical different);
-- C: low predictability without strong evidence of remapping;
-- D: unresolved / specification-sensitive.
+After finishing, update:
+- `ROUND2_RESULTS.md`
+- `ROUND2_AUDIT.md`
+- `ROUND2_MANUSCRIPT_NOTES.md`
 
-Only after that decision should Chat revise the NHB manuscript.
+Then stop analysis expansion and report whether the current headline should be strengthened, unchanged or weakened.
