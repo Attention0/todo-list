@@ -30,8 +30,8 @@ Exploratory coarse hypothetical Y; correlated outcomes/representations; sparse f
 
 # Commit SHA
 
-Pending publication; recorded after artifact commit.
+Analysis/artifact commit: `c2e3b71621f77b82766e70a3888c409b7256dd33`. Publication-record commit follows; this reference is intentionally not a self-referential commit hash.
 
 # PR
 
-Pending new PR; no automatic merge.
+https://github.com/Attention0/todo-list/pull/12 — stacked base `feature/mpc-who-drives` / PR11. No automatic merge.
