@@ -1,0 +1,107 @@
+{
+  "inputs": {
+    "cells": {
+      "path": "results\\mpc_size_curve\\fig1_source.csv",
+      "sha256": "a410eb97ea902dbc55e132c0cf28acc561cb8aedbf899482b03861277faa0d38",
+      "rows": 9,
+      "commit": "5d2692658847657c6b46ded83242fa2725a0c0c6"
+    },
+    "distribution": {
+      "path": "results\\mpc_size_curve\\fig2_source.csv",
+      "sha256": "a410eb97ea902dbc55e132c0cf28acc561cb8aedbf899482b03861277faa0d38",
+      "rows": 9,
+      "commit": "5d2692658847657c6b46ded83242fa2725a0c0c6"
+    },
+    "thresholds": {
+      "path": "results\\mpc_size_curve\\fig3_source.csv",
+      "sha256": "e1051e3679145fe0e727330dd57cd6504f94d315197f5a17a64110ca8a51a032",
+      "rows": 45,
+      "commit": "5d2692658847657c6b46ded83242fa2725a0c0c6"
+    },
+    "pooled": {
+      "path": "results\\mpc_final_strengthening\\figA_source.csv",
+      "sha256": "ee2871101a4d60a3bf9193d506a5e6e0639cba1e6a62347e157bbc6063a5fe27",
+      "rows": 24,
+      "commit": "4c1281569c083507d00abd463f007baada3baffb"
+    },
+    "threshold_profile": {
+      "path": "results\\mpc_final_strengthening\\figB_source.csv",
+      "sha256": "7e0cb709ddd8fe20651b106eefae5ff5d4fe24b680728db364a3967c808d4f94",
+      "rows": 5,
+      "commit": "4c1281569c083507d00abd463f007baada3baffb"
+    },
+    "relative": {
+      "path": "results\\mpc_final_strengthening\\figC_source.csv",
+      "sha256": "3842726568133fb06b5a194c19b544524eeb93d39ad94eb87c50220b7c70f1d0",
+      "rows": 21,
+      "commit": "4c1281569c083507d00abd463f007baada3baffb"
+    },
+    "specification": {
+      "path": "results\\mpc_final_strengthening\\figD_source.csv",
+      "sha256": "2c3729f836e40f94edf9e1d3b846493e22c3fd6c1154fd4dacf59766665eb989",
+      "rows": 60,
+      "commit": "4c1281569c083507d00abd463f007baada3baffb"
+    },
+    "yuan": {
+      "path": "results\\mpc_final_strengthening\\figE_source.csv",
+      "sha256": "1b240fa59ebec7e0f8116c48823df11a5399e9c72a40b32e5d48c51b1770d9f8",
+      "rows": 12,
+      "commit": "4c1281569c083507d00abd463f007baada3baffb"
+    },
+    "allx": {
+      "path": "results\\mpc_allx_screen\\all_screen_results.csv",
+      "sha256": "e97b18a1512c48faa0c65d9015affab3f3b819a47413600a1ec6efaf8d5aa86f",
+      "rows": 1800,
+      "commit": "c2e3b71621f77b82766e70a3888c409b7256dd33"
+    },
+    "families": {
+      "path": "results\\mpc_allx_screen\\family_summary.csv",
+      "sha256": "889af177dea015b47f943f323f605cd44e38af05aee9f0fddef40f202ae0a271",
+      "rows": 6,
+      "commit": "c2e3b71621f77b82766e70a3888c409b7256dd33"
+    },
+    "groups": {
+      "path": "results\\mpc_allx_screen\\subjective_objective_summary.csv",
+      "sha256": "9817df9cb4e7d6f3f1be3a28ed41233cb4a23e9e33c9d7b203b1ef6bc33eaf50",
+      "rows": 24,
+      "commit": "c2e3b71621f77b82766e70a3888c409b7256dd33"
+    }
+  },
+  "outputs": [
+    "fig1_three_outcomes.pdf",
+    "fig1_three_outcomes.svg",
+    "fig1_three_outcomes.png",
+    "fig2_cash_restricted_puzzle.pdf",
+    "fig2_cash_restricted_puzzle.svg",
+    "fig2_cash_restricted_puzzle.png",
+    "fig3_distribution_anatomy.pdf",
+    "fig3_distribution_anatomy.svg",
+    "fig3_distribution_anatomy.png",
+    "fig4_observables_null.pdf",
+    "fig4_observables_null.svg",
+    "fig4_observables_null.png",
+    "ED1_threshold_profile.pdf",
+    "ED1_threshold_profile.svg",
+    "ED1_threshold_profile.png",
+    "ED2_relative_scales.pdf",
+    "ED2_relative_scales.svg",
+    "ED2_relative_scales.png",
+    "ED3_specification_curve.pdf",
+    "ED3_specification_curve.svg",
+    "ED3_specification_curve.png",
+    "ED4_share_yuan.pdf",
+    "ED4_share_yuan.svg",
+    "ED4_share_yuan.png",
+    "ED5_full_distribution.pdf",
+    "ED5_full_distribution.svg",
+    "ED5_full_distribution.png",
+    "ED6_allx_detailed.pdf",
+    "ED6_allx_detailed.svg",
+    "ED6_allx_detailed.png"
+  ],
+  "no_raw_data_read": true,
+  "no_model_fitting": true,
+  "font": "Arial",
+  "page_width_mm": 180,
+  "png_dpi": 600
+}

@@ -1,3 +1,43 @@
+# Current delivery - Nature figures
+
+## Summary
+
+Completed `NATURE_FIGURES_WORK.md`: four visually unified main figures, six Extended Data figures, editable vector PDF/SVG and600dpi PNG, combined four-page PDF and2×2 contact sheet. Main Figure1 is exactly1×3 ordinal/midpoint/Top75. Uses only existing approved PR9-12 aggregate results; no new empirical work or manuscript change.
+
+## Files changed
+
+`NATURE_FIGURES_RESULT.md`; `results/nature_main_figures/` contains ten figure families,13 source/audit CSVs, captions, style guide, figure audit, source manifest,231-check verification record and editable plotting/verification scripts. Existing analysis artifacts unchanged.
+
+## Key implementation decisions
+
+Same180mm page width, Arial, fixed treatment palette/markers, thin approved CIs. Restricted is dashed/hollow and explicitly derived=.5Food+.5Medical. Figure4 uses allowed compact six-family minimum BH q alternative plus full q rugs/count strip; detailed all-X in ED6. No commensurability claim for scalar versus factor coefficients. Original CI conventions retained and disclosed. No tail-specificity or equivalence upgrade.
+
+## Testing performed
+
+231 actual automated checks passed; source hashes/numeric values/CI/q/N/schema identities, no raw/estimator imports, vector PDFs/editable SVGs,600dpi/180mm, combined-page identity. Strict content bounds passed. All ten final PNGs, final PDFs/14 Poppler page proofs, contact sheet and grayscale inspected. Reduction caveat explicit; CVD simulator unavailable, not claimed tested.
+
+## Acceptance Criteria
+
+Four main layouts/figures, six ED diagnostics, all export formats/source CSVs/captions/style/audit/contact/combined file complete. No manuscript edit/new analysis/respondent export. New feature branch/stacked PR, no merge.
+
+## Known issues
+
+Full-width multi-panel figures should not be single-column thumbnails.89mm QA reductions are not a substitute for180mm typesetting. CVD simulation unavailable. Underlying suggestive/measurement/power limitations unchanged; lack of corrected discoveries is not equivalence.
+
+## Branch
+
+`feature/nature-main-figures`; stacked on PR12 `feature/mpc-allx-screen`, latest main6867cac merged.
+
+## Commit SHA / PR
+
+Artifact commit: `4e22185438e741b17e8a6c6509957f01d00fe64e`. Publication-record commit follows (not a self-referential hash).
+
+https://github.com/Attention0/todo-list/pull/13 - stacked on PR12 `feature/mpc-allx-screen`; no automatic merge.
+
+---
+
+# Previous delivery record - all-X screen (PR12)
+
 # Summary
 
 Completed `MPC_SLOPE_ALLX_SCREEN_WORK.md` against PR9–11 and latest main44e2997. Inventory first: 67 raw fields /221 entries /150 eligible representations. Parallel ordinal/midpoint/Top75, Cash-only and equal-weight RC moderation; six BH/Holm families size150. No q<.10 / Holm survivors; zero Tier A/B. Final classification: **rich observables still explain little**, narrowly interpreted as no corrected stable signature, not zero heterogeneity or a measured joint explanatory-share bound. No manuscript change or additional search.
