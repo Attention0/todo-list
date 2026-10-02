@@ -1,0 +1,7 @@
+target,outcome,planned_X,estimable,nominal_p_lt05,min_p,min_q,BH_q_lt10,Holm_lt05,source_file,source_row,source_commit,figure,plotted_definition
+cash,ordinal,150,146,4,0.0126011751452161,1.0,0,0,消费调查/results/mpc_allx_screen/family_summary.csv,1,c2e3b71621f77b82766e70a3888c409b7256dd33,Figure4,approved family minimum BH q; compact allowed layout
+cash,midpoint,150,146,1,0.0298609174884442,0.8695302407980895,0,0,消费调查/results/mpc_allx_screen/family_summary.csv,2,c2e3b71621f77b82766e70a3888c409b7256dd33,Figure4,approved family minimum BH q; compact allowed layout
+cash,top75,150,146,1,0.0493373422156833,0.9771123683502926,0,0,消费调查/results/mpc_allx_screen/family_summary.csv,3,c2e3b71621f77b82766e70a3888c409b7256dd33,Figure4,approved family minimum BH q; compact allowed layout
+rc,ordinal,150,146,3,0.0177257928374014,0.9445801195150122,0,0,消费调查/results/mpc_allx_screen/family_summary.csv,4,c2e3b71621f77b82766e70a3888c409b7256dd33,Figure4,approved family minimum BH q; compact allowed layout
+rc,midpoint,150,146,3,0.0297244196260296,0.9497995928172313,0,0,消费调查/results/mpc_allx_screen/family_summary.csv,5,c2e3b71621f77b82766e70a3888c409b7256dd33,Figure4,approved family minimum BH q; compact allowed layout
+rc,top75,150,146,3,0.0137736817048287,1.0,0,0,消费调查/results/mpc_allx_screen/family_summary.csv,6,c2e3b71621f77b82766e70a3888c409b7256dd33,Figure4,approved family minimum BH q; compact allowed layout
