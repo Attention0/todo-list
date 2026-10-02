@@ -1,0 +1,34 @@
+{
+  "seed": 20261003,
+  "B": 5000,
+  "N": 5497,
+  "sample_N": {
+    "R": 5497,
+    "A": 5480,
+    "C": 5171,
+    "Q1": 2715,
+    "Q2": 1208
+  },
+  "raw_sha256": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "prior_script_sha256": "33c23195d92f9feecfa86b7d5822a101dbc650464e1376b003b7acf45c543e70",
+  "prior_pr": 9,
+  "prior_commit": "d749f5c0eab3938038882d948bc6370e78835249",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  },
+  "primary_family": [
+    "cash",
+    "food",
+    "medical",
+    "restricted",
+    "restricted-cash",
+    "food-medical"
+  ],
+  "specifications": 420,
+  "individual_exports": false,
+  "stopping_rule": "No further current-data exploratory analysis after this package"
+}
