@@ -35,4 +35,4 @@ Figure4 采用任务书第25节允许的 compact family-minimum-q 方案，而�
 
 主图按180mm full width 设计；提供89-90mm QA reduction previews，但1×3和多 panel 图不推荐单栏缩印。未安装 CVD simulator，未声称通过 CVD simulation；以灰度、不同 marker/line styles 和 hollow Restricted 确保不只依赖颜色。保留原有 suggestive scope、tail-specificity未建立及 all-X non-rejection 非 equivalence 的解释边界。
 
-新 PR stacked on PR12 `feature/mpc-allx-screen`，不自动 merge。此轮停止于视觉交付，没有新实证或 headline。
+新 PR [#13](https://github.com/Attention0/todo-list/pull/13) stacked on PR12 `feature/mpc-allx-screen`，不自动 merge。交付 commit：`4e22185438e741b17e8a6c6509957f01d00fe64e`；publication-record commit 随后。此轮停止于视觉交付，没有新实证或 headline。

@@ -30,7 +30,9 @@ Full-width multi-panel figures should not be single-column thumbnails.89mm QA re
 
 ## Commit SHA / PR
 
-Pending publication; recorded after artifact commit. No automatic merge.
+Artifact commit: `4e22185438e741b17e8a6c6509957f01d00fe64e`. Publication-record commit follows (not a self-referential hash).
+
+https://github.com/Attention0/todo-list/pull/13 - stacked on PR12 `feature/mpc-allx-screen`; no automatic merge.
 
 ---
 
