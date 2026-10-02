@@ -1,0 +1,2081 @@
+{
+  "q01_lifesat": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q01_lifesat"
+    ],
+    "transform": "identity"
+  },
+  "q02_safety": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q02_safety"
+    ],
+    "transform": "identity"
+  },
+  "q03a_fair_dist": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q03a_fair_dist"
+    ],
+    "transform": "identity"
+  },
+  "q03b_fair_opp": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q03b_fair_opp"
+    ],
+    "transform": "identity"
+  },
+  "q03c_fair_rule": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q03c_fair_rule"
+    ],
+    "transform": "identity"
+  },
+  "q04_trust_gov": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q04_trust_gov"
+    ],
+    "transform": "identity"
+  },
+  "q05_trust_soc": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q05_trust_soc"
+    ],
+    "transform": "identity"
+  },
+  "q06_socsec": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec"
+    ],
+    "transform": "identity"
+  },
+  "q07_emergfund": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q07_emergfund"
+    ],
+    "transform": "identity"
+  },
+  "q08_support": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q08_support"
+    ],
+    "transform": "identity"
+  },
+  "q09_gain": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q09_gain"
+    ],
+    "transform": "identity"
+  },
+  "q10_effort": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q10_effort"
+    ],
+    "transform": "identity"
+  },
+  "q11_mobility": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q11_mobility"
+    ],
+    "transform": "identity"
+  },
+  "q12_voice": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q12_voice"
+    ],
+    "transform": "identity"
+  },
+  "q13_pressure": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q13_pressure"
+    ],
+    "transform": "identity"
+  },
+  "q14a_pr_income": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14a_pr_income"
+    ],
+    "transform": "identity"
+  },
+  "q14b_pr_housing": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14b_pr_housing"
+    ],
+    "transform": "identity"
+  },
+  "q14c_pr_work": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14c_pr_work"
+    ],
+    "transform": "identity"
+  },
+  "q14d_pr_edu": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14d_pr_edu"
+    ],
+    "transform": "identity"
+  },
+  "q14e_pr_med": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14e_pr_med"
+    ],
+    "transform": "identity"
+  },
+  "q14f_pr_pension": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14f_pr_pension"
+    ],
+    "transform": "identity"
+  },
+  "q14g_pr_other": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14g_pr_other"
+    ],
+    "transform": "identity"
+  },
+  "q14h_pr_none": {
+    "kind": "binary",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q14h_pr_none"
+    ],
+    "transform": "identity"
+  },
+  "q15_fut_self": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q15_fut_self"
+    ],
+    "transform": "identity"
+  },
+  "q16_fut_society": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q16_fut_society"
+    ],
+    "transform": "identity"
+  },
+  "q17a_fut_econ": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q17a_fut_econ"
+    ],
+    "transform": "identity"
+  },
+  "q17b_fut_job": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q17b_fut_job"
+    ],
+    "transform": "identity"
+  },
+  "q17c_fut_price": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q17c_fut_price"
+    ],
+    "transform": "identity"
+  },
+  "q17d_fut_fair": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q17d_fut_fair"
+    ],
+    "transform": "identity"
+  },
+  "q17e_fut_welfare": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q17e_fut_welfare"
+    ],
+    "transform": "identity"
+  },
+  "q18_ses_now": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q18_ses_now"
+    ],
+    "transform": "identity"
+  },
+  "q19_ses_past5": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q19_ses_past5"
+    ],
+    "transform": "identity"
+  },
+  "q20_ses_next1": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q20_ses_next1"
+    ],
+    "transform": "identity"
+  },
+  "q21_order": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q21_order"
+    ],
+    "transform": "identity"
+  },
+  "q22_vitality": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "subjective",
+    "components": [
+      "q22_vitality"
+    ],
+    "transform": "identity"
+  },
+  "q23_hukou": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q23_hukou"
+    ],
+    "transform": "identity"
+  },
+  "q24_workstat": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q24_workstat"
+    ],
+    "transform": "identity"
+  },
+  "q25_unittype": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q25_unittype"
+    ],
+    "transform": "identity"
+  },
+  "q26_housing": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q26_housing"
+    ],
+    "transform": "identity"
+  },
+  "q27_minorchild": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q27_minorchild"
+    ],
+    "transform": "identity"
+  },
+  "q28_hhsize": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q28_hhsize"
+    ],
+    "transform": "identity"
+  },
+  "q29_foodexp": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "identity"
+  },
+  "q30_medexp": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q30_medexp"
+    ],
+    "transform": "identity"
+  },
+  "q31_gotsubsidy": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q31_gotsubsidy"
+    ],
+    "transform": "identity"
+  },
+  "q41_gender": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q41_gender"
+    ],
+    "transform": "identity"
+  },
+  "q42_age": {
+    "kind": "numeric",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q42_age"
+    ],
+    "transform": "identity"
+  },
+  "q43_edu": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q43_edu"
+    ],
+    "transform": "identity"
+  },
+  "q44_industry": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q44_industry"
+    ],
+    "transform": "identity"
+  },
+  "q45_occup": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q45_occup"
+    ],
+    "transform": "identity"
+  },
+  "q46_income": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "identity"
+  },
+  "q47_province": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q47_province"
+    ],
+    "transform": "identity"
+  },
+  "q48_city": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q48_city"
+    ],
+    "transform": "identity"
+  },
+  "q49_citytier": {
+    "kind": "categorical",
+    "origin": "raw",
+    "domain": "objective",
+    "components": [
+      "q49_citytier"
+    ],
+    "transform": "identity"
+  },
+  "income_h": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "legacy11–16 minus10, else identity"
+  },
+  "income": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "same as income_h"
+  },
+  "q42_age_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q42_age"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q01_lifesat_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q01_lifesat"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q02_safety_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q02_safety"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q03a_fair_dist_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q03a_fair_dist"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q03b_fair_opp_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q03b_fair_opp"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q03c_fair_rule_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q03c_fair_rule"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q04_trust_gov_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q04_trust_gov"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q05_trust_soc_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q05_trust_soc"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q06_socsec_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q07_emergfund_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q07_emergfund"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q08_support_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q08_support"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q09_gain_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q09_gain"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q10_effort_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q10_effort"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q11_mobility_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q11_mobility"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q12_voice_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q12_voice"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q13_pressure_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q13_pressure"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q15_fut_self_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q15_fut_self"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q16_fut_society_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q16_fut_society"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q17a_fut_econ_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q17a_fut_econ"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q17b_fut_job_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q17b_fut_job"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q17c_fut_price_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q17c_fut_price"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q17d_fut_fair_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q17d_fut_fair"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q17e_fut_welfare_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q17e_fut_welfare"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q18_ses_now_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q18_ses_now"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q19_ses_past5_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q19_ses_past5"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q20_ses_next1_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q20_ses_next1"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q21_order_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q21_order"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q22_vitality_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q22_vitality"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q43_edu_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q43_edu"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "income_h_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q28_hhsize_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q28_hhsize"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q29_foodexp_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q30_medexp_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q30_medexp"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q49_citytier_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q49_citytier"
+    ],
+    "transform": "R mean/sample SD rank or scale"
+  },
+  "q41_gender_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q41_gender"
+    ],
+    "transform": "earlier R standardization; binary codes only remain legal scalar"
+  },
+  "q27_minorchild_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q27_minorchild"
+    ],
+    "transform": "earlier R standardization; binary codes only remain legal scalar"
+  },
+  "need": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q30_medexp"
+    ],
+    "transform": "R rank/scale standardized alias"
+  },
+  "foodneed": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "R rank/scale standardized alias"
+  },
+  "liquidity": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q07_emergfund"
+    ],
+    "transform": "R rank/scale standardized alias"
+  },
+  "income_z": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "R rank/scale standardized alias"
+  },
+  "who::liquidity": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q07_emergfund"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::income": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::food": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::medical": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q30_medexp"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::subsidy_yes": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q31_gotsubsidy"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::subsidy_unknown": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q31_gotsubsidy"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::age": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q42_age"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::education": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q43_edu"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::household_size": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q28_hhsize"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::minor_child": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q27_minorchild"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::housing_rent": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q26_housing"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::housing_other": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q26_housing"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::work_retired": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q24_workstat"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::work_student": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q24_workstat"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::work_not_working": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q24_workstat"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "who::work_other": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q24_workstat"
+    ],
+    "transform": "R standardized rank or dummy; categorical reference unchanged"
+  },
+  "group::liquidity": {
+    "kind": "categorical",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q07_emergfund"
+    ],
+    "transform": "fixed PR11 bins (not outcome-selected)"
+  },
+  "group::income": {
+    "kind": "categorical",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q46_income"
+    ],
+    "transform": "fixed PR11 bins (not outcome-selected)"
+  },
+  "group::food": {
+    "kind": "categorical",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "fixed PR11 bins (not outcome-selected)"
+  },
+  "group::medical": {
+    "kind": "categorical",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q30_medexp"
+    ],
+    "transform": "fixed PR11 bins (not outcome-selected)"
+  },
+  "group::subsidy": {
+    "kind": "categorical",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q31_gotsubsidy"
+    ],
+    "transform": "fixed PR11 bins (not outcome-selected)"
+  },
+  "need_group": {
+    "kind": "categorical",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q30_medexp"
+    ],
+    "transform": "rank1–2 / 3–4 / 5–6"
+  },
+  "age_squared": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q42_age"
+    ],
+    "transform": "age squared"
+  },
+  "food_lower6": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "6 × lower bounds [0,501,1001,2001,3001,5001]"
+  },
+  "strict_all_amounts": {
+    "kind": "binary",
+    "origin": "constructed",
+    "domain": "objective",
+    "components": [
+      "q29_foodexp"
+    ],
+    "transform": "lower6 > 5000, fixed not assigned amount"
+  },
+  "subjective_economic_pc1": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "social_confidence_pc1": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "wellbeing_optimism_pc1": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q01_lifesat",
+      "q15_fut_self",
+      "q16_fut_society",
+      "q17a_fut_econ",
+      "q20_ses_next1"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc1": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc2": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc3": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc4": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc5": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc6": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc7": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc8": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc9": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc10": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc11": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc12": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc13": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc14": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc15": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc16": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc17": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc18": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc19": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc20": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc21": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc22": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc23": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc24": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc25": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc26": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  },
+  "diagnostic_global_pc27": {
+    "kind": "numeric",
+    "origin": "constructed",
+    "domain": "subjective",
+    "components": [
+      "q06_socsec",
+      "q07_emergfund",
+      "q09_gain",
+      "q10_effort",
+      "q11_mobility",
+      "q13_pressure",
+      "q15_fut_self",
+      "q17a_fut_econ",
+      "q17b_fut_job",
+      "q17c_fut_price",
+      "q17e_fut_welfare",
+      "q18_ses_now",
+      "q19_ses_past5",
+      "q20_ses_next1",
+      "q01_lifesat",
+      "q02_safety",
+      "q03a_fair_dist",
+      "q03b_fair_opp",
+      "q03c_fair_rule",
+      "q04_trust_gov",
+      "q05_trust_soc",
+      "q08_support",
+      "q12_voice",
+      "q16_fut_society",
+      "q17d_fut_fair",
+      "q21_order",
+      "q22_vitality"
+    ],
+    "transform": "frozen previous PCA loadings/centers/scales"
+  }
+}

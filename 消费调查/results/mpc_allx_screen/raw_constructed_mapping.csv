@@ -1,0 +1,884 @@
+constructed,raw_component,relationship,provenance,eligible
+income_h,q46_income,"legacy11–16 minus10, else identity",PR3 heterogeneity_formal.prep,True
+income,q46_income,same as income_h,PR9 prepare,True
+q42_age_z,q42_age,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q01_lifesat_z,q01_lifesat,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q02_safety_z,q02_safety,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q03a_fair_dist_z,q03a_fair_dist,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q03b_fair_opp_z,q03b_fair_opp,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q03c_fair_rule_z,q03c_fair_rule,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q04_trust_gov_z,q04_trust_gov,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q05_trust_soc_z,q05_trust_soc,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q06_socsec_z,q06_socsec,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q07_emergfund_z,q07_emergfund,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q08_support_z,q08_support,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q09_gain_z,q09_gain,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q10_effort_z,q10_effort,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q11_mobility_z,q11_mobility,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q12_voice_z,q12_voice,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q13_pressure_z,q13_pressure,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q15_fut_self_z,q15_fut_self,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q16_fut_society_z,q16_fut_society,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q17a_fut_econ_z,q17a_fut_econ,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q17b_fut_job_z,q17b_fut_job,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q17c_fut_price_z,q17c_fut_price,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q17d_fut_fair_z,q17d_fut_fair,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q17e_fut_welfare_z,q17e_fut_welfare,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q18_ses_now_z,q18_ses_now,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q19_ses_past5_z,q19_ses_past5,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q20_ses_next1_z,q20_ses_next1,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q21_order_z,q21_order,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q22_vitality_z,q22_vitality,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q43_edu_z,q43_edu,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+income_h_z,q46_income,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q28_hhsize_z,q28_hhsize,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q29_foodexp_z,q29_foodexp,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q30_medexp_z,q30_medexp,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q49_citytier_z,q49_citytier,R mean/sample SD rank or scale,PR3 heterogeneity_formal.prep CONT+ORDERED,True
+q41_gender_z,q41_gender,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,True
+q23_hukou_z,q23_hukou,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,False
+q24_workstat_z,q24_workstat,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,False
+q25_unittype_z,q25_unittype,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,False
+q26_housing_z,q26_housing,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,False
+q27_minorchild_z,q27_minorchild,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,True
+q31_gotsubsidy_z,q31_gotsubsidy,earlier R standardization; binary codes only remain legal scalar,PR3 heterogeneity_analysis.prep FEATURES; invalid nominal trends excluded,False
+need,q30_medexp,R rank/scale standardized alias,PR9 prepare,True
+foodneed,q29_foodexp,R rank/scale standardized alias,PR9 prepare,True
+liquidity,q07_emergfund,R rank/scale standardized alias,PR9 prepare,True
+income_z,q46_income,R rank/scale standardized alias,PR9 prepare,True
+who::liquidity,q07_emergfund,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::income,q46_income,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::food,q29_foodexp,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::medical,q30_medexp,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::subsidy_yes,q31_gotsubsidy,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::subsidy_unknown,q31_gotsubsidy,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::age,q42_age,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::education,q43_edu,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::household_size,q28_hhsize,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::minor_child,q27_minorchild,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::housing_rent,q26_housing,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::housing_other,q26_housing,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::work_retired,q24_workstat,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::work_student,q24_workstat,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::work_not_working,q24_workstat,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+who::work_other,q24_workstat,R standardized rank or dummy; categorical reference unchanged,PR11 covariates; numerical aliases remain distinct inventoried tests,True
+group::liquidity,q07_emergfund,fixed PR11 bins (not outcome-selected),PR11 bins,True
+group::income,q46_income,fixed PR11 bins (not outcome-selected),PR11 bins,True
+group::food,q29_foodexp,fixed PR11 bins (not outcome-selected),PR11 bins,True
+group::medical,q30_medexp,fixed PR11 bins (not outcome-selected),PR11 bins,True
+group::subsidy,q31_gotsubsidy,fixed PR11 bins (not outcome-selected),PR11 bins,True
+need_group,q30_medexp,rank1–2 / 3–4 / 5–6,PR9 run,True
+age_squared,q42_age,age squared,PR9 CONTROLS,True
+food_lower6,q29_foodexp,"6 × lower bounds [0,501,1001,2001,3001,5001]",PR9 bound sensitivity,True
+food_upper6,q29_foodexp,identity,PR9 bounds,False
+strict_all_amounts,q29_foodexp,"lower6 > 5000, fixed not assigned amount",PR9 fixed sample,True
+subjective_economic_pc1,q06_socsec,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q07_emergfund,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q09_gain,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q10_effort,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q11_mobility,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q13_pressure,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q15_fut_self,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q17a_fut_econ,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q17b_fut_job,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q17c_fut_price,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q18_ses_now,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q19_ses_past5,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+subjective_economic_pc1,q20_ses_next1,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q02_safety,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q03a_fair_dist,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q03b_fair_opp,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q03c_fair_rule,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q04_trust_gov,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q05_trust_soc,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q08_support,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q12_voice,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q17d_fut_fair,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q21_order,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+social_confidence_pc1,q22_vitality,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+wellbeing_optimism_pc1,q01_lifesat,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+wellbeing_optimism_pc1,q15_fut_self,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+wellbeing_optimism_pc1,q16_fut_society,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+wellbeing_optimism_pc1,q17a_fut_econ,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+wellbeing_optimism_pc1,q20_ses_next1,frozen previous PCA loadings/centers/scales,final_exploration.py/latent_dimensions; frozen discovery-half,True
+diagnostic_global_pc1,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc1,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc2,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc3,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc4,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc5,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc6,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc7,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc8,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc9,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc10,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc11,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc12,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc13,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc14,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc15,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc16,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc17,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc18,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc19,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc20,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc21,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc22,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc23,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc24,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc25,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc26,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q06_socsec,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q07_emergfund,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q09_gain,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q10_effort,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q11_mobility,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q13_pressure,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q15_fut_self,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q17a_fut_econ,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q17b_fut_job,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q17c_fut_price,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q17e_fut_welfare,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q18_ses_now,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q19_ses_past5,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q20_ses_next1,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q01_lifesat,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q02_safety,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q03a_fair_dist,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q03b_fair_opp,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q03c_fair_rule,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q04_trust_gov,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q05_trust_soc,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q08_support,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q12_voice,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q16_fut_society,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q17d_fut_fair,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q21_order,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+diagnostic_global_pc27,q22_vitality,frozen previous PCA loadings/centers/scales,"NHB final_verification.py/subjective_diagnostics; diagnostic direction, not validated score",True
+scenario_n,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+treatment_cell,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+transfer_type,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+type,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+form,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+amount,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+z,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+cell,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+outcome_ord,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+outcome,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+ordinal,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mpc,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mpc_midpoint,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+midpoint,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mpc_alt,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+alt_top,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+any_spend,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+any_spending,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mpc_10plus,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+ge10,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mpc_25plus,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+ge25,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+high_mpc,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mpc_50plus,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+ge50,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+top75,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+clean,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+clean_candidate,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+sample_A,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+sample_C,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+sample_Q1,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+sample_Q2,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+scale_sd,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+unique_n,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+extreme_share,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+mid_share,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+entropy,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+cate_oof,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+cate,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+cate_c,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+tau,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+tc,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+quintile,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+q,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+person_score,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+W,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+strict_assigned,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+very_strict_assigned,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+likely_binding,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+possibly_inframarginal,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False
+fold_id,prior script expression,identity,PR3–PR11 analysis scripts; values absent from original data not re-fitted,False

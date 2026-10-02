@@ -1,0 +1,10 @@
+# Figure legends
+
+All plots describe stated, hypothetical MPC; z=(-1,0,1). Cash moderation is a within-Cash HC3 slope interaction. RC is exactly .5 Food+.5 Medical−Cash, not sample-size weighting. Six BH families each retain 150 inventoried representations; four unsupported factors have p=1 adjustment placeholders and missing displayed q. Points/counts are correlated representations, not independent discoveries. 95% intervals are unadjusted descriptive HC3 intervals, not simultaneous confidence intervals. No manuscript figures replaced.
+
+1. Cash screen: one panel per Y, color by raw subjective/raw objective/constructed. Scalar coefficients are per full-R SD. Multi-df factors are x symbols placed at zero because an omnibus has no sign; their p/q remain omnibus. Unsupported factors are omitted from plot but retained in source CSV with status. Dashed q=.10 line has no discoveries above it.
+2. Equal-weight RC screen: same conventions and three Y units; Food−Cash/Medical−Cash diagnostics remain in the tables, not extra discovery families.
+3. No Tier A/B candidates exist. Fixed prior economic variables and the three previously constructed subjective domain-PC directions are displayed, NOT selected by raw p or relabeled as candidates. Separate axes preserve distinct Y units. CIs are descriptive, q is in source data.
+4. No candidate construct exists. Display the three fixed, previously used domain-PC scores and their raw items for Top75, in original item orientation. Loading-oriented concordance is in the source CSV. q labels are from the original 150-X families; components are correlated and not replications. No new PCA fit.
+5. Explicit not-applicable panel: subgroup curves allowed only for Tier A. Zero Tier A means no cutpoints or subgroup models estimated. Source records the gate rather than fabricated curves.
+6. Descriptive representation and estimability counts, with zero q<.10 in all six families. The source includes all outcomes; counts shown use midpoint because the inventory/estimability count is the same across Y. No formal subjective-versus-objective yield test.
