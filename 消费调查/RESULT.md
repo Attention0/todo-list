@@ -1,4 +1,40 @@
-# Current delivery - Nature figures
+# Current delivery - Hero figure
+
+## Summary
+
+Completed the requested frozen-result Hero Figure: 3×3 six-bin response atlas above an aligned midpoint-coded mean/approved95%CI summary, plus a three-panel endpoint distribution-shift fingerprint. No new empirical analysis, manuscript edit or raw data access.
+
+## Files changed
+
+`HERO_FIGURE_RESULT.md`; `results/mpc_hero_figure/` contains two PDF/SVG/600dpi PNG families, two source CSVs, two captions, hero audit, hash manifest, editable plotting/verification scripts, 423-check record and QA ignore rules. Original PR9–13 source files/figures unchanged.
+
+## Key implementation decisions
+
+Atlas colors encode response intensity only; exact widths retain all six bins. Approved Cash endpoints13.4%/5.3% are rounded for annotation only. Summary retains PR13 treatment colors/marker shapes and approved PR10 bootstrap intervals. Fingerprint is aggregate endpoint subtraction without new/invented CIs. Optional puzzle not duplicated because PR13 Figure2 already supplies it. Recommend new opening figure, preserving existing1×3 figure as the three-outcome evidence reference.
+
+## Testing performed
+
+423 actual automated checks passed; numeric sources/CI/N/provenance/hash identities, vector/export/font/600dpi/privacy checks. Strict on-page bounding checks passed. Both final PDFs rendered with Poppler and visually inspected alongside PNG, grayscale and reduced previews. Fingerprint label crowding corrected; PDF serialization tolerance documented. No CVD simulator available, not claimed tested.
+
+## Acceptance Criteria
+
+All six required Hero files, companion exports/sources/caption, editable scripts and audit complete. Frozen estimates/CIs unchanged; discrete amounts only; no transitions/estimation/manuscript change/respondent exports. Native commit/push and new stacked PR; no merge.
+
+## Known issues
+
+Use full180mm width, not single-column thumbnails. Fingerprint intentionally descriptive without uncertainty unavailable in frozen results. Midpoint is an approximation; original ordinal results remain necessary. Visual high-tail prominence does not establish exclusive tail-specificity; original mean/ordinal suggestive interpretation unchanged.
+
+## Branch
+
+`feature/mpc-hero-figure`; based on PR13 `feature/nature-main-figures`, latest main6867cac checked.
+
+## Commit SHA / PR
+
+Publication pending; artifact commit and PR will be recorded after successful push/creation.
+
+---
+
+# Previous delivery - Nature figures (PR13)
 
 ## Summary
 
