@@ -22,4 +22,4 @@ Fingerprint补充回答“哪些bin的份额更大/更小”，不是个人的�
 
 ## Git delivery
 
-Branch: `feature/mpc-hero-figure`; stacked on PR #13 `feature/nature-main-figures`. Artifact commit / new PR recorded in `RESULT.md` after publication. Do not merge automatically.
+Branch: `feature/mpc-hero-figure`; stacked on PR #13 `feature/nature-main-figures`. Artifact commit: `ca177e3f6523f4f61f7a112437a4a8cfac74af08`. New PR: https://github.com/Attention0/todo-list/pull/14 . 已推送，未merge。Publication record另行提交，不记录自身hash。

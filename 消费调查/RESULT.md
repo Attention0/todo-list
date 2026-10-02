@@ -30,7 +30,9 @@ Use full180mm width, not single-column thumbnails. Fingerprint intentionally des
 
 ## Commit SHA / PR
 
-Publication pending; artifact commit and PR will be recorded after successful push/creation.
+Artifact commit: `ca177e3f6523f4f61f7a112437a4a8cfac74af08`. Publication-record commit follows (not a self-referential hash).
+
+https://github.com/Attention0/todo-list/pull/14 — stacked on PR13 `feature/nature-main-figures`; created and pushed, not merged.
 
 ---
 
