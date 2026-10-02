@@ -30,8 +30,8 @@ No directly established tail-specificity; unadjusted ordinal primary weak; order
 
 ## Commit SHA
 
-Record analysis commit after publication; metadata follow-up separate to avoid self-referential SHA.
+Analysis commit: `4c1281569c083507d00abd463f007baada3baffb`. Publication metadata follow-up is separate to avoid a self-referential SHA. Native Git push succeeded using the existing Windows proxy configuration after direct connectivity failed.
 
 ## PR
 
-Record new PR URL after publication. Do not merge #9 or this PR automatically.
+https://github.com/Attention0/todo-list/pull/10 — stacked on PR #9. Do not merge #9 or this PR automatically. Further exploratory analysis of the current data stops here.
