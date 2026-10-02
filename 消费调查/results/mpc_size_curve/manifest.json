@@ -1,0 +1,33 @@
+{
+  "seed": 20261002,
+  "N": 5497,
+  "sample_N": {
+    "R": 5497,
+    "A": 5480,
+    "C": 5171,
+    "Q1": 2715,
+    "Q2": 1208
+  },
+  "data_sha256": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "primary_family": [
+    "cash",
+    "food",
+    "medical",
+    "food-cash",
+    "medical-cash"
+  ],
+  "reuse": [
+    "PR3 treatment/outcome/sample definitions",
+    "PR8 one observation per respondent identification"
+  ],
+  "individual_outputs_written": false,
+  "ordered_models_converged": true
+}
