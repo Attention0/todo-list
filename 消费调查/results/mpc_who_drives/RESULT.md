@@ -30,8 +30,8 @@ feature/mpc-who-drives, direct PR10 cb6910f plus latest main 757fe14. PR base fe
 
 ## Commit SHA
 
-Analysis commit recorded after publication; metadata follow-up separate to avoid self-referential SHA.
+Analysis commit: `d1094bb254df4741af81a83b757e637ea2316244`. Publication metadata follow-up is separate to avoid a self-referential SHA. Native Git commit/push succeeded using existing Windows proxy configuration.
 
 ## PR
 
-New PR URL recorded after publication. No automatic merge.
+https://github.com/Attention0/todo-list/pull/11 — stacked on #10, inheriting #9. No automatic merge. Further observable-variable exploration stops after this delivery.
