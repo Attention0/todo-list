@@ -1,0 +1,51 @@
+{
+  "seed": 20261004,
+  "bootstrap_B": 499,
+  "N": 5497,
+  "form_N": {
+    "medical": 1863,
+    "food": 1836,
+    "cash": 1798
+  },
+  "samples": {
+    "R": 5497,
+    "A": 5480,
+    "C": 5171,
+    "Q1": 2715,
+    "Q2": 1208
+  },
+  "raw_sha256": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "prior_script_sha256": "33c23195d92f9feecfa86b7d5822a101dbc650464e1376b003b7acf45c543e70",
+  "tier1": [
+    "liquidity",
+    "income",
+    "food",
+    "medical",
+    "subsidy"
+  ],
+  "tier2": [
+    "age",
+    "education",
+    "household_size",
+    "minor_child",
+    "housing",
+    "work"
+  ],
+  "robustness_selected": [
+    "medical",
+    "income"
+  ],
+  "folds": 5,
+  "individual_exports": false,
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "prior_pr9_head": "d749f5c0eab3938038882d948bc6370e78835249",
+  "prior_pr10_head": "cb6910f1141943c1a6649ed77d0134f95b43770b",
+  "stopping_rule": "No further observable-variable exploration of current data"
+}
