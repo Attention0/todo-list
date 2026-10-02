@@ -32,8 +32,8 @@ Outcome hypothetical/binned, scale and absolute-yuan interpretation unresolved; 
 
 ## Commit SHA
 
-Publication metadata will be recorded after the analysis commit.
+Analysis/data/figures/report commit: `5d2692658847657c6b46ded83242fa2725a0c0c6`. A separate metadata-only follow-up records publication; its SHA is available in the branch history (avoids a self-referential commit hash).
 
 ## PR
 
-New PR to `main` will be recorded after publication; do not merge automatically.
+[PR #9](https://github.com/Attention0/todo-list/pull/9), targeting `main`, published and open. No automatic merge.
