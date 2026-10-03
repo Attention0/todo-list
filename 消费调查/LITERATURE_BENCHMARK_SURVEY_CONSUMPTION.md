@@ -1981,16 +1981,16 @@ cash、food voucher、medical account 并非只是在标签上不同：
 4. 相对 Pauls–Laudi 2025 的“context/framing changes spending”多了什么？
 5. 相对 Boehm–Fize–Jaravel 2025 的“form violates fungibility”多了什么？
 6. survey validity 是否同时面对 Parker–Souleles、Ueda、Crossley 三组证据？
-6. 结果是在解释 **mean effect**、**prediction**、**HTE**、**portability** 还是 **construct invariance**？不要混用。
-7. 是否有一个明确 null model 被拒绝？
-8. 是否 formal test “difference in differences / mapping difference”，而不是比较显著性星号？
-9. medical condition 是否改变了 economic construct，而不仅是 context label？
-10. 如果 headline 只剩“R²低”，就继续找更有结构的问题，不要包装统计失败。
-11. 如果 headline 是“稳定 mapping 只在相近 context 中成立”，这是 boundary condition，不必强行写成 universal instability。
-12. 对 NHB，要问：外行能否用一段话理解“为什么这个 human-behaviour fact 重要”？
-13. 对 JEBO，要问：random context manipulation + mechanism + economic implication 是否已经闭环？
-14. 对 Nature Communications，要问：是否有 generalizable measurement / large-scale external validation / projection，不要只靠同一份问卷加方法。
-15. 每次图表更新都应优先展示可解释的 behavioral structure，而不是堆 feature-importance plots。
+7. 结果是在解释 **mean effect**、**prediction**、**HTE**、**portability** 还是 **construct invariance**？不要混用。
+8. 是否有一个明确 null model 被拒绝？
+9. 是否 formal test “difference in differences / mapping difference”，而不是比较显著性星号？
+10. medical condition 是否改变了 economic construct，而不仅是 context label？
+11. 如果 headline 只剩“R²低”，就继续找更有结构的问题，不要包装统计失败。
+12. 如果 headline 是“稳定 mapping 只在相近 context 中成立”，这是 boundary condition，不必强行写成 universal instability。
+13. 对 NHB，要问：外行能否用一段话理解“为什么这个 human-behaviour fact 重要”？
+14. 对 JEBO，要问：random context manipulation + mechanism + economic implication 是否已经闭环？
+15. 对 Nature Communications，要问：是否有 generalizable measurement / large-scale external validation / projection，不要只靠同一份问卷加方法。
+16. 每次图表更新都应优先展示可解释的 behavioral structure，而不是堆 feature-importance plots。
 
 ---
 
