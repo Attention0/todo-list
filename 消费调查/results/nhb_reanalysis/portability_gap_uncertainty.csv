@@ -1,0 +1,3 @@
+source,target,normalized_spearman_gap,lo,hi,B,method
+cash,food,0.0049527134617561586,-0.03833946106238395,0.04920576811887294,5000,paired target bootstrap; models fixed after OOF fitting
+cash,medical,-0.05376723862613014,-0.10512689615927412,-0.002045733138123338,5000,paired target bootstrap; models fixed after OOF fitting

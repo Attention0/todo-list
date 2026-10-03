@@ -1,0 +1,10 @@
+quantity,manuscript_or_locked_value,independent_value,tolerance,absolute_difference,status
+raw N,5497.0,5497.0,0.0,0.0,reproduced
+adult N,5480.0,5480.0,0.0,0.0,reproduced
+clean N,5171.0,5171.0,0.0,0.0,reproduced
+pooled ordinal Food-Cash,-0.119,-0.1209059448770237,0.01,0.0019059448770237103,reproduced
+pooled ordinal Medical-Cash,-0.309,-0.3107878557734276,0.01,0.0017878557734276046,reproduced
+Cash-to-Food Spearman,0.188,0.18042103459027853,0.03,0.007578965409721472,reproduced
+Cash-to-Medical Spearman,0.112,0.10783981034208275,0.03,0.004160189657917257,reproduced
+Food-to-Medical Spearman,0.14,0.14045602496634982,0.03,0.00045602496634980505,reproduced
+pooled RF OOS R2,0.0482,0.04884838186942864,0.01,0.0006483818694286436,reproduced

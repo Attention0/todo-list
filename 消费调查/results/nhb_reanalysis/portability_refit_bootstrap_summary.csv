@@ -1,0 +1,3 @@
+source,target,point,lo,hi,B,trees,note
+cash,food,0.00913182104901276,-0.07467948689313052,0.08641172126897362,100,120,5-fold pipeline; source training and target training/evaluation resampled within amount; model refit each draw
+cash,medical,-0.04055512043345553,-0.12910473590231397,0.017195593998054017,100,120,5-fold pipeline; source training and target training/evaluation resampled within amount; model refit each draw
