@@ -81,8 +81,10 @@ certification. Statistical uncertainty and hypothetical measurement remain.
 - Branch: `feature/jebo-review-revision`
 - Base: `feature/jebo-repositioning@926b05022189661bdfe4dc41d24ad900c77bbd12`
 - Protocol commit: `0aa5681e2ceb148759b0f01a74db726bc464f6e5`
-- Analysis/delivery commit SHA: to be recorded after commit
-- PR: to be recorded after draft creation
+- Analysis/delivery commit SHA: `aecc41a027da62967ed8c017ec289b8774d90ba9`
+- PR: https://github.com/Attention0/todo-list/pull/19 (draft, open, not merged)
+- Remote base/head and draft status verified at creation; subsequent commit
+  records this delivery metadata without changing the analyses or documents.
 - Main: `../../manuscript/jebo_v3/JEBO_manuscript_v3.docx`
 - Supplement: `../../manuscript/jebo_v3/JEBO_supplement_v3.docx`
 - Response: `../../manuscript/jebo_v3/RESPONSE_TO_JEBO_REVIEW.md`
