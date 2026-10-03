@@ -14,7 +14,7 @@
 
 ## Testing performed
 
-已实际运行全本地main/profile/current review availability、dated institution overlap、missingness selection；公开2026 roster及匿名权限/3-link出版availability probes。预期权限拒绝与URLError记录为失败/未验证，不声称通过。validator检查构念边界逻辑、8 verdict与必需文件、aggregate privacy扫描和原23文件hash只读性，实际结果见VALIDATION.json。未运行不可定义样本的balance/RD/placebo/future-edge或mechanism regression。
+已实际运行全本地main/profile/current review availability、dated institution overlap、missingness selection；公开2026 roster及匿名权限/3-link出版availability probes。预期权限拒绝与URLError记录为失败/未验证，不声称通过。独立离线复跑的6个本地aggregate tables逐字节一致；original目录作为输出的请求被只读guard拒绝，见OFFLINE_REPRODUCTION.json。validator检查构念边界逻辑、8 verdict与必需文件、aggregate privacy扫描和原23文件hash只读性，实际结果见VALIDATION.json。未运行不可定义样本的balance/RD/placebo/future-edge或mechanism regression。
 
 ## Acceptance Criteria
 
@@ -34,7 +34,7 @@ feature/iclr-initial-audit-20261003
 
 ## Commit SHA
 
-本报告随audit implementation commit提交。确切immutable SHA在紧接其后的PUBLICATION.json记录，避免文件包含自身SHA的不可能循环。
+Audit implementation commit: `3bdec1b86c235519477309707f89808a60aa8a36`（原生Git push已成功）。本段与PUBLICATION.json随后续publication-record commit提交；该记录不声称包含自身SHA。
 
 ## PR
 
