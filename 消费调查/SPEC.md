@@ -1,4 +1,18 @@
-# 消费调查项目 — Research Specification
+# 消费调查项目 — NC evidence revision specification
+
+## Current specification 2026-10-03
+
+User authorized planning, analysis execution and manuscript rewriting on current data. This section supersedes all historical stages below. WORK.md's current plan governs execution.
+
+Goal: pursue Nature Communications quality through a clear economic question, identification, calibrated uncertainty, coherent figures and precise writing. MPC remains the starting point: how additional resources translate into consumption. Identified outcome is hypothetical stated additional total spending, not actual spending or a measured individual fungibility trait.
+
+Evidence sequence: original design and full six-bin distributions → equal-weight factorial main effects → form-by-amount interaction and corrected inference → direct mechanism/selection diagnostics → measurement, power and external-validity limits. Primary adults18–100 (5480); full5497 is a historical bridge. Original Top75 focus is post hoc; ordinal1–6 and midpoint[0,.05,.175,.375,.625,.875] accompany full distribution. Cash/Food/Medical remain separate. Forms bundle restrictions, expiry, liquidity, labels and wording; no pure-label interpretation.
+
+Requirements: 21-test scientific family and broad historical-family diagnostic distinguished; Holm protection and joint min-P; no choosing sample/family by P. No new all-X/HTE/SHAP/latent search, outcome cutoffs, income mappings or Bayesian rescue. Null moderators are not universality. No fabricated ethics, recruitment or consent. Preserve raw and previous manuscripts; public files only aggregate data/code.
+
+Manuscript: economic question anchored in amount and form literature, no straw man that economic theory treats MPC only as a person attribute. Clear sequence of Results. Fig1 single-hue light-to-dark bins; all titles black. Figures first cited in numerical order; readable legends and correctly labelled pointwise/simultaneous CI. Supplement contains old search history and expanded specifications. Acceptance: fixed feasible analyses executed, failures explicit, independent estimator checks, source-linked manuscript numbers, v5 Word and supplement rendered/inspected, response memo, RESULT, branch and PR, no merge. Editorial readiness must follow actual evidence.
+
+## Historical specification retained for provenance
 
 > **Current-phase update — 2026-09-25.** The project has progressed from initial data audit to an NHB manuscript and is now in a reviewer-driven claim-validation round. For execution, `消费调查/NHB_REVIEW_REANALYSIS.md` and `消费调查/WORK.md` supersede any older “first-look/JDE-stage” wording below. The central current question is whether the data support broad cross-context non-portability, a narrower boundary-condition result (cash-food relatively stable but medical different), or mainly low predictability without strong evidence of remapping. Do not rewrite the manuscript before this re-analysis is complete.
 

@@ -1,0 +1,19 @@
+{
+  "date":"2026-10-03 Asia/Shanghai", "preregistered":false,
+  "base":"12c5e5bb6a8b827f20c2f5cb8930fe24f6bbe12d",
+  "sample":"A primary; R historical bridge",
+  "family":"7 outcomes x omnibus/cash-food/cash-medical, trend OLS_HC3,21",
+  "inference":"Holm21; centered unrestricted-IF Gaussian minP10000; Bonferroni21 scalar CI",
+  "legacy":"same1500 df-normalized minP diagnostic only",
+  "seed":2026100317,
+  "simulation":{"scenarios":["pooled_null","additive_probability_main_effects","partial_null_intermediate_food_interaction"],"replicates_each":1000,"draws_each":999,"full_refit":true},
+  "mechanism_tests":["income_ABS3df","income_REL3df","income_triple2df","inframarginal_triple1df","ratio_restriction1df","Q1_triple2df","Q2_triple2df"],
+  "mechanism":"A Top75 Holm7; M1 primary M2 descriptive sensitivity",
+  "main_effects":"Top75 six tests Holm6",
+  "cell_contrasts":"Top75 six tests Holm6",
+  "cv":"A original5fold seed20261003; M1/M2; additive ABS REL unrestricted triple; no inferential loss CI",
+  "calibration":"official2020 compatible18+ age/education; cap10 and uncapped; fail explicitly if unsupported",
+  "spec_curve":"descriptive only; no median-spec inference because sample estimands differ",
+  "raw_sha256":"16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "stop":"No new outcomes moderators thresholds mappings or significance rescue"
+}
