@@ -25,3 +25,8 @@ as hypothetical/descriptive will be recorded as such, while the underlying measu
 or sign problem is still corrected. Similar point estimates or overlapping intervals
 are not evidence of equal slopes. Affine regression is an assumption-bound descriptive
 model, not a structural MPC or identification of a psychological process.
+
+
+## Execution disposition
+
+All numbered scientific corrections and bounded analyses completed. Source-specific v2 sign/title/decomposition quotations are verified in LOCAL_V2_CLAIM_AUDIT.md. New numerical families and all four figures are complete. AFFINE_RESPONSE_RESULT, FAMILY42_RESULT, FOOD_BINDINGNESS_RESULT and the precision ledger supply the results. Main/supplement now reside only in jebo_v3. Author collection records and live JEBO portal checks remain pending, explicitly listed in AUTHOR_INFORMATION_REQUIRED.md; no empirical extension is authorized to fill those gaps. Final numerical/protection and visual verification are recorded in FINAL_AUDIT.md.

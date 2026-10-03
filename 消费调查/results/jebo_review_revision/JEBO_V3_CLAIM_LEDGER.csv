@@ -1,0 +1,34 @@
+claim,value,source,location,boundary
+Adult sample,5480,adult_share_yuan_table.csv,3.1; Table1,Observed delivered adults; recruitment/ethics unresolved
+Cash share endpoint,25.29935% to20.16379%,adult_share_yuan_table.csv,4.1,"Midpoint coding, hypothetical"
+Cash implied yuan,50.60 to1008.19,adult_share_yuan_table.csv,4.2,"Arithmetic re-expression, not observed"
+Cash increments,.220113/.195375,incremental_yuan_response.csv,Abstract;4.2;Table2,Finite increments not derivatives
+Food increments,.193048/.193728,incremental_yuan_response.csv,4.2;Table2,Conditional on midpoint coding
+Medical increments,.178522/.178470,incremental_yuan_response.csv,4.2;Table2,Conditional on midpoint coding
+High interval Cash-Food,".001647 CI−.034856,.036539",incremental_yuan_response.csv,4.2,No equivalence
+High interval Cash-Medical,".016905 CI−.017565,.050990",incremental_yuan_response.csv,4.2,No equivalence
+Elasticities,.929513/.952716/1.002010,endpoint_elasticity.csv,4.2,Descriptive log endpoint change
+Midpoint affine slopes,.198224/.193651/.178476,affine_midpoint_parameters.csv,4.3;Table3,No structural MPC
+Affine slope equality,p=.381295,affine_model_comparison.csv,4.3,Nonrejection not equal slopes
+Affine joint common restriction,Holm3=.000423,affine_model_comparison.csv,4.3,Does not establish intercept-only explanation
+Interval fit sensitivity,max probability errors20.81/8.78pp,interval_affine_diagnostics.csv,4.3,Constant-scale misspecification; latent slopes unstable
+Interval bootstrap,8000 successful draws,interval_bootstrap_status.csv,3.3;4.3,Convergence not validity
+Cash midpoint42,"Holm=.039176,minP=.019898",scientific_family42.csv,4.4;Table4,Coding-specific evidence
+Cash ordinal42,"Holm=.399504,minP=.181782",scientific_family42.csv,4.4;Table4,No adjusted evidence
+Cash Top7542,"Holm=.000051,minP=.000100",scientific_family42.csv,4.4;Table4,MinP simulation resolution
+Top75 interaction42,"Holm=.333939,minP=.148585",scientific_family42.csv,4.4,"Suggestive, not established"
+Food crossing,"Food-Cash2.1677pp CI−.6311,4.9665",nc_evidence_revision/form_contrasts.csv,4.1,Historical Holm6=.387; no precise crossing
+Factorial main effects,Medical−Cash−4.1738pp;5000−200−4.1479pp,nc_evidence_revision/main_effects.csv,4.1,Balanced averages; historical family6
+Bottom decomposition,−.0211/−5.1144pp Cash,bottom_category_decomposition.csv,4.4;S5,"Code identity, not participation or causal conditional effect"
+Sharp Food sign,Food−CashG0+8.0049pp/G1+1.3322pp,food_bindingness_sign_reproduction.csv,5.1,"Opposite sharp prediction, proxy limitations"
+Continuous Food,Top75.002893/.004387;Holm6=1,food_bindingness_continuous.csv;food_bindingness_adjusted.csv,5.1,Observational moderation not absence
+Full Food ratio,Top75Holm6=.042601/.043721,food_bindingness_ratio.csv,5.1,"Joint2df; proxy models, old1dfdifferent sample"
+Food precision,"MDE3.7452/4.6520pp;spanCI−6.0045,+7.4949pp",MECHANISM_PREDICTION_PRECISION_LEDGER.csv,5.2,Compatible range not causal explained share
+Relative income gain,.1716%/.1245% REL versus ABS,nc_evidence_revision/prediction_scores.csv,5.2,"Small fixed-fold predictive gains, not model proof"
+Q1/Q2,pre-numbered15items;N2715/1208,mpc_size_curve/size_curve.py;nc_evidence_revision/screen_cell_counts.csv,5.2;S8,Response-style screens; deployment order confirm
+Reweighting,"ESS314.84/cap1190.95,target gap.16526",nc_evidence_revision/calibration_diagnostics.csv,5.2,No representativeness
+Spendability,No direct measure,QUESTIONNAIRE_APPENDIX.md,6,Discussion candidate only
+Metadata,Formal records not located,STUDY_METADATA_AUDIT.md,3.1;Declarations,Author confirmation required
+Novelty,Bernard joint form×size predates study,JEBO_V3_REFERENCE_AUDIT.csv,1;2,"Narrower design extension, no priority"
+Timing,Not preregistered; fixed after prior same-data results,REVIEWER_REANALYSIS_MANIFEST.md,3.2;S4,No retroactive confirmatory status
+AI declaration,Tool purposes disclosed; human signoff pending,JOURNAL_REQUIREMENTS_AUDIT.md,Before References,No invented author certification

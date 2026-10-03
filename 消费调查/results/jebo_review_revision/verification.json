@@ -1,0 +1,206 @@
+{
+  "checks": [
+    {
+      "check": "Historical hashes",
+      "passed": true,
+      "detail": "577 archived files"
+    },
+    {
+      "check": "First-commit protocol unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact base ancestry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "54 raw adult counts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Share-yuan identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Raw category sums",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All6 increments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Increment Holm6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Endpoint elasticities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Full42 cross-outcome covariance",
+      "passed": true,
+      "detail": "4.336808689942018e-19"
+    },
+    {
+      "check": "All21 form slopes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact42 family",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Historical21 estimands unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "minP42 independent regeneration",
+      "passed": true,
+      "detail": "Row-level covariance independently agrees; canonical stored eigensystem fixes the nonunique basis in this rank-deficient covariance for exact seeded reproduction."
+    },
+    {
+      "check": "Bonferroni42 scalar intervals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Midpoint affine respondent HC3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All180 interval probabilities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Interval8000 fits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Conditional interval mapping disclosed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All12 Food cells",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Food sign and triple",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Continuous family6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ratio full2df family6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scalar MDE formulas",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Baseline family8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "54 exact response translations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scientific workflow language removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unmeasured title removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No fabricated ethics certification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure source adult_cell_distribution.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure source adult_share_yuan_table.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure source affine_midpoint_fit.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure source incremental_yuan_response.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure source food_bindingness_raw_cells.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_manuscript_v3 structure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_manuscript_v3 black title",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_supplement_v3 structure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_supplement_v3 black title",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "all_passed": true,
+  "historical_files": 577
+}
