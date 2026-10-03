@@ -65,7 +65,7 @@
 - Step4：year/distribution/review structure/social代理与paperFE/disagreement已执行；topic和reputation×regime明确不可估计原因。
 - 六份指定报告与五个统一格式research options：完成。
 - 隐私与原项目安全：仅代码、汇总、报告；原23文件未改；发布扫描通过。
-- feature分支/commit/PR：本文件随分析提交；实际SHA与PR在发布后补充，不merge。
+- feature分支/commit/PR：已发布，分析SHA及PR见下；未merge。
 
 ## Known issues
 
@@ -77,8 +77,9 @@
 
 ## Commit SHA
 
-Publication pending; analysis commit SHA will be recorded after remote creation. A later metadata-only commit can record its parent analysis SHA without circular self-reference.
+Analysis commit: `dcc7e173c56498e79f1ab0e0b2e4385ae335443e`。本文件的SHA/PR链接由后续metadata-only commit补充；最新分支head见PR，以避免自引用commit SHA。
 
 ## PR
 
-Publication pending; URL will be appended after creation. No merge requested or performed.
+[PR #18](https://github.com/Attention0/todo-list/pull/18)，open，未merge。代码、六份报告、聚合表/图已发布在该分支的 `审稿/results/initial_audit/`。
+
