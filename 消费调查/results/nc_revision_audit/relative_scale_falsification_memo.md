@@ -1,0 +1,19 @@
+# ABS versus REL finite falsification
+
+**Fact:** same unified five folds assigned once, stratified on nine randomized cells; retained across R/A/C/Q1/Q2 and mapping variants. Fold hash/counts are aggregate, no respondent assignments released. Top75 log-loss; ordinal/midpoint MSE. Models are form×ln(amount) versus form×ln(amount/income scale), not direct process measurement. Banded income mapping is NOT exact income. Two raw coding schemes have different ranges and are not naïvely combined by subtracting10. M1/M2 bounded band midpoints and open-end alternatives are in secondary.py; rank is within-scheme fractional rank and dimensionless, not monetary income.
+
+R comparisons:
+
+| sample | mapping | outcome | N | ABS_loss | REL_loss | ABS_minus_REL | lo | hi | relative_improvement | material | score | CI |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | M1 | top75 | 5497 | 0.262108 | 0.261688 | 0.000419699 | -0.00121762 | 0.00205702 | 0.00160125 | False | logloss | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | M1 | ordinal | 5497 | 2.374 | 2.35831 | 0.0156894 | 0.0069941 | 0.0243847 | 0.00660884 | False | MSE | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | M1 | midpoint | 5497 | 0.0657464 | 0.0653256 | 0.000420783 | 0.000180556 | 0.000661009 | 0.00640009 | False | MSE | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | M2 | top75 | 5497 | 0.262108 | 0.261816 | 0.000292025 | -0.00152235 | 0.0021064 | 0.00111414 | False | logloss | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | M2 | ordinal | 5497 | 2.374 | 2.35771 | 0.016291 | 0.00699319 | 0.0255888 | 0.00686225 | False | MSE | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | M2 | midpoint | 5497 | 0.0657464 | 0.0653167 | 0.000429691 | 0.000168867 | 0.000690515 | 0.00653558 | False | MSE | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | rank | top75 | 5497 | 0.262108 | 0.262022 | 8.58895e-05 | -0.00137635 | 0.00154813 | 0.000327688 | False | logloss | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | rank | ordinal | 5497 | 2.374 | 2.36093 | 0.0130688 | 0.00538723 | 0.0207504 | 0.00550498 | False | MSE | paired held-out loss descriptive normal interval, training dependence not accounted for |
+| R | rank | midpoint | 5497 | 0.0657464 | 0.0654057 | 0.000340633 | 0.000131269 | 0.000549996 | 0.00518101 | False | MSE | paired held-out loss descriptive normal interval, training dependence not accounted for |
+
+Revision criterion: at least1% loss reduction AND descriptive paired loss interval>0. None of the R focal mappings reaches materiality; none of the five samples' nine outcome/mapping comparisons improves by1%. Paired intervals condition on shared trained folds and ignore training dependence; not formal independent inferential confidence intervals. AIC/BIC and compression interactions are secondary. Positive Cash slope×log-income implies steeper compression for lower income under this sign convention; it is a sign check only and without material predictive superiority is not a mechanism pass. Full45 secondary compression tests are in relative_scale_compression.csv. **Inference:** relative-income collapse unsupported here; **Elimination:** this does not eliminate richer scale accounts. **Speculation:** scale-induced categorization remains a candidate, not Abstract/title explanation. Proposed later wording: “A scale-dependent earmarking account is one candidate explanation, but the present design does not directly test this mechanism.”

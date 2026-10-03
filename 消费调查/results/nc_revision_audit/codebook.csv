@@ -1,0 +1,68 @@
+variable,label,role,raw_value_labels
+id,受访者编号（平台原始编号）,ID,{}
+q01_lifesat,Q1 生活满意度：总体而言，您对目前的生活满意吗（0-10）,baseline/background,{}
+q02_safety,Q2 安全感：总体而言，您觉得当前的生活环境是否安全（0-10）,baseline/background,{}
+q03a_fair_dist,Q3-1 公平感：社会资源和财富的分配（0-10）,baseline/background,{}
+q03b_fair_opp,Q3-2 公平感：个人发展的机会（0-10）,baseline/background,{}
+q03c_fair_rule,Q3-3 公平感：规则和程序的执行（0-10）,baseline/background,{}
+q04_trust_gov,Q4 制度信任：对本地政府部门和公共机构的信任程度（0-10）,baseline/background,{}
+q05_trust_soc,Q5 人际信任：社会上大多数人是否值得信任（0-10）,baseline/background,{}
+q06_socsec,Q6 社会保障：医疗养老失业等保障能否提供足够保护（0-10）,baseline/background,{}
+q07_emergfund,Q7 应急筹资：短期内能否筹集相当于三个月收入的资金（0-10）,baseline/background,{}
+q08_support,Q8 社会支持：遇到困难时能否从身边的人得到实际帮助（0-10）,baseline/background,{}
+q09_gain,Q9 获得感：是否从社会发展中获得了实实在在的好处（0-10）,baseline/background,{}
+q10_effort,Q10 努力有用感：通过自身努力能否让生活变得更好（0-10）,baseline/background,{}
+q11_mobility,Q11 向上流动：普通人向上发展的通道是否畅通（0-10）,baseline/background,{}
+q12_voice,Q12 意见回应：普通人的意见和诉求能否被听到和回应（0-10）,baseline/background,{}
+q13_pressure,Q13 压力承受：目前感受到的生活压力是否在可承受范围内（0-10）,baseline/background,{}
+q14a_pr_income,"Q14-A 压力来源(多选,最多三项)：收入与消费（工资、物价、日常开销等）",baseline/background,{}
+q14b_pr_housing,"Q14-B 压力来源(多选,最多三项)：住房（房价、房贷、租金等）",baseline/background,{}
+q14c_pr_work,"Q14-C 压力来源(多选,最多三项)：工作与职业发展（就业、工作强度、晋升等）",baseline/background,{}
+q14d_pr_edu,"Q14-D 压力来源(多选,最多三项)：教育（子女教育或自身学业）",baseline/background,{}
+q14e_pr_med,"Q14-E 压力来源(多选,最多三项)：医疗与健康（看病、医药费用、身心健康等）",baseline/background,{}
+q14f_pr_pension,"Q14-F 压力来源(多选,最多三项)：养老（自己或家人的养老保障）",baseline/background,{}
+q14g_pr_other,"Q14-G 压力来源(多选,最多三项)：其他",baseline/background,{}
+q14h_pr_none,"Q14-H 压力来源(多选,最多三项)：以上均无/没有明显压力",baseline/background,{}
+q15_fut_self,Q15 预期-个人：未来一年自己的生活状况会如何变化（0-10）,baseline/background,{}
+q16_fut_society,Q16 预期-社会：未来一年中国社会整体发展前景（0-10）,baseline/background,{}
+q17a_fut_econ,Q17-1 趋势预期：经济发展（0-10）,baseline/background,{}
+q17b_fut_job,Q17-2 趋势预期：就业与收入（0-10）,baseline/background,{}
+q17c_fut_price,Q17-3 趋势预期：物价与消费水平（0-10）,baseline/background,{}
+q17d_fut_fair,Q17-4 趋势预期：社会公平（0-10）,baseline/background,{}
+q17e_fut_welfare,Q17-5 趋势预期：民生保障（0-10）,baseline/background,{}
+q18_ses_now,Q18 主观社会经济地位：目前大致处在1-10中的哪个位置（1-10）,baseline/background,{}
+q19_ses_past5,Q19 地位变动-回顾：过去5年社会经济位置变化（0-10）,baseline/background,{}
+q20_ses_next1,Q20 地位变动-展望：未来1年社会经济位置变化（0-10）,baseline/background,{}
+q21_order,Q21 秩序评价：当前中国社会是一个有秩序的社会吗（0-10）,baseline/background,{}
+q22_vitality,Q22 活力评价：当前中国社会是一个有活力的社会吗（0-10）,baseline/background,{}
+q23_hukou,Q23 户籍类型,baseline/background,{}
+q24_workstat,Q24 目前的工作状况,baseline/background,{}
+q25_unittype,Q25 目前（或最近一份）工作单位类型,baseline/background,{}
+q26_housing,Q26 住房状况,baseline/background,{}
+q27_minorchild,Q27 家庭中是否有需要抚养的未成年子女,baseline/background,{}
+q28_hhsize,Q28 共同生活、共同开支的家庭成员人数（含本人）,baseline/background,{}
+q29_foodexp,Q29 家庭每月食品支出（含买菜、外出就餐、零食饮料等）,baseline/background,{}
+q30_medexp,Q30 过去一年家庭自费医疗支出（不含医保报销部分）,baseline/background,{}
+q31_gotsubsidy,Q31 过去三年是否实际收到过政府或平台发放的补助,baseline/background,{}
+q32_cash200,Q32 情景版本1 现金补贴200元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q33_cash1k,Q33 情景版本2 现金补贴1000元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q34_cash5k,Q34 情景版本3 现金补贴5000元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q35_vouch200,Q35 情景版本4 食品日用消费券200元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q36_vouch1k,Q36 情景版本5 食品日用消费券1000元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q37_vouch5k,Q37 情景版本6 食品日用消费券5000元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q38_med200,Q38 情景版本7 医保个人账户注入200元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q39_med1k,Q39 情景版本8 医保个人账户注入1000元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+q40_med5k,Q40 情景版本9 医保个人账户注入5000元：总消费预计比原计划多花多少（每人随机答一版，未抽中为缺失）,treatment/outcome,{}
+scen_version,派生：情景题版本（1-9，对应题32-40）,treatment/outcome,{}
+scen_type,派生：情景题补贴形式（实验因子1）,treatment/outcome,{}
+scen_amount,派生：情景题补贴金额（元，实验因子2）,treatment/outcome,{}
+scen_mpc,派生：情景题边际消费倾向档位（9版合并，1-6档）,treatment/outcome,{}
+q41_gender,Q41 性别（平台采集）,baseline/background,{}
+q42_age,Q42 年龄（周岁，平台采集）,baseline/background,{}
+q43_edu,Q43 学历（平台采集）,baseline/background,{}
+q44_industry,Q44 行业（平台采集；1-13主分类，21-32为混入的国民经济行业分类）,baseline/background,{}
+q45_occup,Q45 职业（平台采集）,baseline/background,{}
+q46_income,Q46 个人月收入（平台采集；1-6主档位方案，11-16为混入的旧档位方案）,baseline/background,{}
+q47_province,Q47 省份（平台采集；GB/T 2260行政区划代码，钓鱼岛=99）,baseline/background,{}
+q48_city,Q48 城市（平台采集；295个城市按Unicode排序编码）,baseline/background,{}
+q49_citytier,Q49 城市级别（平台采集）,baseline/background,{}
