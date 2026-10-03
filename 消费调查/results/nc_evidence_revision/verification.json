@@ -1,0 +1,10 @@
+{
+  "independent_statsmodels_max_error": 5.828670879282072e-16,
+  "independent_HC3_max_error": 3.8163916471489756e-17,
+  "historical_focal_p_reproduced": true,
+  "raw_sha256": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "freeze_sha256": "f2be9448388193cc0f5828eb594cbc4b9433aa79d3213e564fd7d6f659cd7f14",
+  "N": 5497,
+  "adult_N": 5480,
+  "individual_exports": false
+}
