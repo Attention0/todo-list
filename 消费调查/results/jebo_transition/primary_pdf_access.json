@@ -1,0 +1,160 @@
+[
+  {
+    "id": "boehm",
+    "url": "https://jmboehm.github.io/Helicopter.pdf",
+    "accessed": "2026-10-03",
+    "status": "full text retrieved",
+    "pages": 42,
+    "words": 22714,
+    "figure_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "table_labels": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "fuster",
+    "url": "https://www.minneapolisfed.org/institute/working-papers/wp18-15.pdf",
+    "accessed": "2026-10-03",
+    "status": "full text retrieved",
+    "pages": 66,
+    "words": 21926,
+    "figure_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "table_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  {
+    "id": "lee",
+    "url": "https://economics.fiu.edu/research/working-papers/2024/2402.pdf",
+    "accessed": "2026-10-03",
+    "status": "full text retrieved",
+    "pages": 31,
+    "words": 11493,
+    "figure_labels": [],
+    "table_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "id": "pavlova",
+    "url": "https://fenix.iseg.ulisboa.pt/downloadFile/563083097460642/Pavlova%20%282025%29.pdf",
+    "accessed": "2026-10-03",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+  },
+  {
+    "id": "savings",
+    "url": "https://idbinvest.org/en/download/15430",
+    "accessed": "2026-10-03",
+    "status": "full text retrieved",
+    "pages": 43,
+    "words": 16693,
+    "figure_labels": [
+      "1",
+      "2",
+      "3"
+    ],
+    "table_labels": [
+      "1",
+      "10",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "id": "retirement",
+    "url": "https://www.adamleive.com/wp-content/uploads/2023/10/FLC_Crowdout_10_23.pdf",
+    "accessed": "2026-10-03",
+    "status": "full text retrieved",
+    "pages": 60,
+    "words": 19500,
+    "figure_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "table_labels": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "loot",
+    "url": "https://eprints.soton.ac.uk/505957/1/1-s2.0-S016726812400369X-main.pdf",
+    "accessed": "2026-10-03",
+    "status": "failed",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "id": "jappelli",
+    "url": "https://www.riksbank.se/globalassets/media/rapporter/working-papers/2024/no.-443-intertemporal-mpc-and-shock-size.pdf",
+    "accessed": "2026-10-03",
+    "status": "full text retrieved",
+    "pages": 49,
+    "words": 12555,
+    "figure_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "table_labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  }
+]
