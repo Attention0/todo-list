@@ -30,8 +30,8 @@ feature/nc-revision-audit; stacked on feature/mpc-hero-figure (prior#14) plus la
 
 ## Commit SHA
 
-Pending publication.
+d236e7f654b4dae1201b5a86765ba1d5f378cae7 (analysis package). A follow-up metadata-only commit records this publication link.
 
 ## PR
 
-Pending publication; do not merge automatically.
+https://github.com/Attention0/todo-list/pull/15; stacked on feature/mpc-hero-figure (#14); not merged.
