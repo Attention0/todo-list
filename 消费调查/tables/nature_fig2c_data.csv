@@ -1,0 +1,5 @@
+domain,items,retained_components,variance_explained,cronbach_alpha,kind,O_r2,O_plus_latent_r2,increment,N_test
+subjective_economic,14.0,1.0,0.7432720393269335,0.9733134102546452,factor,,,,
+social_confidence,11.0,1.0,0.6969918783791932,0.9557349213636778,factor,,,,
+wellbeing_optimism,5.0,1.0,0.7730791041672936,0.926195897119223,factor,,,,
+,,,,,heldout,0.0273896011872069,0.0294028445407623,0.0020132433535554,2692.0

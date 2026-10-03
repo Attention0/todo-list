@@ -1,0 +1,5 @@
+benchmark,sample_share,official_share,gap,official_year,comparability,note,source_url
+male_share,0.4704384209568856,0.5124,-0.04196157904311437,2020,partial,Adult online survey versus total-population census.,https://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/t20230215_1904000.html
+female_share,0.5295615790431144,0.4876,0.04196157904311443,2020,partial,Adult online survey versus total-population census.,https://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/t20230215_1904000.html
+junior_college_or_more_share,0.7891577223940331,0.15467,0.6344877223940332,2020,low,Large age and sampling-frame mismatch; not a weighting target.,https://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/t20230215_1903999.html
+age_60plus_share,0.01637256685464799,0.187,-0.170627433145352,2020,low,Adult online survey versus census including children.,https://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/t20230215_1903996.html

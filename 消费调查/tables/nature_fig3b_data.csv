@@ -1,0 +1,21 @@
+feature_set,form1,form2,coef_correlation,cosine,sign_agreement,corr_lo,corr_hi,cos_lo,cos_hi,sign_lo,sign_hi,kind,metric,comparison,difference,lo,hi,bootstrap_B,method
+O_needs,cash,food,0.6516359553310764,0.6503432639776917,0.7540983606557377,0.2090000429428939,0.6124212895901276,0.209011650022772,0.6128827755533504,0.5409836065573771,0.7540983606557377,similarity,,,,,,,
+O_needs,cash,medical,0.2286433809539961,0.2308541739003204,0.5901639344262295,-0.05720742078391,0.3781485233690719,-0.0558410034738455,0.3800530463087616,0.4590163934426229,0.6885245901639344,similarity,,,,,,,
+O_needs,food,medical,0.2613300723183874,0.2602564171098406,0.5737704918032787,-0.0031575486697887,0.3719278515589049,-0.0045365715594028,0.3701614862492536,0.4590163934426229,0.6721311475409836,similarity,,,,,,,
+ALL,cash,food,0.5979394210186362,0.5979506061235376,0.6818181818181818,0.1049518091468658,0.5450167468539717,0.1049854617781556,0.5450426324424853,0.5227272727272727,0.7272727272727273,similarity,,,,,,,
+ALL,cash,medical,0.0027415538442235,0.0024146296826,0.5227272727272727,-0.2324878042182147,0.2067556412915777,-0.2321115446664699,0.2067312536465043,0.4318181818181818,0.625,similarity,,,,,,,
+ALL,food,medical,0.1100586237044619,0.1090293397312321,0.5909090909090909,-0.1570428378336115,0.3001342726740333,-0.1573849702439209,0.2997822460591595,0.4431818181818182,0.6477272727272727,similarity,,,,,,,
+,,,,,,,,,,,,difference,spearman,CF_minus_CM,0.0758468894083252,0.0114544031824419,0.137012083981782,3000.0,fixed source models; target-observation bootstrap
+,,,,,,,,,,,,difference,spearman,CF_minus_FM,0.0478955853622115,-0.0154409209068763,0.1090235061168964,3000.0,fixed source models; target-observation bootstrap
+,,,,,,,,,,,,difference,coef_correlation_O_needs,CF_minus_CM,0.4229925743770802,-0.0430939948642072,0.5348861419372164,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,coef_correlation_O_needs,CF_minus_FM,0.390305883012689,-0.0258992733763086,0.5137233298339798,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,cosine_O_needs,CF_minus_CM,0.4194890900773712,-0.0438227098673216,0.5346827790208185,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,cosine_O_needs,CF_minus_FM,0.3900868468678511,-0.0265447416048372,0.5132001469574216,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,sign_agreement_O_needs,CF_minus_CM,0.1639344262295081,-0.0983606557377049,0.2459016393442623,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,sign_agreement_O_needs,CF_minus_FM,0.180327868852459,-0.081967213114754,0.2295081967213115,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,coef_correlation_ALL,CF_minus_CM,0.5951978671744126,0.02970906704671,0.6346336668582632,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,coef_correlation_ALL,CF_minus_FM,0.4878807973141742,-0.0736866294502913,0.6029034538678625,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,cosine_ALL,CF_minus_CM,0.5955359764409376,0.0308220597140467,0.6345364372241872,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,cosine_ALL,CF_minus_FM,0.4889212663923054,-0.0731241689601834,0.6028848882988992,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,sign_agreement_ALL,CF_minus_CM,0.159090909090909,-0.0454545454545454,0.2386363636363636,600.0,stratified respondent bootstrap with source-model refits
+,,,,,,,,,,,,difference,sign_agreement_ALL,CF_minus_FM,0.0909090909090908,-0.0681818181818182,0.2159090909090908,600.0,stratified respondent bootstrap with source-model refits

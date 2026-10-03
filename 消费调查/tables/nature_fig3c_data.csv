@@ -1,0 +1,19 @@
+source,target,observed_spearman,assumed_reliability,sensitivity_adjusted,assumption
+cash,food,0.1879468089657944,0.4,0.469867022414486,assumed equal reliability in source and target; not estimated
+cash,food,0.1879468089657944,0.6,0.3132446816096573,assumed equal reliability in source and target; not estimated
+cash,food,0.1879468089657944,0.8,0.234933511207243,assumed equal reliability in source and target; not estimated
+cash,medical,0.1120999195574692,0.4,0.2802497988936729,assumed equal reliability in source and target; not estimated
+cash,medical,0.1120999195574692,0.6,0.1868331992624486,assumed equal reliability in source and target; not estimated
+cash,medical,0.1120999195574692,0.8,0.1401248994468364,assumed equal reliability in source and target; not estimated
+food,cash,0.1979395519399044,0.4,0.4948488798497609,assumed equal reliability in source and target; not estimated
+food,cash,0.1979395519399044,0.6,0.329899253233174,assumed equal reliability in source and target; not estimated
+food,cash,0.1979395519399044,0.8,0.2474244399248804,assumed equal reliability in source and target; not estimated
+food,medical,0.1400512236035828,0.4,0.350128059008957,assumed equal reliability in source and target; not estimated
+food,medical,0.1400512236035828,0.6,0.2334187060059713,assumed equal reliability in source and target; not estimated
+food,medical,0.1400512236035828,0.8,0.1750640295044785,assumed equal reliability in source and target; not estimated
+medical,cash,0.1406897602602423,0.4,0.3517244006506057,assumed equal reliability in source and target; not estimated
+medical,cash,0.1406897602602423,0.6,0.2344829337670705,assumed equal reliability in source and target; not estimated
+medical,cash,0.1406897602602423,0.8,0.1758622003253028,assumed equal reliability in source and target; not estimated
+medical,food,0.153144812903484,0.4,0.3828620322587099,assumed equal reliability in source and target; not estimated
+medical,food,0.153144812903484,0.6,0.25524135483914,assumed equal reliability in source and target; not estimated
+medical,food,0.153144812903484,0.8,0.1914310161293549,assumed equal reliability in source and target; not estimated

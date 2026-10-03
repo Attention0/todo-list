@@ -1,0 +1,42 @@
+variable,formal_type,family,levels,missing_N,formal_coding
+q42_age,continuous,objective,65,0,z trend; bins/spline for top findings
+q06_socsec,continuous,subjective,11,0,z trend; bins/spline for top findings
+q07_emergfund,continuous,subjective,11,0,z trend; bins/spline for top findings
+q09_gain,continuous,subjective,11,0,z trend; bins/spline for top findings
+q10_effort,continuous,subjective,11,0,z trend; bins/spline for top findings
+q11_mobility,continuous,subjective,11,0,z trend; bins/spline for top findings
+q13_pressure,continuous,subjective,11,0,z trend; bins/spline for top findings
+q15_fut_self,continuous,subjective,11,0,z trend; bins/spline for top findings
+q17a_fut_econ,continuous,subjective,11,0,z trend; bins/spline for top findings
+q17b_fut_job,continuous,subjective,11,0,z trend; bins/spline for top findings
+q17c_fut_price,continuous,subjective,11,0,z trend; bins/spline for top findings
+q17e_fut_welfare,continuous,subjective,11,0,z trend; bins/spline for top findings
+q18_ses_now,continuous,subjective,10,0,z trend; bins/spline for top findings
+q19_ses_past5,continuous,subjective,11,0,z trend; bins/spline for top findings
+q20_ses_next1,continuous,subjective,11,0,z trend; bins/spline for top findings
+q01_lifesat,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q02_safety,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q03a_fair_dist,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q03b_fair_opp,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q03c_fair_rule,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q04_trust_gov,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q05_trust_soc,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q08_support,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q12_voice,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q16_fut_society,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q17d_fut_fair,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q21_order,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q22_vitality,continuous,attitudes,11,0,z trend; bins/spline for top findings
+q43_edu,ordered,objective,5,0,z trend plus factor robustness
+income_h,ordered,objective,6,0,z trend plus factor robustness
+q28_hhsize,ordered,needs,6,0,z trend plus factor robustness
+q29_foodexp,ordered,needs,6,0,z trend plus factor robustness
+q30_medexp,ordered,needs,6,0,z trend plus factor robustness
+q49_citytier,ordered,objective,5,0,z trend plus factor robustness
+q41_gender,nominal,objective,2,0,factor only; joint omnibus
+q23_hukou,nominal,objective,3,0,factor only; joint omnibus
+q24_workstat,nominal,objective,5,0,factor only; joint omnibus
+q25_unittype,nominal,objective,8,0,factor only; joint omnibus
+q26_housing,nominal,objective,3,0,factor only; joint omnibus
+q27_minorchild,nominal,needs,2,0,factor only; joint omnibus
+q31_gotsubsidy,nominal,objective,3,0,factor only; joint omnibus

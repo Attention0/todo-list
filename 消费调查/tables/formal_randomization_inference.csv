@@ -1,0 +1,4 @@
+variable,estimand,observed_effect,randomization_p,permutations
+income_h,medical-food,-0.15318979670674443,0.004497751124437781,2000
+q43_edu,medical-food,-0.1490354627992472,0.005497251374312844,2000
+q30_medexp,medical-food,0.13595504503425498,0.010994502748625687,2000

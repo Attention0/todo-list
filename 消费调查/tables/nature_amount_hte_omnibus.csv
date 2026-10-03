@@ -1,0 +1,3 @@
+method,wald_chi2,df,p,N,definition
+t,11.668934315677959,2,0.0029249813984027107,3661,CATE standardized within amount; interaction omnibus
+dr,14.778199923072206,2,0.0006179518837569713,3661,CATE standardized within amount; interaction omnibus
