@@ -1,0 +1,23 @@
+area,missing_id_rows,linked_id_rows
+"alignment, fairness, safety, privacy, and societal considerations",188,2142
+"applications to computer vision, audio, language, and other modalities",398,5022
+applications to neuroscience & cognitive science,38,473
+"applications to physical sciences (physics, chemistry, biology, etc.)",97,993
+"applications to robotics, autonomy, planning",87,1013
+causal reasoning,22,248
+datasets and benchmarks,160,1896
+"foundation or frontier models, including LLMs",337,3833
+generative models,250,2929
+"infrastructure, software libraries, hardware, systems, etc.",21,218
+interpretability and explainable AI,47,852
+learning on graphs and other geometries & topologies,67,648
+learning on time series and dynamical systems,72,635
+learning theory,68,531
+missing,0,47
+"neurosymbolic & hybrid AI systems (physics-informed, logic & formal reasoning, etc.)",23,277
+optimization,66,749
+"other topics in machine learning (i.e., none of the above)",87,1020
+"probabilistic methods (Bayesian methods, variational inference, sampling, UQ, etc.)",35,350
+reinforcement learning,74,1193
+"transfer learning, meta learning, and lifelong learning",85,770
+"unsupervised, self-supervised, semi-supervised, and supervised representation learning",121,1631

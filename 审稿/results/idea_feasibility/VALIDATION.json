@@ -1,0 +1,130 @@
+{
+  "checks": {
+    "bounded_history_positive": true,
+    "open_end_and_2025_are_unknown": true,
+    "actual_overlap_required": true,
+    "inclusive_overlap": true,
+    "required_files": true,
+    "required_assignment_ending": true,
+    "eight_valid_verdicts": true,
+    "priority_tests_exactly_five": true,
+    "original_files_unchanged": true,
+    "privacy_scan": true
+  },
+  "all_passed": true,
+  "original_files_checked": 23,
+  "original_files_changed": 0,
+  "artifacts_scanned": 27,
+  "privacy_findings": [],
+  "artifact_manifest": [
+    {
+      "path": "ASSIGNMENT_IDENTIFICATION.md",
+      "sha256": "17f4b58b2ea63487344e72263494be0830ac1706f3c9d99f804ad41bbd42bc01"
+    },
+    {
+      "path": "code/evidence_audit.py",
+      "sha256": "db3f294790a2d427c03e4c520e6eabb6e9053054d6ea7d7aea6c0c98757eee9a"
+    },
+    {
+      "path": "code/validate.py",
+      "sha256": "0ae3138906a7952af20f0a5ccf8f7caa85fcc4d3d27c973b18ea6e84d05f3494"
+    },
+    {
+      "path": "CORE_CONSTRUCTS.md",
+      "sha256": "236845efc69311ed1a4d563ced00fa6f3844caf6660e7c1d6b7fc09b10d788ad"
+    },
+    {
+      "path": "FEASIBILITY_MATRIX.md",
+      "sha256": "fbf59cc51e6ab793e2bcb1098f1ad13da708c7a8e7e303f39a289d6b52b05a5a"
+    },
+    {
+      "path": "IDEA_1.md",
+      "sha256": "530e7191cc1409ea9948ebdacb65e2de09638338bfba4e33ad774e33df228416"
+    },
+    {
+      "path": "IDEA_2.md",
+      "sha256": "2ada89deaa9e9a6ec6cdd390a6cc6c28144d0f8a2cf1a863029df2556774231a"
+    },
+    {
+      "path": "IDEA_3.md",
+      "sha256": "8accf0ef7dfdd34aa9f5d34d97d1b38a161379cd32e3c3b1d27347bc72407e0b"
+    },
+    {
+      "path": "IDEA_4.md",
+      "sha256": "0984d212830765b4d952a55b0938f22c60ec1fe26f032b8fdb574f1241720e50"
+    },
+    {
+      "path": "IDEA_5.md",
+      "sha256": "622bc9754deddc64dae5bf11278820bb75c61a6c35c3b96e7850dd847c6d9898"
+    },
+    {
+      "path": "IDEA_6.md",
+      "sha256": "8f346f149c069f8e20313b11ba2b8b1a18220e009ec6078649f2eb98915936a1"
+    },
+    {
+      "path": "IDEA_7.md",
+      "sha256": "cad80b372488c090fe7e9115a4c27f655a924c90f12c2d9b1454ded07f33046f"
+    },
+    {
+      "path": "IDEA_8.md",
+      "sha256": "9902f753252fa3531370031fb5370f2ae410f83dc19af74286a60a4a00af26a4"
+    },
+    {
+      "path": "OFFLINE_REPRODUCTION.json",
+      "sha256": "298ad248b604f3630d1dec31434835d249d265393ba32547e5a36d4b50b081ec"
+    },
+    {
+      "path": "PRIORITY_TESTS.md",
+      "sha256": "eb1d321f31ed4e9c64ce5686a359709aa7f03565cc632f8cc0f6bc628ca0e9fb"
+    },
+    {
+      "path": "README.md",
+      "sha256": "709e64407c15a47bfff1389e055682cf48b7b7f3f927871267960217068139df"
+    },
+    {
+      "path": "RESULT.md",
+      "sha256": "11d3b8636fbefd7d0814b387f06e8b001b8396aa681f4fca96baba7cf465a351"
+    },
+    {
+      "path": "RUN_METADATA.json",
+      "sha256": "72b2796aa801645e2e268b7d20e820adfb63c7db525833d4e391e3f74b4e345a"
+    },
+    {
+      "path": "tables/dated_proximity_availability.csv",
+      "sha256": "adc005ef9c818a450240b4351b66b1716d6296f99b66884969bc17bde0055134"
+    },
+    {
+      "path": "tables/dated_proximity_variation.csv",
+      "sha256": "b7f5408dc0d05eb8f529d17b1bca0036145e2ac5df2951db709fda69ed65a452"
+    },
+    {
+      "path": "tables/profile_field_support.csv",
+      "sha256": "6950ed9ab4b8d502951ce4eea75c074437b05c1d15f0737a00cb5bd433de4069"
+    },
+    {
+      "path": "tables/profile_missingness_by_area.csv",
+      "sha256": "8541dc82ef4e012de29cfde929579092a7e94e459e00951ec884a7ab882ae1b8"
+    },
+    {
+      "path": "tables/profile_missingness_selection.csv",
+      "sha256": "f271836e369ebbd1790fdd738a925af8414f9e4586cd2388908024987e4e752b"
+    },
+    {
+      "path": "tables/public_access_checks.csv",
+      "sha256": "34e49ff4d9153c1a6dee79d122a97b390b648d298ac673f75d1a5c93c6c662d7"
+    },
+    {
+      "path": "tables/public_publication_pilot.csv",
+      "sha256": "0c21ebca45ad2583f5cc9e078ba71230e9ed01c5773b426a56c62cda371b86d9"
+    },
+    {
+      "path": "tables/public_roster_coverage.csv",
+      "sha256": "8dc46da8e5a82facb0d28d7acefbd20bb58e09a53f9f4aa919cedce874403b5f"
+    },
+    {
+      "path": "tables/review_lineage_support.csv",
+      "sha256": "2f400197e26703fdd9afc3e080afecbfefc7c5ff6698fc5bdf7c716c9c7c3d75"
+    }
+  ],
+  "limitations": "Heuristic privacy scan plus manual review; no guarantee against every possible free-text identifier. No identification/balance claim is validated by these checks."
+}
