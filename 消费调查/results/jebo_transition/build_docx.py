@@ -62,7 +62,7 @@ def make_table(d,lines):
     for r in p.runs:r.font.size=Pt(9 if n<7 else 8);r.bold=j==0
  return t
 def build(stem):
- src=M/(stem+'.md');text=src.read_text(encoding='utf8');text='\n\n'.join(tidy(b) if not b.startswith('![') else b for b in text.split('\n\n'));src.write_text(text,encoding='utf8')
+ src=M/(stem+'.md');text=src.read_text(encoding='utf8');text='\n\n'.join(tidy(b) if not b.startswith('![') else b for b in text.split('\n\n')).rstrip()+'\n';src.write_text(text,encoding='utf8')
  d=newdoc();blocks=text.split('\n\n');references=False;intables=False
  for b in blocks:
   b=b.strip()

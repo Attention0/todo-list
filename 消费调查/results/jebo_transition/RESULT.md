@@ -77,5 +77,6 @@
 - Base commit: `f3124aa820e0b4de3540aaaeb64ffdeb7ca19228`
 - Protocol commit: `950e90f`
 - Story-gate commit: `b6e7b22`
-- Delivery commit: recorded after the manuscript commit, in the follow-up metadata commit.
-- PR: recorded immediately after creation. No old PR will be merged.
+- Manuscript delivery commit: `d32dd0262465696c29b944630e40e291fcef1094` (followed only by publication metadata and whitespace cleanup).
+- PR: https://github.com/Attention0/todo-list/pull/17 — draft, base `feature/nc-evidence-revision`, head `feature/jebo-repositioning`.
+- Native Git push succeeded. No old PR or new PR was merged. The final metadata commit is the head shown by this PR; the manuscript commit above is intentionally stable rather than self-referencing this file's own commit.

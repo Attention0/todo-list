@@ -245,4 +245,3 @@ Figure 2. Form-specific size profiles. A: mean ordinal score (1–6); B: midpoin
 ![Participation and high-response margins](figures/fig3_margins.png)
 
 Figure 3. Participation and high-response margins. A: probability of choosing a category above essentially no increase; B: probability of the above 75% category. Adult sample and cell Ns are as in Figure 1. Error bars are pointwise 95% normal intervals. The Cash upper response falls while its positive-category frequency is similar at the endpoints. These are between-group distributions; no claim of exclusively tail-specific change or a fixed set of responders is implied.
-

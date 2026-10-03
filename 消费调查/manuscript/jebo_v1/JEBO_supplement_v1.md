@@ -327,4 +327,3 @@ The sequence is discovery of the size/distribution pattern, bounded threshold/sp
 All earlier packages remain unchanged. Historical local adjustments are not substituted for the primary interaction family.
 
 Aggregate source files, analysis code and figure-generation scripts accompany this package. Respondent records are not included. Access conditions for de-identified data, consent restrictions and an archival identifier require author documentation. The source manifest links the analysis base and identifies which historical outputs are descriptive or superseded; these distinctions are essential when reusing numbers. No change in journal positioning changes the status of the evidence.
-

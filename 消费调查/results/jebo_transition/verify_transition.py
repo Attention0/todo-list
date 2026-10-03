@@ -68,7 +68,7 @@ for stem,t in texts.items():
  checks[stem]=dict(pages=len(pages),tables=len(d.tables),images=len(d.inline_shapes),page_summary=pagesummary)
 # Make ledger typography identical to the final Markdown, retaining sources/status.
 ledger=read(M/'JEBO_CLAIM_LEDGER.csv')
-for r in ledger:r['claim_text']=tidy(r['claim_text']);assert r['claim_text'] in texts[r['location'].split(' :: ')[0].replace('.md','')],r['location']
+for r in ledger:r['claim_text']=tidy(r['claim_text']).rstrip();assert r['claim_text'] in texts[r['location'].split(' :: ')[0].replace('.md','')],r['location']
 with (M/'JEBO_CLAIM_LEDGER.csv').open('w',encoding='utf8',newline='') as f:w=csv.DictWriter(f,fieldnames=list(ledger[0]));w.writeheader();w.writerows(ledger)
 checks['claim_blocks_matched_to_final_text']=len(ledger)
 # All source data for the figures are adult aggregate records.
