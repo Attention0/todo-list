@@ -1,0 +1,11 @@
+{
+  "identical": true,
+  "seed": 2026100316,
+  "draws": 4000,
+  "sha256": {
+    "extensive_intensive_cells.csv": "0b4afada8731bdec8c3f2fa560c015bdbfabdbe6bf1a6a0be8a9d5c032c0009d",
+    "extensive_intensive_decomposition.csv": "b766d5962d19fb3fea49f892c313f4ef3d8b0c85e715acd6b4a3204cdeb7c094",
+    "decomposition_verification.json": "0668c2ef142db6bcf0e4bf7f03923b9b590cdc662a03a2aeb1c6a3128b9d2d45",
+    "EXTENSIVE_INTENSIVE_NOTE.md": "3f0281e639e4b280488b8af6ac294e740acb25007c2083be393f5319ead6f24b"
+  }
+}

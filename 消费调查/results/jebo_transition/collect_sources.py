@@ -27,6 +27,7 @@ new={
 'DI2024':'10.1016/j.jebo.2024.02.028',
 'OV2024':'10.1016/j.jebo.2024.01.010',
 'CA2023':'10.1016/j.jebo.2023.01.024'}
+new['JT2026']='10.1016/j.jebo.2026.107673'
 old=json.loads((P/'manuscript/nc_v5/references_original_order.json').read_text(encoding='utf-8'))
 checks=list(csv.DictReader((O.parent/'nc_evidence_revision/reference_checks_v5.csv').open(encoding='utf-8-sig')))
 prior=list(csv.DictReader((O.parent/'nc_revision_audit/reference_audit.csv').open(encoding='utf-8-sig')))

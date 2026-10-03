@@ -1,8 +1,8 @@
 # JEBO outlet benchmark
 
-Twelve 2023–2025 JEBO articles, selected for substantive proximity rather than representativeness. This is a bounded editorial benchmark, not an estimate of acceptance standards. Metadata are verified; three accessible author/institution full manuscripts and one published PDF opening were inspected. Remaining entries use primary publisher/author abstracts. Unobserved layout fields are explicitly unavailable. Working-version counts are never presented as final published counts.
+Thirteen 2023–2026 JEBO articles, selected for substantive proximity rather than representativeness. This is a bounded editorial benchmark, not an estimate of acceptance standards. Metadata are verified; three accessible author/institution full manuscripts and one published PDF opening were inspected. Remaining entries use primary publisher/author abstracts. Unobserved layout fields are explicitly unavailable. Working-version counts are never presented as final published counts.
 
-## Jean N. Lee; Jonathan Morduch; Saravana Ravindran; Abu S. Shonchoy (2024.0) — The social meaning of mobile money: Earmarking reduces the willingness to spend in migrant households
+## Jean N. Lee; Jonathan Morduch; Saravana Ravindran; Abu S. Shonchoy (2024) — The social meaning of mobile money: Earmarking reduces the willingness to spend in migrant households
 
 Source: https://doi.org/10.1016/j.jebo.2024.04.023. Access: FIU WP2402 full text; published metadata checked.
 
@@ -12,7 +12,7 @@ Opening: Economic change → conflicting payment prediction → experiment → c
 
 Outcome discipline: Hypothetical WTP explicit; remittance interpretation is contextual. Robustness: Main heterogeneity tables; no giant specification gallery. Conclusion: About 2 author-manuscript pages.
 
-## Thomas Pauls; Marten Laudi (2025.0) — Temporal framing of tax stimuli and household consumption
+## Thomas Pauls; Marten Laudi (2025) — Temporal framing of tax stimuli and household consumption
 
 Source: https://doi.org/10.1016/j.jebo.2025.107079. Access: Published publisher page plus author SSRN abstract; no full-text table counts asserted.
 
@@ -22,7 +22,7 @@ Opening: Publisher/author abstract: tax policy → randomized temporal represent
 
 Outcome discipline: Intended use distinguished from later self-reported use. Robustness: Not observable. Conclusion: Not observable.
 
-## Lora Pavlova (2025.0) — Framing effects in consumer expectations surveys
+## Lora Pavlova (2025) — Framing effects in consumer expectations surveys
 
 Source: https://doi.org/10.1016/j.jebo.2025.106899. Access: Published full PDF via web reader.
 
@@ -32,7 +32,7 @@ Opening: Importance of expectations → wording problem → randomized two dimen
 
 Outcome discipline: Subjective responses are the outcome; wording is the treatment. Robustness: Separate section on practical response behavior. Conclusion: Not fully inspected.
 
-## Viviane Azevedo; Jeanne Lafortune; Liliana Olarte; José Tessada (2024.0) — Personalizing or reminding? How to better incentivize savings among underbanked individuals
+## Viviane Azevedo; Jeanne Lafortune; Liliana Olarte; José Tessada (2024) — Personalizing or reminding? How to better incentivize savings among underbanked individuals
 
 Source: https://doi.org/10.1016/j.jebo.2024.04.005. Access: IDB2021 full WP; published2024 metadata/abstract.
 
@@ -42,7 +42,7 @@ Opening: Savings problem → why reminders work → factorial interventions → 
 
 Outcome discipline: Real savings elicited in surveys; not all administrative transactions. Robustness: Heterogeneity in main, attrition/framing checks appendix. Conclusion: About1WPpage.
 
-## Junjie Guo; Li Tang; Shihan Xie; Penghui Yin (2025.0) — Navigating fiscal fog: Household expectations in an uncertain fiscal environment
+## Junjie Guo; Li Tang; Shihan Xie; Penghui Yin (2025) — Navigating fiscal fog: Household expectations in an uncertain fiscal environment
 
 Source: https://doi.org/10.1016/j.jebo.2025.107321. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -52,7 +52,7 @@ Opening: Abstract: fiscal uncertainty → information intervention → household
 
 Outcome discipline: Consumption intentions must not be called transactions. Robustness: Not observable. Conclusion: Not observable.
 
-## Leora Friedberg; Adam Leive; Wenqiang Cai (2024.0) — Does mandatory retirement saving crowd out voluntary retirement saving?
+## Leora Friedberg; Adam Leive; Wenqiang Cai (2024) — Does mandatory retirement saving crowd out voluntary retirement saving?
 
 Source: https://doi.org/10.1016/j.jebo.2024.06.024. Access: October2023 author WP; published2024 metadata/abstract.
 
@@ -62,7 +62,7 @@ Opening: Institutional change → crowd-out benchmark → administrative design 
 
 Outcome discipline: Administrative savings; hypothetical issue not applicable. Robustness: Selected checks in main; extended tests appendix. Conclusion: About2authorpages, section titled Discussion.
 
-## Yingjie Niu; Yaoyao Wu; Siqi Zhao; Zhentao Zou (2024.0) — Consumption dynamics with law of small numbers
+## Yingjie Niu; Yaoyao Wu; Siqi Zhao; Zhentao Zou (2024) — Consumption dynamics with law of small numbers
 
 Source: https://doi.org/10.1016/j.jebo.2024.06.021. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -72,7 +72,7 @@ Opening: Consumption puzzle → belief model → implications. Theory: Theory is
 
 Outcome discipline: Not an empirical validation example. Robustness: Not observable. Conclusion: Not observable.
 
-## Kate Ambler; Kelly Jones; María P. Recalde (2024.0) — Experimental measures of intra-household resource control
+## Kate Ambler; Kelly Jones; María P. Recalde (2024) — Experimental measures of intra-household resource control
 
 Source: https://doi.org/10.1016/j.jebo.2024.106705. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -82,7 +82,7 @@ Opening: Abstract: measurement problem → experimental tasks → validation com
 
 Outcome discipline: Incentivized allocation tasks; validity explicitly examined. Robustness: Not observable. Conclusion: Not observable.
 
-## Simon Cordes; Markus Dertwinkel-Kalt; Tobias Werner (2024.0) — What drives demand for loot boxes? An experimental study
+## Simon Cordes; Markus Dertwinkel-Kalt; Tobias Werner (2024) — What drives demand for loot boxes? An experimental study
 
 Source: https://doi.org/10.1016/j.jebo.2024.106755. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -92,7 +92,7 @@ Opening: Abstract: consumer valuation → randomized opacity/feedback → demand
 
 Outcome discipline: Incentivized valuations, unlike present survey. Robustness: Not observable. Conclusion: Not observable.
 
-## Luca Vincenzo Ballestra; Andrea Guizzardi; Lorenzo Mazzucchelli (2024.0) — Integrating narrow and wide framing disposition effect: A novel approach incorporating perceived risk and realized asset performance
+## Luca Vincenzo Ballestra; Andrea Guizzardi; Lorenzo Mazzucchelli (2024) — Integrating narrow and wide framing disposition effect: A novel approach incorporating perceived risk and realized asset performance
 
 Source: https://doi.org/10.1016/j.jebo.2024.02.028. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -102,7 +102,7 @@ Opening: Abstract: disposition puzzle → competing framing → trading records.
 
 Outcome discipline: Observed trading; no hypothetical endpoint. Robustness: Not observable. Conclusion: Not observable.
 
-## Koen Inghelbrecht; Mariachiara Tedde (2024.0) — Overconfidence, financial literacy and excessive trading
+## Koen Inghelbrecht; Mariachiara Tedde (2024) — Overconfidence, financial literacy and excessive trading
 
 Source: https://doi.org/10.1016/j.jebo.2024.01.010. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -112,7 +112,7 @@ Opening: Abstract: overconfidence/trading → model → investor measures. Theor
 
 Outcome discipline: Observed trading plus measured literacy. Robustness: Not observable. Conclusion: Not observable.
 
-## Brian C. Prescott; Oz Shy (2023.0) — Cash payments and the penny policy debate
+## Brian C. Prescott; Oz Shy (2023) — Cash payments and the penny policy debate
 
 Source: https://doi.org/10.1016/j.jebo.2023.01.024. Access: Publisher/author abstract or primary bibliographic record; qualitative claim only.
 
@@ -121,6 +121,16 @@ Length: Published15pages. Abstract: not available in machine-readable record. Ma
 Opening: Abstract: denomination policy → transaction model → diary evidence. Theory: Explicit cash-transaction model.
 
 Outcome discipline: Diary/model outcome. Robustness: Not observable. Conclusion: Not observable.
+
+## Sabrina Jeworrek; Lena Tonzer (2026) — Inflation concerns and green product consumption: Evidence from a nationwide survey and a framed field experiment
+
+Source: https://doi.org/10.1016/j.jebo.2026.107673. Access: 2026 author-university publication notice; 2024 IWH institutional WP; final layout unavailable.
+
+Length: Published article number; final layout unavailable. Abstract: not available in machine-readable record. Main figures/tables: Unavailable / unavailable.
+
+Opening: Survey association → framed experiment → follow-up mechanism evidence. Theory: Competing budget/salience interpretations.
+
+Outcome discipline: Triangulation across stated and experimental choices. Robustness: Final placement not observable. Conclusion: Not observable.
 
 ## Architecture chosen
 

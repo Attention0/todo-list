@@ -1,10 +1,10 @@
 # JEBO literature map
 
-Access date: 2026-10-03. The matrix contains 53 papers: 41 core/measurement papers plus 12 recent JEBO outlet comparators. Adjacent outlet examples are marked D and are not used to inflate the manuscript reference list. Bibliographic records were checked against Crossref and primary publisher/author pages; access scope is recorded row by row. No claim of 53 full-text reviews is made.
+Access date: 2026-10-03. The matrix contains 54 papers: 41 core/measurement papers plus 13 recent JEBO outlet comparators. Adjacent outlet examples are marked D and are not used to inflate the manuscript reference list. Bibliographic records were checked against Crossref and primary publisher/author pages; access scope is recorded row by row. No claim of 54 full-text reviews is made.
 
 ## Economic foundation
 
-Friedman (1957), *A Theory of the Consumption Function*, chapter 3, provides the permanent-income distinction. It does not imply a universal declining finite-windfall spending share without additional assumptions about preferences, constraints, horizons and shock persistence. Primary source: https://www.nber.org/books-and-chapters/theory-consumption-function/permanent-income-hypothesis . The book chapter is additional to the 53-paper count.
+Friedman (1957), *A Theory of the Consumption Function*, chapter 3, provides the permanent-income distinction. It does not imply a universal declining finite-windfall spending share without additional assumptions about preferences, constraints, horizons and shock persistence. Primary source: https://www.nber.org/books-and-chapters/theory-consumption-function/permanent-income-hypothesis . The book chapter is additional to the 54-paper count.
 
 ## Five clusters
 

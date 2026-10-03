@@ -1,0 +1,181 @@
+{
+  "historical_files_unchanged": 395,
+  "all_63_profile_means_max_error": 5.551115123125783e-17,
+  "independent_21_within_form_HC3_max_error": 2.3869795029440866e-15,
+  "21_interaction_nominal_and_Holm_independent": true,
+  "adult_cells_and_decomposition_identities": true,
+  "bootstrap_settings_and_manifest_hash": true,
+  "abstract_words": 180,
+  "intro_words": 1583,
+  "literature_matrix_and_outlet_counts": [
+    54,
+    13
+  ],
+  "main_internal_process_language_absent": true,
+  "JEBO_manuscript_v1": {
+    "pages": 17,
+    "tables": 3,
+    "images": 3,
+    "page_summary": [
+      {
+        "page": 1,
+        "words": 475,
+        "start": "1  Transfer size and stated spending: Distributional evidence  from cash and earmarked resources   Z"
+      },
+      {
+        "page": 2,
+        "words": 570,
+        "start": "2  may have different implications when its value approaches a category budget. Conversely, an  earm"
+      },
+      {
+        "page": 3,
+        "words": 571,
+        "start": "3  gradients. Boehm et al. (2025) provide stronger evidence about realized spending under alternativ"
+      },
+      {
+        "page": 4,
+        "words": 575,
+        "start": "4  category means essentially no increase, not an exact accounting zero. There is no common explicit"
+      },
+      {
+        "page": 5,
+        "words": 476,
+        "start": "5  different signs across participation and conditional shares. The competing accounts therefore sug"
+      },
+      {
+        "page": 6,
+        "words": 547,
+        "start": "6  The analysis developed after the data were available. The interaction family contains seven codin"
+      },
+      {
+        "page": 7,
+        "words": 488,
+        "start": "7  without the omnibus and alternative adjustment would overstate how securely these data distinguis"
+      },
+      {
+        "page": 8,
+        "words": 492,
+        "start": "8  income is rejected within the seven-test diagnostic family (Holm p=0.030). The ratio restriction "
+      },
+      {
+        "page": 9,
+        "words": 298,
+        "start": "9  bundle use restrictions, liquidity, labels and timing. Their randomized contrasts identify effect"
+      },
+      {
+        "page": 10,
+        "words": 440,
+        "start": "10  References  Abeler, J., Marklein, F., 2017. Fungibility, Labels, and Consumption. Journal of the"
+      },
+      {
+        "page": 11,
+        "words": 204,
+        "start": "11  Lee, J.N., Morduch, J., Ravindran, S., Shonchoy, A.S., 2024. The social meaning of mobile money:"
+      },
+      {
+        "page": 12,
+        "words": 67,
+        "start": "12  Table 1. Randomized scenarios and adult cell sizes  Form and use rights RMB 200 RMB 1,000 RMB 5,"
+      },
+      {
+        "page": 13,
+        "words": 192,
+        "start": "13  Table 2. Within-form trends and Cash-versus-form slope differences  Outcome Trend / contrast Est"
+      },
+      {
+        "page": 14,
+        "words": 88,
+        "start": "14  Table 3. Descriptive decomposition of the RMB 200-to-5,000 change  Form Participation component "
+      },
+      {
+        "page": 15,
+        "words": 69,
+        "start": "15    Figure 1. Response distributions and midpoint means. A: six unconditional response categories "
+      },
+      {
+        "page": 16,
+        "words": 58,
+        "start": "16    Figure 2. Form-specific size profiles. A: mean ordinal score (1\u20136); B: midpoint-coded spending"
+      },
+      {
+        "page": 17,
+        "words": 73,
+        "start": "17    Figure 3. Participation and high-response margins. A: probability of choosing a category above"
+      }
+    ]
+  },
+  "JEBO_supplement_v1": {
+    "pages": 13,
+    "tables": 15,
+    "images": 0,
+    "page_summary": [
+      {
+        "page": 1,
+        "words": 294,
+        "start": "1  Supplementary material   Transfer size and stated spending: Distributional evidence from cash and"
+      },
+      {
+        "page": 2,
+        "words": 310,
+        "start": "2  Table S1. All adult response bins  Form RMB N None* <10% 10\u201325% 25\u201350% 50\u201375% >75%  Cash 200 618 "
+      },
+      {
+        "page": 3,
+        "words": 289,
+        "start": "3  Table S3. Equal-weight marginal factor contrasts  Outcome Contrast Estimate [95% CI] Nominal p Ho"
+      },
+      {
+        "page": 4,
+        "words": 312,
+        "start": "4  Holm is applied to the 21 nominal p values. The joint min-P method stacks HC3 interaction influen"
+      },
+      {
+        "page": 5,
+        "words": 394,
+        "start": "5  Outcome Test Nominal p Holm 21 Min-P21  top 75 cash-food 0.012 0.224 0.105  top 75 cash-medical 0"
+      },
+      {
+        "page": 6,
+        "words": 242,
+        "start": "6  S4. Threshold and specification sensitivity  The original 420-specification grid crosses seven ou"
+      },
+      {
+        "page": 7,
+        "words": 458,
+        "start": "7  Ordered logit/probit and location-scale sensitivity are retained in the historical tables, includ"
+      },
+      {
+        "page": 8,
+        "words": 201,
+        "start": "8  Table S9 reports all cell quantities and conditional-positive intervals. Main Table 3 reports end"
+      },
+      {
+        "page": 9,
+        "words": 300,
+        "start": "9  Table S10. Conceptual predictions and missing measurements  Account Cash/margin implication Form "
+      },
+      {
+        "page": 10,
+        "words": 285,
+        "start": "10  Table S11. Direct diagnostic restrictions  Restriction N df Nominal p Holm 7  income ABS3 df 548"
+      },
+      {
+        "page": 11,
+        "words": 419,
+        "start": "11  The classification assumes stable eligible spending and does not observe counterfactual redempti"
+      },
+      {
+        "page": 12,
+        "words": 329,
+        "start": "12  is about 3.34 percentage points per standard deviation. That precision is insufficient to rule o"
+      },
+      {
+        "page": 13,
+        "words": 190,
+        "start": "13  Table S15. Source archive and sample scope  Stage Directory under results/ Scope  PR9 size-curve"
+      }
+    ]
+  },
+  "claim_blocks_matched_to_final_text": 119,
+  "figures_adult_only_vector_single_page": true
+}

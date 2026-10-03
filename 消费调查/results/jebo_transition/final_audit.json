@@ -1,0 +1,14 @@
+{
+  "claim_blocks": 119,
+  "source_paths_verified": true,
+  "references_all_cited": 30,
+  "email_preserved": true,
+  "publisher_verified_page_range_repairs": [
+    "Heath and Soll 1996: 40-52",
+    "Shefrin and Thaler 1988: 609-643"
+  ],
+  "docx_sha256": {
+    "JEBO_manuscript_v1.docx": "80c315fff47af7b1b213cabfab76f68a6103dd7ab6342a4dbd8b1f63241db8e0",
+    "JEBO_supplement_v1.docx": "6b7728a7d81e6c6cd5f5fd69a22d8e0ec2627f3a225d941a9b5dfcf1600478db"
+  }
+}
