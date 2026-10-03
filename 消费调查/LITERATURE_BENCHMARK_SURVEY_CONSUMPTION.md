@@ -33,6 +33,311 @@ Work 在以后引用这些 benchmark 时，请遵守三条纪律：
 
 # 1. 最直接的 benchmark：stated MPC、windfall、transfer form 与 fungibility
 
+## 1.0 Closest direct predecessor — Bernard (2023), Deutsche Bundesbank Discussion Paper  
+### “Mental Accounting and the Marginal Propensity to Consume”
+
+**Citation / status**  
+Bernard, René. 2023. “Mental Accounting and the Marginal Propensity to Consume.” *Deutsche Bundesbank Discussion Paper* No. 13/2023.  
+As of 2026-10-03, the authoritative sources located for this benchmark still list it as a Bundesbank discussion paper / SSRN working paper rather than a journal publication. Do **not** describe it as a published JEBO or other journal article unless a later publication is independently verified.  
+Official sources:  
+- https://www.bundesbank.de/en/publications/research/discussion-papers/mental-accounting-and-the-marginal-propensity-to-consume-909438  
+- https://www.bundesbank.de/resource/blob/909438/d24b53faa075049c3ba7fe0dcdf512b3/mL/2023-05-22-dkp-13-data.pdf  
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4537003
+
+### Why this is the closest direct predecessor to our project
+Among the literature reviewed so far, Bernard is unusually close to our design because it combines:
+
+- **hypothetical stated MPC** as the outcome;
+- randomized variation in the **form / payment mode** of a windfall;
+- randomized variation in **shock size**;
+- an explicit **mental accounting / fungibility** interpretation;
+- rich individual characteristics;
+- **causal machine learning / causal forest** to study HTE;
+- a direct attempt to explain **who is more sensitive to context**.
+
+If our paper only claimed:
+
+> payment form changes stated MPC; amount matters; treatment effects are heterogeneous; psychology/liquidity predict HTE,
+
+then Bernard already occupies much of that territory.
+
+Therefore Work should treat Bernard as a **direct competitive benchmark**, not a peripheral citation.
+
+### Research question
+Bernard asks how and why households respond to unexpected, transitory income shocks, with special attention to whether consumers treat economically similar money differently depending on:
+
+1. **payment mode**;
+2. **shock size**;
+3. **source of income**.
+
+The theoretical lens is mental accounting: if money is perfectly fungible, merely changing how an otherwise accessible windfall is presented or deposited should not materially change MPC.
+
+### Main data
+The main study uses the **Bundesbank Online Panel Households (BOP-HH)**.
+
+The paper draws on two survey waves:
+
+- December 2020: roughly 4,000 participants;
+- June 2021: roughly 2,500 participants;
+- after exclusions / valid MPC answers, the paper reports **6,373 MPC observations** for the core randomized scenarios.
+
+BOP-HH is a structured German household online panel rather than an ad hoc convenience survey. The paper discusses demographic quotas / sample composition and respondent incentives.
+
+### Core experimental design: approximately 2 × 3
+The main experiment varies two dimensions.
+
+#### Shock size
+The hypothetical unexpected government payment equals either:
+
+- **one month of household net income**, or
+- **three months of household net income**.
+
+This makes treatment size household-specific rather than a common nominal euro amount.
+
+#### Payment mode
+The windfall is described as:
+
+1. **unspecified payment mode**;
+2. **paid out in cash**;
+3. **deposited into an instant-access savings account**.
+
+The savings account is important: the paper explicitly describes it as liquid / accessible, without a lock-up that would mechanically prevent spending.
+
+This is why the design gives a relatively clean fungibility test. Standard budget-set logic gives less reason for MPC to differ sharply between cash and an immediately accessible savings account than between cash and a genuinely restricted in-kind transfer.
+
+### Outcome measurement
+Respondents report what **percentage of the windfall they would spend over the next 12 months**, with the remainder saved or used for debt repayment.
+
+The MPC is therefore a **hypothetical stated MPC**, not observed transaction-based consumption.
+
+Unlike our current six-category outcome, Bernard's primary MPC elicitation is essentially a 0–100 percent share.
+
+### Main cell means
+The paper reports a clear 2 × 3 pattern. Approximate mean stated MPCs are:
+
+| Payment mode | 1 month income | 3 months income |
+|---|---:|---:|
+| Unspecified | 52.3% | 46.6% |
+| Cash | 53.6% | 47.3% |
+| Instant-access savings account | 44.9% | 42.2% |
+
+The exact table / regression specification should be checked in the paper before quoting numbers in a manuscript, but the qualitative pattern is robust:
+
+- larger shocks generate lower MPC;
+- savings-account presentation generates lower MPC than cash / unspecified payment;
+- cash and unspecified payment are much closer to one another.
+
+### Average treatment effects
+Bernard's core results are:
+
+1. **Payment mode matters.**  
+   Compared with a windfall deposited into an instant-access savings account, stated MPC is substantially higher when the payment is cash or when payment mode is left unspecified.
+
+2. **Shock size matters.**  
+   Moving from one month to three months of household income lowers MPC.
+
+3. **Source of income matters much less.**  
+   In an additional study comparing a government windfall with a lottery-type windfall, the source itself produces little / no clear MPC difference relative to the stronger size and payment-mode effects.
+
+The paper interprets the first two findings as broadly consistent with mental accounting.
+
+### Why the payment-mode result is especially important
+For our project, this is the crucial comparison.
+
+Our food voucher and medical account **genuinely change the feasible use of the transfer**:
+
+- food voucher: category restriction + six-month validity;
+- medical account: medical-only restriction + long horizon;
+- cash: unrestricted.
+
+Therefore, if our MPCs differ across forms, standard budget constraints can contribute mechanically.
+
+Bernard's cash-versus-liquid-savings comparison is in some respects a **cleaner mental-accounting manipulation**, because both forms remain highly liquid and broadly fungible in the ordinary budget-set sense.
+
+This means we should **not** claim that our mean form effect is uniquely strong evidence of mental accounting. Bernard provides a cleaner predecessor for that narrow claim.
+
+### Extensive and intensive margins
+The paper does not stop at mean MPC. It also shows the payment-mode difference reflects changes in whether people spend at all and how much spenders allocate.
+
+In particular, the savings-account framing increases the mass of respondents who report little or no spending and lowers spending among at least some positive spenders.
+
+This is useful for our project because our six-category outcome may contain floor / threshold behavior that a simple mean midpoint regression obscures.
+
+Work should therefore continue to inspect:
+
+- zero / lowest-category incidence;
+- distribution shifts;
+- ordered-outcome estimates;
+- not only midpoint MPC means.
+
+### Heterogeneous treatment effects and causal machine learning
+This is the part that most directly overlaps with our earlier paper design.
+
+Bernard uses **causal forests / causal machine learning** to study heterogeneity in:
+
+- payment-mode effects;
+- shock-size effects.
+
+The implementation uses an honest forest-style approach with many trees and out-of-bag / honest treatment-effect prediction.
+
+The paper then asks whether predicted high- and low-treatment-effect groups differ systematically.
+
+Candidate predictors include variables related to:
+
+- liquidity / financial constraints;
+- income and household resources;
+- impatience;
+- impulsiveness;
+- self-control;
+- planning;
+- cognitive sophistication / confidence;
+- other demographics and financial characteristics.
+
+### HTE findings
+The broad pattern is that larger treatment sensitivity is associated with characteristics such as:
+
+- lower liquidity;
+- weaker self-control;
+- greater impatience / impulsiveness;
+- weaker financial planning;
+- lower cognitive sophistication.
+
+The paper therefore connects HTE back to the mental-accounting interpretation rather than presenting the forest as a purely predictive exercise.
+
+### What Bernard's story actually is
+The story is not merely:
+
+> “MPC differs across people.”
+
+It is closer to:
+
+> **Consumers violate fungibility in systematic ways. How a windfall is mentally categorized—partly shaped by payment mode and size—changes spending, and susceptibility to these mental accounts is itself heterogeneous across people.**
+
+This is already a sophisticated **context × person heterogeneity** story.
+
+### Why this working paper is important even though journal status is unclear
+Do not infer anything about quality from the absence of a journal citation. We do not know why or whether the paper has been submitted, revised, or accepted elsewhere.
+
+For our purposes, the relevant fact is that the design exists publicly and directly overlaps with several claims we might otherwise present as novel.
+
+Therefore:
+
+- Bernard must appear in the Introduction / literature positioning if those claims remain in the manuscript;
+- Work must use it as a novelty benchmark regardless of publication status.
+
+### Bernard vs our project: direct comparison
+
+| Dimension | Bernard (2023) | Our current project |
+|---|---|---|
+| Outcome | hypothetical stated MPC | hypothetical/stated additional consumption / MPC categories |
+| Main randomization | shock size × payment mode | amount × transfer form |
+| Size | 1 vs 3 months household income | RMB 200 / 1,000 / 5,000 |
+| Form | unspecified / cash / liquid savings account | cash / food voucher / medical account |
+| Budget-set change | small for cash vs liquid savings | substantial for food/medical restrictions |
+| Mental accounting | central theory | candidate theory |
+| Fungibility | central | central |
+| HTE | causal forest | HTE / DR / BLP / GATES / ML |
+| Psychology / traits | used to explain HTE | rich observables used for prediction / HTE |
+| Predictive heterogeneity | yes | yes |
+| Cross-context source→target prediction | **no** | **yes, core current analysis** |
+| Within-vs-cross portability benchmark | **no** | **yes** |
+| Direct test of X→Y mapping invariance across forms | **not the central analysis** | **yes, core current analysis** |
+| Question “does a high responder remain high across contexts?” | **not directly answered** | **our proposed contribution** |
+
+### The exact novelty constraint Bernard imposes on us
+After Bernard, these statements are **not sufficient novelty claims**:
+
+- payment form changes stated MPC;
+- shock size changes MPC;
+- mental accounting may violate fungibility;
+- treatment effects differ across people;
+- causal forest can recover treatment-effect heterogeneity;
+- liquidity and psychological traits correlate with treatment sensitivity.
+
+If our manuscript headline is still mainly one of those statements, the positioning is too close to Bernard.
+
+### Where our potential contribution is genuinely different
+The strongest distinction is:
+
+> **Bernard studies heterogeneity in context effects. We study whether heterogeneity itself is portable across contexts.**
+
+Bernard asks, approximately:
+
+> Who is more sensitive to payment mode or shock size?
+
+Our current paper asks an additional question:
+
+> If someone appears to be a high responder, or if a set of covariates predicts high response in one transfer context, does that ordering / predictive mapping survive when the resource context changes?
+
+Formally, our null is closer to:
+
+[
+f_{cash}(X) = f_{food}(X) = f_{medical}(X) + 	ext{context-specific intercept shifts},
+]
+
+or more loosely:
+
+> transfer form changes the mean but leaves the mapping from person characteristics to response invariant.
+
+The portability and invariance analyses test that null.
+
+### Why this distinction matters conceptually
+The distinction separates two ideas that are often blurred:
+
+1. **HTE exists.**  
+   Different people react differently to a treatment.
+
+2. **HTE / behavioral type is portable.**  
+   The people predicted to react strongly in one context remain the ones predicted / observed to react strongly in another context.
+
+Bernard establishes evidence for the first kind of heterogeneity.
+
+Our intended contribution concerns the second.
+
+If portability fails, then some apparent “individual differences” are better understood as **person × context interactions**, not stable person-level traits.
+
+### But Bernard also exposes a weakness in our design
+Because Bernard's cash-versus-instant-access-savings manipulation leaves the budget set relatively similar, it is easier to attribute differences to mental accounting.
+
+Our food and medical treatments alter:
+
+- spending category restrictions;
+- convertibility;
+- time horizon;
+- precautionary value.
+
+Therefore, if medical shows the largest remapping, Work must not over-interpret that as proof that “individual differences are unstable in general.”
+
+A more defensible boundary-condition story may be:
+
+> **Individual response mappings can remain relatively portable across nearby resource contexts, but portability weakens when the transfer changes the economic and psychological construct—especially when it becomes strongly earmarked and forward-looking.**
+
+### What Work should borrow from Bernard
+1. Treat amount as theoretically meaningful, not a nuisance control.
+2. Inspect extensive and intensive margins / floor behavior.
+3. Use HTE only when it links back to a mechanism.
+4. Explicitly distinguish liquidity-based explanations from psychology / planning / self-control.
+5. Explain why a payment mode should or should not alter the budget set.
+6. Keep “source”, “form”, and “size” conceptually separate.
+7. Use Bernard in the Introduction as the closest predecessor for **payment-mode × MPC × causal-HTE**.
+
+### What Work should *not* copy from Bernard
+1. Do not make “mental accounting” the conclusion simply because form effects exist.
+2. Do not claim our restricted transfers are economically equivalent to cash.
+3. Do not make causal forest feature importance the headline.
+4. Do not describe our analysis as novel merely because it uses causal ML.
+5. Do not infer stable individual traits from one-treatment-per-person cross-sectional HTE.
+6. Do not ignore the measurement problem created by our different form descriptions and horizons.
+
+### Required one-sentence novelty test
+Before any future manuscript revision, Work should be able to complete this sentence convincingly:
+
+> **Bernard (2023) shows that payment mode and shock size alter stated MPC and that sensitivity to these manipulations is heterogeneous; our contribution is to show/test whether the behavioral mapping underlying such heterogeneity is itself portable across resource contexts.**
+
+If the current empirical results cannot support the clause after the semicolon, the paper needs a narrower contribution.
+
+---
+
 ## 1.1 Fuster, Kaplan & Zafar (2021), Review of Economic Studies  
 ### “What Would You Do with $500? Spending Responses to Gains, Losses, News, and Loans”
 
@@ -1670,11 +1975,12 @@ cash、food voucher、medical account 并非只是在标签上不同：
 
 # 10. Work 以后每次提出新 story 时必须回答的 checklist
 
-1. 这个 story 相对 Fuster 2021 多了什么？
-2. 相对 Lewis 2026 的“latent heterogeneity”多了什么？
-3. 相对 Pauls–Laudi 2025 的“context/framing changes spending”多了什么？
-4. 相对 Boehm–Fize–Jaravel 2025 的“form violates fungibility”多了什么？
-5. survey validity 是否同时面对 Parker–Souleles、Ueda、Crossley 三组证据？
+1. **这个 story 相对 Bernard 2023 的 payment-mode × size × stated-MPC × causal-HTE 设计到底多了什么？这是第一优先级 novelty check。**
+2. 这个 story 相对 Fuster 2021 多了什么？
+3. 相对 Lewis 2026 的“latent heterogeneity”多了什么？
+4. 相对 Pauls–Laudi 2025 的“context/framing changes spending”多了什么？
+5. 相对 Boehm–Fize–Jaravel 2025 的“form violates fungibility”多了什么？
+6. survey validity 是否同时面对 Parker–Souleles、Ueda、Crossley 三组证据？
 6. 结果是在解释 **mean effect**、**prediction**、**HTE**、**portability** 还是 **construct invariance**？不要混用。
 7. 是否有一个明确 null model 被拒绝？
 8. 是否 formal test “difference in differences / mapping difference”，而不是比较显著性星号？
@@ -1696,6 +2002,9 @@ cash、food voucher、medical account 并非只是在标签上不同：
 - Parker & Souleles 2019, AER: Insights
 - Ueda 2025, Economics Letters
 - Crossley et al. 2025, IFS WP
+
+## Closest direct predecessor
+- **Bernard 2023, Deutsche Bundesbank Discussion Paper — payment mode × shock size × stated MPC × mental accounting × causal forest HTE**
 
 ## MPC heterogeneity frontier
 - Jappelli & Pistaferri 2020, AEJ Economic Policy
@@ -1762,6 +2071,8 @@ cash、food voucher、medical account 并非只是在标签上不同：
 
 以下为本轮优先核对的官方出版页/研究机构页，Work 后续若需要精确数字、表格或补充材料，应优先回到这些原始页面，而不是依赖本文件的摘要。
 
+- Bernard 2023, Bundesbank: https://www.bundesbank.de/en/publications/research/discussion-papers/mental-accounting-and-the-marginal-propensity-to-consume-909438
+- Bernard 2023, SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4537003
 - Fuster, Kaplan & Zafar, ReStud: https://academic.oup.com/restud/article/88/4/1760/5962017
 - NY Fed Staff Report: https://www.newyorkfed.org/research/staff_reports/sr843
 - Jappelli & Pistaferri 2014, AEA: https://www.aeaweb.org/articles?id=10.1257/mac.6.4.107
