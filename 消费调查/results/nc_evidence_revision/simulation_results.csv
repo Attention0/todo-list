@@ -1,0 +1,7 @@
+scenario,method,replicates,true_nulls,rejections,FWER,lo,hi,false_null_mean_power,failed_refits,calibration_draws
+pooled_null,holm,1000,21,27,0.027,0.01786690592524969,0.03904174680597016,,0,999
+pooled_null,minP,1000,21,55,0.055,0.04169879507953599,0.07099151554205749,,0,999
+additive_probability_main_effects,holm,1000,21,25,0.025,0.01624253569688223,0.03668482305192304,,0,999
+additive_probability_main_effects,minP,1000,21,53,0.053,0.03994925236001938,0.06875518328996322,,0,999
+partial_null_intermediate_food_interaction,holm,1000,15,22,0.022,0.013837414172073851,0.03311966451498779,0.0215,0,999
+partial_null_intermediate_food_interaction,minP,1000,15,41,0.041,0.029580168534036114,0.055212459315299285,0.032,0,999
