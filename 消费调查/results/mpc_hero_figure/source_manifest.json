@@ -1,0 +1,38 @@
+{
+  "base_commit": "167ccbd993826991d43ae3d27880913a8cfe674b",
+  "inputs": [
+    {
+      "path": "消费调查/results/nature_main_figures/figureS_distribution_source.csv",
+      "sha256": "1e992d635b9bbc84f16b1a9e2bb825f567062c516abc61334a153697f4d0637a"
+    },
+    {
+      "path": "消费调查/results/nature_main_figures/figure1_main_source.csv",
+      "sha256": "cf1d0e7e93953d95ab43ea0f8edc1ef967fd12ab80c5bce0120a2e46348a4361"
+    }
+  ],
+  "operation": "reshape approved summaries and subtract approved endpoint bin probabilities only",
+  "empirical_estimation": false,
+  "respondent_data_read": false,
+  "sizes_mm": {
+    "hero_figure": [
+      180,
+      138
+    ],
+    "distribution_shift_fingerprint": [
+      180,
+      79
+    ]
+  },
+  "dpi": 600,
+  "font": "Arial",
+  "intensity_palette": [
+    "#F0F1F2",
+    "#D9E1E7",
+    "#B4C6D4",
+    "#849FB5",
+    "#527997",
+    "#1F4E79"
+  ],
+  "means_CI": "copied pointwise 95% bootstrap percentile intervals; see source ci_definition",
+  "fingerprint_CI": "none; no new inferential procedure"
+}
