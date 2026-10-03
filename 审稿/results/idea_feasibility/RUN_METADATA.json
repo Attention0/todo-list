@@ -1,0 +1,12 @@
+{
+  "scope": "ICLR 2026 Conference outcomes only",
+  "publication_cutoff_utc": "2025-09-01T00:00:00Z",
+  "year_only_conservative_cutoff": "2024-12-31",
+  "regressions_run": 0,
+  "main_rows": 29813,
+  "unique_reviewers": 13560,
+  "network_requests_enabled": true,
+  "input_role": "retrospective local data plus anonymous public probes",
+  "raw_person_rows_exported": 0,
+  "run_time_utc": "2026-10-03T14:57:36.869597+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "offline_tables_byte_identical": {
+    "profile_field_support": true,
+    "profile_missingness_selection": true,
+    "profile_missingness_by_area": true,
+    "dated_proximity_availability": true,
+    "dated_proximity_variation": true,
+    "review_lineage_support": true
+  },
+  "original_output_path_guard_rejected": true,
+  "all_passed": true
+}

@@ -1,0 +1,6 @@
+metric,n,denominator
+all_authors_have_bounded_pre2025_spell,7369,29813
+complete_retrospective_history_rows,0,29813
+positive_dated_institution_overlap_lower_bound,556,29813
+reviewer_has_bounded_pre2025_spell,22520,29813
+rows,29813,29813

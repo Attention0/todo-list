@@ -1,0 +1,11 @@
+{
+  "repository": "Attention0/todo-list",
+  "branch": "feature/iclr-initial-audit-20261003",
+  "audit_implementation_commit": "3bdec1b86c235519477309707f89808a60aa8a36",
+  "native_git_push_succeeded": true,
+  "pr": "https://github.com/Attention0/todo-list/pull/18",
+  "scope": "ICLR 2026 only",
+  "destination": "审稿/results/idea_feasibility/",
+  "merged": false,
+  "note": "This publication record follows the referenced implementation commit; it does not contain its own commit SHA."
+}

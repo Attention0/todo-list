@@ -1,0 +1,5 @@
+check,status,records,meaning
+2026_public_roster,200,18054.0,post-conference role list; not frozen eligibility matrix
+reviewer_group,403,,denied; no authentication or bypass; does not prove nonexistent
+public_forum_notes,403,,denied; no authentication or bypass; does not prove nonexistent
+public_review_edits,403,,denied; no authentication or bypass; does not prove nonexistent
