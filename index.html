@@ -1,115 +1,173 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Todo List</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, #667eea, #764ba2);
-    }
-    .container {
-      width: min(90%, 520px);
-      background: white;
-      padding: 32px;
-      border-radius: 18px;
-      box-shadow: 0 20px 50px rgba(0,0,0,.15);
-    }
-    h1 { text-align: center; margin-top: 0; }
-    .input-box { display: flex; gap: 10px; }
-    input {
-      flex: 1;
-      padding: 12px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-    button {
-      border: none;
-      padding: 12px 18px;
-      border-radius: 8px;
-      cursor: pointer;
-      background: #667eea;
-      color: white;
-    }
-    ul { list-style: none; padding: 0; }
-    li {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 12px;
-      margin-top: 10px;
-      background: #f6f6f6;
-      border-radius: 8px;
-    }
-    li.done span { text-decoration: line-through; color: #999; }
-    .delete { background: #ff6b6b; padding: 6px 10px; }
-    .task { cursor: pointer; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Todo List · 把每一天理清</title>
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; padding: 32px 16px; color: #29243c; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: linear-gradient(135deg, #e4eaff, #eee5f8); }
+main { width: min(100%, 600px); padding: 32px; background: #fff; border: 1px solid #ffffff; border-radius: 18px; box-shadow: 0 16px 48px #55467a18; }
+.eyebrow { color: #75648e; font-size: 12px; letter-spacing: 2px; font-weight: 700; }
+h1 { font-size: 30px; letter-spacing: -1px; margin: 8px 0; }
+.subtitle { margin: 0 0 24px; color: #746d81; font-size: 14px; }
+label.input-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+form { display: flex; gap: 8px; }
+input[type=text] { width: 100%; min-width: 0; flex: 1; padding: 12px; border: 1px solid #dcd6e6; border-radius: 10px; color: inherit; background: #fcfbfe; font: inherit; font-size: 16px; }
+button { min-height: 44px; border: 0; border-radius: 8px; padding: 10px 12px; cursor: pointer; font: inherit; font-size: 14px; color: #665779; background: transparent; transition: background 160ms, color 160ms; }
+button:hover { background: #f0ebf8; }
+button:active { background: #e5dbf2; }
+.primary { background: #7351b5; color: white; padding-inline: 20px; }
+.primary:hover { background: #614099; }
+:focus-visible { outline: 3px solid #9774d6; outline-offset: 3px; }
+.toolbar { margin-top: 24px; padding-bottom: 16px; border-bottom: 1px solid #eeeaf3; }
+.filters { display: inline-flex; background: #f5f2f9; padding: 4px; border-radius: 10px; gap: 4px; }
+.filters button[aria-pressed=true] { background: white; color: #62409d; box-shadow: 0 1px 5px #4c33651a; font-weight: 600; }
+ul { list-style: none; margin: 0; padding: 0; }
+.task { display: flex; align-items: center; gap: 8px; padding: 16px 0; border-bottom: 1px solid #eeeaf3; }
+.check { min-width: 44px; min-height: 44px; display: grid; place-items: center; cursor: pointer; }
+.check input { width: 20px; height: 20px; margin: 0; accent-color: #7351b5; cursor: pointer; }
+.task-text { flex: 1; min-width: 0; overflow-wrap: anywhere; line-height: 1.6; transition: color 160ms; }
+.done .task-text { text-decoration: line-through; color: #898292; }
+.actions { display: flex; flex-shrink: 0; gap: 0; }
+.delete { color: #a3455b; }
+.delete:hover { background: #fff0f3; }
+.editor { flex: 1; min-width: 0; flex-wrap: wrap; }
+.editor input { flex-basis: 100%; }
+.hint { flex-basis: 100%; font-size: 12px; color: #756b80; }
+.empty { text-align: center; padding: 40px 8px; color: #746d81; line-height: 1.7; }
+.empty strong { display: block; color: #514360; font-weight: 600; margin-bottom: 4px; }
+footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding-top: 16px; font-size: 13px; color: #746d81; }
+#notice { color: #a3455b; font-size: 13px; line-height: 1.6; }
+#notice:empty { display: none; }
+[hidden] { display: none !important; }
+@media(max-width: 420px) { body { padding: 16px 12px; } main { padding: 24px 16px; } h1 { font-size: 28px; } .task { flex-wrap: wrap; } .actions { margin-left: auto; } .task-text { flex-basis: calc(100% - 60px); } }
+@media(prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1>📝 Todo List</h1>
-    <div class="input-box">
-      <input id="taskInput" placeholder="输入任务..." />
-      <button onclick="addTask()">添加</button>
-    </div>
-    <ul id="taskList"></ul>
-  </div>
-
-  <script>
-    const input = document.getElementById('taskInput');
-    const list = document.getElementById('taskList');
-    let tasks = JSON.parse(localStorage.getItem('tasks') || '[]');
-
-    function save() {
-      localStorage.setItem('tasks', JSON.stringify(tasks));
-      render();
-    }
-
-    function addTask() {
-      const text = input.value.trim();
-      if (!text) return;
-      tasks.push({ text, done: false });
-      input.value = '';
-      save();
-    }
-
-    function toggleTask(index) {
-      tasks[index].done = !tasks[index].done;
-      save();
-    }
-
-    function deleteTask(index) {
-      tasks.splice(index, 1);
-      save();
-    }
-
-    function render() {
-      list.innerHTML = '';
-      tasks.forEach((task, index) => {
-        const li = document.createElement('li');
-        if (task.done) li.classList.add('done');
-        li.innerHTML = `
-          <span class="task" onclick="toggleTask(${index})">${task.text}</span>
-          <button class="delete" onclick="deleteTask(${index})">删除</button>
-        `;
-        list.appendChild(li);
-      });
-    }
-
-    input.addEventListener('keydown', e => {
-      if (e.key === 'Enter') addTask();
+<main aria-labelledby="title">
+<header><span class="eyebrow">一点专注 · 一点进步</span><h1 id="title">Todo List</h1><p class="subtitle">把想做的事写下来，一件一件完成。</p></header>
+<label for="taskInput" class="input-label">新的任务</label>
+<form id="addForm"><input id="taskInput" type="text" placeholder="接下来，想完成什么？" autocomplete="off"><button class="primary" type="submit">添加</button></form>
+<p id="notice" role="status"></p>
+<div class="toolbar"><nav class="filters" aria-label="任务筛选"><button type="button" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="active" aria-pressed="false">未完成</button><button type="button" data-filter="completed" aria-pressed="false">已完成</button></nav></div>
+<ul id="taskList" aria-label="任务列表"></ul>
+<div id="empty" class="empty"><strong id="emptyTitle"></strong><span id="emptyDetail"></span></div>
+<footer><span id="stats" role="status" aria-live="polite"></span><button id="clearCompleted" type="button" class="delete" hidden>清除已完成</button></footer>
+</main>
+<script>
+'use strict';
+const STORAGE_KEY = 'todo-v2-tasks';
+const input = document.getElementById('taskInput');
+const list = document.getElementById('taskList');
+const notice = document.getElementById('notice');
+const state = { tasks: [], filter: 'all', editingId: null };
+function newId() { return 'task_' + crypto.randomUUID(); }
+// Storage: migrate V1 only if no V2 data exists; retain the original backup.
+function loadTasks() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    const legacy = saved === null;
+    const data = JSON.parse((legacy ? localStorage.getItem('tasks') : saved) || '[]');
+    if (!Array.isArray(data)) throw new Error('Invalid task data');
+    const ids = new Set();
+    state.tasks = data.map(task => {
+      if (!task || typeof task.text !== 'string' || !task.text.trim()) throw new Error('Invalid task');
+      const result = legacy ? { id: newId(), text: task.text.trim(), completed: !!task.done, createdAt: Date.now() } : task;
+      if (typeof result.id !== 'string' || !result.id || ids.has(result.id) || typeof result.completed !== 'boolean' || !Number.isFinite(result.createdAt)) throw new Error('Invalid task');
+      ids.add(result.id);
+      return { id: result.id, text: result.text, completed: result.completed, createdAt: result.createdAt };
     });
-
-    render();
-  </script>
+    if (legacy && state.tasks.length) saveTasks();
+  } catch { notice.textContent = '无法读取已保存的任务。原始数据尚未改动；新增任务会重新保存列表。'; }
+}
+function saveTasks() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.tasks)); notice.textContent = ''; }
+  catch { notice.textContent = '无法保存到此浏览器。当前任务仍可使用，但刷新后可能丢失。'; }
+}
+function commit() { saveTasks(); render(); }
+// Actions always locate tasks by stable ID.
+function addTask(event) {
+  event.preventDefault();
+  const text = input.value.trim();
+  if (!text) { input.focus(); return; }
+  state.tasks.push({ id: newId(), text, completed: false, createdAt: Date.now() });
+  state.editingId = null;
+  input.value = '';
+  commit(); input.focus();
+}
+function toggleTask(id) {
+  const task = state.tasks.find(task => task.id === id);
+  if (!task) return;
+  task.completed = !task.completed; commit(); focusTask(id, 'input');
+}
+function editTask(id, text) {
+  const task = state.tasks.find(task => task.id === id);
+  if (!task || !text.trim()) return false;
+  task.text = text.trim(); state.editingId = null; commit(); focusTask(id, 'button'); return true;
+}
+function deleteTask(id) { state.tasks = state.tasks.filter(task => task.id !== id); if (state.editingId === id) state.editingId = null; commit(); input.focus(); }
+function clearCompleted() { state.tasks = state.tasks.filter(task => !task.completed); state.editingId = null; commit(); input.focus(); }
+function setFilter(filter) { state.filter = filter; state.editingId = null; render(); }
+function focusTask(id, selector) {
+  const row = Array.from(list.children).find(row => row.dataset.id === id);
+  (row?.querySelector(selector) || document.querySelector('[data-filter="' + state.filter + '"]')).focus();
+}
+// Rendering: user text is assigned only through textContent or input.value.
+function button(text, action, className = '') {
+  const control = document.createElement('button');
+  control.type = 'button'; control.textContent = text; control.className = className;
+  control.addEventListener('click', action); return control;
+}
+function renderEditor(task, row) {
+  const form = document.createElement('form'); form.className = 'editor';
+  const field = document.createElement('input'); field.type = 'text'; field.value = task.text; field.setAttribute('aria-label', '编辑任务');
+  const hint = document.createElement('span'); hint.className = 'hint'; hint.textContent = 'Enter 保存 · Escape 取消'; hint.id = 'editHint'; field.setAttribute('aria-describedby', hint.id);
+  const cancel = () => { state.editingId = null; render(); focusTask(task.id, 'button'); };
+  const save = button('保存', () => {}, 'primary'); save.type = 'submit';
+  form.addEventListener('submit', event => { event.preventDefault(); if (!editTask(task.id, field.value)) { field.setCustomValidity('任务不能为空'); field.reportValidity(); } });
+  field.addEventListener('input', () => field.setCustomValidity(''));
+  field.addEventListener('keydown', event => { if (event.key === 'Escape') { event.preventDefault(); cancel(); } if (event.key === 'Enter' && event.isComposing) event.preventDefault(); });
+  form.append(field, hint, save, button('取消', cancel)); row.append(form);
+}
+function renderTasks() {
+  list.replaceChildren();
+  const visible = state.tasks.filter(task => state.filter === 'all' || task.completed === (state.filter === 'completed'));
+  visible.forEach(task => {
+    const row = document.createElement('li'); row.className = 'task' + (task.completed ? ' done' : ''); row.dataset.id = task.id;
+    if (state.editingId === task.id) renderEditor(task, row);
+    else {
+      const label = document.createElement('label'); label.className = 'check';
+      const check = document.createElement('input'); check.type = 'checkbox'; check.checked = task.completed; check.setAttribute('aria-label', (task.completed ? '恢复：' : '完成：') + task.text); check.addEventListener('change', () => toggleTask(task.id)); label.append(check);
+      const text = document.createElement('span'); text.className = 'task-text'; text.textContent = task.text;
+      const actions = document.createElement('div'); actions.className = 'actions';
+      actions.append(button('编辑', () => { state.editingId = task.id; render(); const field = list.querySelector('.editor input'); field.focus(); field.select(); }), button('删除', () => deleteTask(task.id), 'delete'));
+      row.append(label, text, actions);
+    }
+    list.append(row);
+  });
+  renderEmptyState(visible.length === 0);
+}
+function renderStats() {
+  const completed = state.tasks.filter(task => task.completed).length;
+  document.getElementById('stats').textContent = (state.tasks.length - completed) + ' 项待完成 · ' + completed + ' 项已完成';
+  document.getElementById('clearCompleted').hidden = completed === 0;
+}
+function renderFilters() { document.querySelectorAll('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === state.filter))); }
+function renderEmptyState(empty) {
+  document.getElementById('empty').hidden = !empty;
+  const messages = { all: ['还没有任务', '写下第一件想做的事，从这里开始。'], active: ['全部完成啦 🎉', '给自己一点掌声，也留一点休息时间。'], completed: ['还没有已完成的任务', '每完成一件小事，都会在这里留下进步。'] };
+  document.getElementById('emptyTitle').textContent = messages[state.filter][0];
+  document.getElementById('emptyDetail').textContent = messages[state.filter][1];
+}
+function render() { renderTasks(); renderStats(); renderFilters(); }
+document.getElementById('addForm').addEventListener('submit', addTask);
+input.addEventListener('keydown', event => { if (event.key === 'Enter' && event.isComposing) event.preventDefault(); });
+document.getElementById('clearCompleted').addEventListener('click', clearCompleted);
+document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => setFilter(button.dataset.filter)));
+loadTasks(); render();
+</script>
 </body>
 </html>
