@@ -1,0 +1,10 @@
+{
+  "seed": 2026100316,
+  "draws": 4000,
+  "method": "independent cell-stratified empirical multinomial; exactly equivalent to categorical record bootstrap",
+  "invalid_zero_positive_draws": 0,
+  "adult_N": 5480,
+  "raw_data_access": false,
+  "source_sha256": "89332ed9cde214e2ef8255b97d5b00a6582c97579bb4e039b1eb0df277b12784",
+  "manifest_sha256": "cdbeaf2bbf84fca7a27120b6d4250454af990d2026a2b909f2a5f2b16bcd7cba"
+}
