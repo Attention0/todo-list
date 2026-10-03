@@ -41,8 +41,10 @@ feature/nc-evidence-revision, stacked on feature/nc-revision-audit (PR15); no me
 
 ## Commit SHA
 
-Plan commit: ac4e7cb. Delivery commit and PR are recorded after successful native publication.
+Plan commit: ac4e7cb. Scientific and manuscript delivery commit: 5d58f4d221705d2647a8e1c9bff9f6bbba97428c. A subsequent metadata-only commit records this confirmed delivery and PR link.
 
 ## PR
 
-Pending native push and PR creation; this line is replaced only after confirmed success.
+https://github.com/Attention0/todo-list/pull/16 — draft, targeting feature/nc-revision-audit (PR15). Native Git push succeeded. No merge performed.
+
+System-drive exhaustion interrupted initial Git staging. The task-created checkout and final artifacts were transferred to H:/Codex/2026-10-03/nc-evidence-revision-repo; numerical verification was rerun there and all 58 checks passed. Earlier local previews were preserved separately. Synced project references and original data were not moved or altered.
