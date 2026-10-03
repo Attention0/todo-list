@@ -1,0 +1,5 @@
+# Ethics and minor coverage — SUBMISSION BLOCKER
+
+**Fact:** full5497, adult5480, 17 respondents age<18. Neither the read-only current manuscript placeholders nor available questionnaire/project documents establish committee approval/exemption number, dates, consent acquisition or coverage for those minors. The questionnaire academic/aggregate-anonymity introduction is not itself committee approval or evidence of guardian consent. No actual absence of approval is alleged: documentation is missing.
+
+**Required author action:** supply verifiable committee/approval/exemption and consent records, including minors eligibility/guardian requirements under the applicable institution. Until clarified, recommend adult-only primary sample n=5480 and showR sensitivity. The already saved revision family keeps both samples; do not quietly delete minors to improve a result. A-only omnibus globalP=.444111 does not alter the main strength decision. Missing ethics documentation is a SUBMISSION BLOCKER even if minors are excluded. No respondent identity or raw records released.

@@ -1,0 +1,7 @@
+target,outcome,estimable,min_q,q_10,q_05
+cash,midpoint,146,0.8695302407980895,0,0
+cash,ordinal,146,1.0,0,0
+cash,top75,146,0.9771123683502926,0,0
+rc,midpoint,146,0.9497995928172313,0,0
+rc,ordinal,146,0.9445801195150122,0,0
+rc,top75,146,1.0,0,0

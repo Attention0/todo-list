@@ -1,0 +1,7 @@
+target,outcome,representations,five_valid_train,five_valid_holdout,five_train_same_direction,five_holdout_positive
+cash,ordinal,150,146,143,67,5
+cash,midpoint,150,146,143,77,3
+cash,top75,150,146,143,67,8
+rc,ordinal,150,146,141,68,1
+rc,midpoint,150,146,141,78,5
+rc,top75,150,146,141,65,2

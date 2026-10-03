@@ -1,0 +1,7 @@
+# Analysis history
+
+This study was not preregistered. Before this round investigators inspected stated-MPC levels, randomized form contrasts, fungibility, theory and ML/honest HTE, cross-form prediction, latent traits, amount curves, distribution thresholds, Restricted pooling, headroom/relative scales, limited multiverses, who-drives moderators, all-X multi-outcome screens, and main/Hero figure presentations. The current form-by-size story is post hoc. Historical findings reuse this dataset and are not independent replications.
+
+Main was updated to b5f26e5. Existing figure/analysis lineage is inherited from feature/mpc-hero-figure. Revision manifest was saved and committed at a80b94e before new model runs, dated 2026-10-03; SHA256 6b1e95952886d4cc0a245579d03fe72b40e79f7c925669cd1f5ba40c9cc87375. This is a revision-stage freeze, not preregistration. Seven outcomes/five samples/three dose representations/appropriate model families/five contrasts give 300 models and 1,500 tests. Manifest records moderator variables, 1% CV materiality threshold, TOST margins and multiplicity families.
+
+See bug_log.md for export/filter/reference-retrieval fixes; none added an estimand or specification. Income schemes were distinguished using raw labels within the saved mapping plan; historical results were not edited. The optional Bayesian model was explicitly skipped before analysis. No post-result additions. This finite audit ends here.

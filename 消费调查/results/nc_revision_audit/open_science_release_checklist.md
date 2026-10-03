@@ -1,0 +1,5 @@
+# Release checklist — no raw-data release authorized
+
+Available: finite revision manifest/history; executable scripts; aggregate numerical source tables;67-field labeled codebook including original value-label schemes; package versions; README reproduction commands; verification and figure audit. Prior preparation/results are repository dependencies; not independent replications. All new artifacts are inside this output directory.
+
+Before submission: authors verify provenance, ethics and consent for sharing; choose stable archive/DOI for code and aggregate source; supply approved de-identified respondent data only if permissible, otherwise a real controlled-access process and reason. Current GitHub PR is not automatically a permanent DOI. Do not state that data are openly available when no respondent data release exists. Raw dta, IDs, fold/person assignments, response rows and manuscript/consent documents are not uploaded. No OSF/Zenodo account or sensitive data publication was attempted. Figure/table source CSVs are aggregate; retain README and environment for readers.

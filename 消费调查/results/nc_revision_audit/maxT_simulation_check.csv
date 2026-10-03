@@ -1,0 +1,2 @@
+simulations,rejections,empirical_size,lo,hi,draws_per_calibration,scope,null_models_failed
+200,7,0.035,0.014185525898419246,0.0707809983509772,5000,"multinomial six-category null, fixed design, score-level family; not repeated optimizer refits",0

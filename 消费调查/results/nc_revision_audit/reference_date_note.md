@@ -1,0 +1,3 @@
+# Bibliographic date reconciliation
+
+Publisher-deposited published dates can be online-first dates, not issue dates. Ref9 JEEA15(1),99–127 is2017 issue with2016-12-22 online record; ref20 REStud88(4),1760–1795 is2021 issue with2020-11-09 online record. Both manuscript issue-year citations are appropriate, not nonexistent papers. The year_matches=False rows in reference_metadata_checks.csv denote literal online-date differences, not a recommendation to replace issue years. All current page ranges/article IDs match deposited metadata. Reference15 remains working-paper status; no journal publication invented. Metadata and claim scopes are separate checks, and no manuscript edited.

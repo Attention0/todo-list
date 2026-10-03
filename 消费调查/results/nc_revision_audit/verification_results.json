@@ -1,0 +1,258 @@
+{
+  "date": "2026-10-03",
+  "all_assertions_passed": true,
+  "checks": {
+    "manifest_unchanged": {
+      "passed": true,
+      "details": "6b1e95952886d4cc0a245579d03fe72b40e79f7c925669cd1f5ba40c9cc87375"
+    },
+    "grid1500_unique_estimable": {
+      "passed": true,
+      "details": ""
+    },
+    "all300_models_converged": {
+      "passed": true,
+      "details": ""
+    },
+    "sample_counts": {
+      "passed": true,
+      "details": {
+        "R": 5497,
+        "A": 5480,
+        "C": 5171,
+        "Q1": 2715,
+        "Q2": 1208
+      }
+    },
+    "independent_OLS_all7Y_3dose_5contrasts": {
+      "passed": true,
+      "details": {
+        "max_abs_estimate_CI_error": 5.551115123125783e-15,
+        "comparison_count": 336
+      }
+    },
+    "independent_logit_MLE": {
+      "passed": true,
+      "details": {
+        "max_abs_param_error": 1.536633912890828e-07
+      }
+    },
+    "independent_probit_MLE": {
+      "passed": true,
+      "details": {
+        "max_abs_param_error": 6.195117924212568e-08
+      }
+    },
+    "independent_ordered_logit_MLE": {
+      "passed": true,
+      "details": {
+        "max_abs_param_error": 1.1783083064820232e-08
+      }
+    },
+    "independent_ordered_probit_MLE": {
+      "passed": true,
+      "details": {
+        "max_abs_param_error": 2.114283744608647e-09
+      }
+    },
+    "ordered_analytic_scores": {
+      "passed": true,
+      "details": {
+        "ordered_logit": 4.361865313384783e-10,
+        "ordered_probit": 2.9388669275931534e-10,
+        "ordered_location_scale": 3.566248407693706e-10
+      }
+    },
+    "5000_finite_shared_draws": {
+      "passed": true,
+      "details": ""
+    },
+    "globalP_recomputed_from_draws": {
+      "passed": true,
+      "details": ""
+    },
+    "null_simulation_score_size": {
+      "passed": true,
+      "details": "Score-level only; does not test model-refit size."
+    },
+    "fixed_inframarginal_baseline_only": {
+      "passed": true,
+      "details": {
+        "N": 2815
+      }
+    },
+    "finite_binding_family75": {
+      "passed": true,
+      "details": ""
+    },
+    "relative_grid45_and450_model_fold_rows": {
+      "passed": true,
+      "details": {
+        "CV_rows": 45,
+        "fold_rows": 450
+      }
+    },
+    "no_material_loss_improvement": {
+      "passed": true,
+      "details": {
+        "maximum": 0.0090159763893617
+      }
+    },
+    "moderator36_power36_control9": {
+      "passed": true,
+      "details": ""
+    },
+    "MDE_formula": {
+      "passed": true,
+      "details": ""
+    },
+    "controls_sign_not_redefined": {
+      "passed": true,
+      "details": ""
+    },
+    "reference30_verified_metadata": {
+      "passed": true,
+      "details": "Metadata/title identity only; bounded scientific claims remain qualified."
+    },
+    "allx_reused6_primary_families": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_allx_supplemental_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_bindingness_ratio_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_form_extended_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_form_top75_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_quality_gradient_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_relative_scale_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "fig_specification_family_formats": {
+      "passed": true,
+      "details": ""
+    },
+    "seven_pdf_figures": {
+      "passed": true,
+      "details": {
+        "fig_allx_supplemental.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            2952
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 537
+        },
+        "fig_bindingness_ratio.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            1795
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 222
+        },
+        "fig_form_extended.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            1889
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 204
+        },
+        "fig_form_top75.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            1771
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 77
+        },
+        "fig_quality_gradient.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            1889
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 292
+        },
+        "fig_relative_scale.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            1889
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 294
+        },
+        "fig_specification_family.pdf": {
+          "pages": 1,
+          "png_pixels": [
+            4251,
+            5669
+          ],
+          "dpi": [
+            599.9988,
+            599.9988
+          ],
+          "text_chars": 952
+        }
+      }
+    },
+    "raw_docs_history_unmodified_since_inventory": {
+      "passed": true,
+      "details": ""
+    },
+    "raw_unchanged_since_analysis": {
+      "passed": true,
+      "details": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe"
+    },
+    "aggregate_csv_no_person_identifiers": {
+      "passed": true,
+      "details": ""
+    }
+  },
+  "limitations": [
+    "No raking or response-time/process test: NOT FEASIBLE",
+    "Missing ethics/minor/recruitment documentation: not passed",
+    "Score-level null simulation, not full model-refit validation",
+    "Paired CV intervals ignore training dependence"
+  ],
+  "visual_QA": "See figure_audit.md; separately rendered and visually inspected, not inferred from assertions."
+}

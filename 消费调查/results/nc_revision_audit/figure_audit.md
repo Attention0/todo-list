@@ -1,0 +1,7 @@
+# Rendered figure audit
+
+2026-10-03. PDF skill used to render all seven final PDFs with Poppler and visually inspect every page. Each has one page, editable vector text, consistent Arial, white background and 600dpi PNG counterpart. Sources and intervals were checked against aggregate tables; no figure introduces an empirical specification. No significance-based ordering, smoothing or continuous dose-response inference.
+
+All seven pages inspected: form Top75, form ordinal/midpoint, complete specification family, quality gradient, bindingness ratio, relative scale, all-X QQ. Labels and legends render without clipping/overlap. Dense 20-panel specification plot is supplemental; component estimates and precise identities are available in source CSV and individual model scales are not pooled. Sample palette is R dark blue, A medium blue, C light blue, Q1 dark gray, Q2 light gray; fixed within-panel R/A/C/Q1/Q2 × trend/saturated/endpoint × omnibus/CF/CM/FM/RC ordering.
+
+Visual QA found and fixed the QQ identity-line endpoint precedence bug and ambiguous rounded fractional percentage tick labels; both corrected PDFs were re-rendered and re-inspected. Other five final rerenders are identical in layout and values. Seven page-bound checks plus format/DPI/editable-text assertions passed in verification_results.json. Raking/timing/process absence is not a visual-test pass. qa/ intermediate renders are ignored and not published. See bug_log.md and figure_captions.md.

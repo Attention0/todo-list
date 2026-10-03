@@ -1,0 +1,5 @@
+# Author information needed — cannot infer
+
+Questionnaire appendix attributes background fields to Tencent survey platform, but this is not a verified provider contract, sampling/recruitment log or panel specification. Intro promises a cash red packet within one week and asks no duplicate entries; this is not actual payment evidence or deduplication implementation.
+
+Authors must supply: recruitment platform/provider and role; exact field dates; sampling frame and recruitment channels; eligibility/age policy; quotas; invitations, starts/completions and definition of completion rate; actual incentive amount/payment/compliance; technical deduplication and exclusion logs; sample-size determination and stopping rule; randomization implementation/probabilities; arm-specific starts/completions/attrition if any; consent text and acquisition method; institution/committee and approval/exemption ID/date; minors coverage/parental assent if applicable; data-sharing consent and lawful access restrictions. Structural empty eight scenario fields are randomization, not attrition. Do not infer collection dates from filenames or committee IDs from template placeholders.

@@ -1,0 +1,21 @@
+{
+  "freeze_sha256": "6b1e95952886d4cc0a245579d03fe72b40e79f7c925669cd1f5ba40c9cc87375",
+  "raw_sha256": "16996c88fdd20f5084b62a8503a8eec1d4c6ec7caff489eff109500f629694fe",
+  "samples": {
+    "R": 5497,
+    "A": 5480,
+    "C": 5171,
+    "Q1": 2715,
+    "Q2": 1208
+  },
+  "planned_tests": 1500,
+  "estimable_tests": 1500,
+  "failed_tests": 0,
+  "planned_models": 300,
+  "failed_models": 0,
+  "bootstrap_draws": 5000,
+  "bootstrap_model_refits": 0,
+  "bootstrap_nonestimable_fits": "not applicable; no draw-level fits; model-level failures in diagnostics",
+  "null_simulation_size": 0.035,
+  "elapsed_seconds": 5.291636943817139
+}

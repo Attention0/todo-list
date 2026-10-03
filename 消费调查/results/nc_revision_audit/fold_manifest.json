@@ -1,0 +1,6 @@
+{
+  "seed": 20261003,
+  "folds": 5,
+  "assignment_sha256": "9a64ea337098b908502f529d5207c1361e7515dd933e1a43d2daa0f1a5ba129e",
+  "privacy": "No individual IDs/folds exported; membership hash and aggregate counts only"
+}

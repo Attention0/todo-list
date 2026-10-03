@@ -1,0 +1,5 @@
+# Adult calibration sensitivity — NOT FEASIBLE in this run
+
+We did not obtain a verified, adult18+ compatible joint age×education official benchmark. The NBS2020 census bulletin [official interpretation](https://www.stats.gov.cn/xxgk/jd/sjjd2020/202105/t20210513_1817408.html) gives college15,467 per100,000 among *all ages*, not adults; schooling averages15+ and working-age16–59 have other universes. Applying those percentages to adults5480 would be indefensible. The [census yearbook](https://www.stats.gov.cn/sj/pcsj/rkpc/7rp/zk/indexch.htm) contains scanned age/education tables; A0401/A0402 image retrieval via the current web reader timed out. No verified18+ marginal extraction was obtained. This does NOT mean suitable official tables do not exist.
+
+Status: NOT FEASIBLE with verified benchmarks accessible in this run. No raking weights estimated; no weighted focal analysis performed; no nationally representative claim. Summary/result CSVs contain status, not invented numeric values. Authors can provide an authorized verified adult benchmark for a later separately specified calibration; that is outside this finite audit.
