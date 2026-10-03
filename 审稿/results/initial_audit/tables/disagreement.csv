@@ -1,0 +1,5 @@
+x,mixed,papers,mean_score_sd
+institution_overlap_snapshot,False,5907,1.469740402194242
+institution_overlap_snapshot,True,1325,1.490658942528038
+coauthor_overlap_undated,False,7446,1.4734226433274316
+coauthor_overlap_undated,True,108,1.5403786250526421

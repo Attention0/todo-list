@@ -1,0 +1,27 @@
+{
+  "N": 29813,
+  "checks": {
+    "duplicate_review_id": 0,
+    "duplicate_paper_reviewer": 1,
+    "submission_join": 29766,
+    "review_join": 29766,
+    "raw_review_join": 29813,
+    "reviewer_profile_id_join": 27470,
+    "reviewer_profile_valid": 27464,
+    "author_profile_slots": 169683,
+    "author_profile_id_join": 169683,
+    "author_profile_valid": 169613,
+    "initial_equals_current_raw_content": 29766,
+    "final_equals_snapshot_content": 29813,
+    "rating_initial_mismatch": 0,
+    "confidence_initial_mismatch": 0,
+    "time_ms_equals_utc": 0,
+    "time_ms_equals_shanghai_local": 29766
+  },
+  "result_rows": 4,
+  "input_files": 23,
+  "python": "3.12.4",
+  "pandas": "2.2.2",
+  "numpy": "1.26.4",
+  "statsmodels": "0.14.2"
+}

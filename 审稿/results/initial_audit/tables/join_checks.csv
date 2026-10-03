@@ -1,0 +1,17 @@
+check,n,denominator
+author_profile_id_join,169683,169683
+author_profile_slots,169683,29813
+author_profile_valid,169613,169683
+confidence_initial_mismatch,0,29813
+duplicate_paper_reviewer,1,29813
+duplicate_review_id,0,29813
+final_equals_snapshot_content,29813,29813
+initial_equals_current_raw_content,29766,29813
+rating_initial_mismatch,0,29813
+raw_review_join,29813,29813
+review_join,29766,29813
+reviewer_profile_id_join,27470,29813
+reviewer_profile_valid,27464,29813
+submission_join,29766,29813
+time_ms_equals_shanghai_local,29766,29813
+time_ms_equals_utc,0,29813
