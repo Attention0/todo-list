@@ -30,8 +30,10 @@ Author and fieldwork/ethics information remains pending as documented in `AUTHOR
 
 ## Commit SHA
 
-To be recorded after the content commit; the subsequent metadata commit changes this delivery record only.
+Content commit: `3d31bef35c9359ccca20e057976320b4ad6599ab`. The subsequent metadata commit changes this delivery record only.
 
 ## PR
 
-To be recorded after draft creation. Target: `feature/jebo-v4-narrative-rewrite`. Do not merge.
+Draft PR: https://github.com/Attention0/todo-list/pull/21
+
+Verified target: `feature/jebo-v4-narrative-rewrite` at `0685af82e06df1f43590c015379c2fb94fc4ac86`; head: `feature/jebo-v4-1-writing-refine`. Created as draft and not merged. Native Git commit/push succeeded; no upload fallback was needed. Staged whitespace validation also passed.
