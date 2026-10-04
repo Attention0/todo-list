@@ -1,0 +1,604 @@
+{
+  "base": "0685af82e06df1f43590c015379c2fb94fc4ac86",
+  "branch": "feature/jebo-v4-1-writing-refine",
+  "scope": "text/output comparison only; no empirical analysis executed",
+  "abstract_words": 186,
+  "intro_words": 1187,
+  "main_words_before_references": 6402,
+  "section6_words": 1085,
+  "original_section6_words": 1746,
+  "checks": [
+    {
+      "check": "Abstract 170–200 words",
+      "passed": true,
+      "detail": "186"
+    },
+    {
+      "check": "Three puzzles within first 500 words",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Section 6 shorter",
+      "passed": true,
+      "detail": "1746 -> 1085"
+    },
+    {
+      "check": "Technical audit detail migrated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main first three numeric tables unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All 36 supplement tables unchanged",
+      "passed": true,
+      "detail": "36"
+    },
+    {
+      "check": "Questionnaire unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "References unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig1_response_atlas.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig1_response_atlas.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig2_share_and_yuan.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig2_share_and_yuan.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig3_category_changes.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig3_category_changes.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig4_food_raw_cells.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/fig4_food_raw_cells.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/figS1_incremental_response.pdf",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy figures/figS1_incremental_response.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/adult_cell_distribution.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/adult_share_yuan_table.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/affine_midpoint_fit.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/endpoint_category_changes.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/food_bindingness_raw_cells.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/incremental_yuan_response.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact PR20 copy source_data/scientific_family42.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main authority JEBO_V4_1_WRITING_SPEC.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main authority JEBO_V4_1_WORK.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share cash/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan cash/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share cash/1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan cash/1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share cash/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan cash/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share food/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan food/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share food/1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan food/1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share food/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan food/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share medical/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan medical/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share medical/1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan medical/1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell share medical/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main cell yuan medical/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy cash/1/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy cash/1/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy cash/6/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy cash/6/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy cash/3/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy cash/3/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/1/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/1/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/6/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/6/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/3/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/3/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/4/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy food/4/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/1/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/1/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/3/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/3/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/5/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/5/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/6/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy medical/6/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription midpoint/cash/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription midpoint/cash/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription midpoint/cash/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription ordinal/cash/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription ordinal/cash/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription ordinal/cash/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/omnibus/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/omnibus/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/omnibus/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash-food/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash-food/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash-food/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash-medical/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash-medical/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen p transcription top75/cash-medical/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Food representative estimate and CI transcribed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Food conditional sharp sign preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ordinal inference retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Interactions remain uncertain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No equivalence upgrade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No structural upgrade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No participation upgrade",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No individual-transition claim",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No single-bin attribution",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No ordinal-to-dominance shortcut",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Interpretive ranking explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unmeasured mediator explicit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Medical not a unique model prediction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Substantive conclusion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Technical migration retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Field order not assumed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal response/audit language in main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Four figures retained in order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Five highlights under 85 characters",
+      "passed": true,
+      "detail": "[76, 73, 72, 72, 73]"
+    },
+    {
+      "check": "JEBO_manuscript_v4_1 tables/images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_manuscript_v4_1 body font",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_manuscript_v4_1 footer page field",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_manuscript_v4_1 no changes/comments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_supplement_v4_1 tables/images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_supplement_v4_1 body font",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_supplement_v4_1 footer page field",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_supplement_v4_1 no changes/comments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_Highlights_v4_1 tables/images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_Highlights_v4_1 body font",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_Highlights_v4_1 footer page field",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "JEBO_Highlights_v4_1 no changes/comments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Protected scientific/manuscript paths unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact base ancestor",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "passed": 118,
+  "total": 118
+}
