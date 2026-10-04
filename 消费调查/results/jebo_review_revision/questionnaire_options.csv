@@ -1,0 +1,55 @@
+form,amount,category,chinese,english,exact_lower,exact_upper
+cash,200,1,① 基本不会额外多消费（因现金补贴节省的钱几乎全部存起来或用于还债）,Essentially no additional consumption (almost all the money saved because of the cash transfer is put into savings or used to repay debt),No verbal category1 cutoff,Absent
+cash,200,2,② 补贴的小部分，约 10% 以下（约 0–20 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–20)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,200,3,③ 补贴的一部分，约 10–25%（约 20–50 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 20–50)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,200,4,④ 补贴的大约一半，约 25–50%（约 50–100 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 50–100)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,200,5,⑤ 补贴的大部分，约 50–75%（约 100–150 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 100–150)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,200,6,⑥ 补贴的几乎全部，约 75% 以上（约 150–200 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 150–200)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+cash,1000,1,① 基本不会额外多消费（因现金补贴节省的钱几乎全部存起来或用于还债）,Essentially no additional consumption (almost all the money saved because of the cash transfer is put into savings or used to repay debt),No verbal category1 cutoff,Absent
+cash,1000,2,② 补贴的小部分，约 10% 以下（约 0–100 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–100)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,1000,3,③ 补贴的一部分，约 10–25%（约 100–250 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 100–250)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,1000,4,④ 补贴的大约一半，约 25–50%（约 250–500 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 250–500)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,1000,5,⑤ 补贴的大部分，约 50–75%（约 500–750 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 500–750)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,1000,6,⑥ 补贴的几乎全部，约 75% 以上（约 750–1000 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 750–1000)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+cash,5000,1,① 基本不会额外多消费（因现金补贴节省的钱几乎全部存起来或用于还债）,Essentially no additional consumption (almost all the money saved because of the cash transfer is put into savings or used to repay debt),No verbal category1 cutoff,Absent
+cash,5000,2,② 补贴的小部分，约 10% 以下（约 0–500 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–500)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,5000,3,③ 补贴的一部分，约 10–25%（约 500–1250 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 500–1250)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,5000,4,④ 补贴的大约一半，约 25–50%（约 1250–2500 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 1250–2500)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,5000,5,⑤ 补贴的大部分，约 50–75%（约 2500–3750 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 2500–3750)","Approximate yuan example, not exact spending",Approximate yuan example
+cash,5000,6,⑥ 补贴的几乎全部，约 75% 以上（约 3750–5000 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 3750–5000)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+food,200,1,① 基本不会额外多消费（用券购买原来计划要买的东西，省下的现金存起来或还债）,"Essentially no additional consumption (use the voucher to buy items originally planned, and save the freed cash or repay debt)",No verbal category1 cutoff,Absent
+food,200,2,② 补贴的小部分，约 10% 以下（约 0–20 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–20)","Approximate yuan example, not exact spending",Approximate yuan example
+food,200,3,③ 补贴的一部分，约 10–25%（约 20–50 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 20–50)","Approximate yuan example, not exact spending",Approximate yuan example
+food,200,4,④ 补贴的大约一半，约 25–50%（约 50–100 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 50–100)","Approximate yuan example, not exact spending",Approximate yuan example
+food,200,5,⑤ 补贴的大部分，约 50–75%（约 100–150 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 100–150)","Approximate yuan example, not exact spending",Approximate yuan example
+food,200,6,⑥ 补贴的几乎全部，约 75% 以上（约 150–200 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 150–200)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+food,1000,1,① 基本不会额外多消费（用券购买原来计划要买的东西，省下的现金存起来或还债）,"Essentially no additional consumption (use the voucher to buy items originally planned, and save the freed cash or repay debt)",No verbal category1 cutoff,Absent
+food,1000,2,② 补贴的小部分，约 10% 以下（约 0–100 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–100)","Approximate yuan example, not exact spending",Approximate yuan example
+food,1000,3,③ 补贴的一部分，约 10–25%（约 100–250 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 100–250)","Approximate yuan example, not exact spending",Approximate yuan example
+food,1000,4,④ 补贴的大约一半，约 25–50%（约 250–500 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 250–500)","Approximate yuan example, not exact spending",Approximate yuan example
+food,1000,5,⑤ 补贴的大部分，约 50–75%（约 500–750 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 500–750)","Approximate yuan example, not exact spending",Approximate yuan example
+food,1000,6,⑥ 补贴的几乎全部，约 75% 以上（约 750–1000 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 750–1000)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+food,5000,1,① 基本不会额外多消费（用券购买原来计划要买的东西，省下的现金存起来或还债）,"Essentially no additional consumption (use the voucher to buy items originally planned, and save the freed cash or repay debt)",No verbal category1 cutoff,Absent
+food,5000,2,② 补贴的小部分，约 10% 以下（约 0–500 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–500)","Approximate yuan example, not exact spending",Approximate yuan example
+food,5000,3,③ 补贴的一部分，约 10–25%（约 500–1250 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 500–1250)","Approximate yuan example, not exact spending",Approximate yuan example
+food,5000,4,④ 补贴的大约一半，约 25–50%（约 1250–2500 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 1250–2500)","Approximate yuan example, not exact spending",Approximate yuan example
+food,5000,5,⑤ 补贴的大部分，约 50–75%（约 2500–3750 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 2500–3750)","Approximate yuan example, not exact spending",Approximate yuan example
+food,5000,6,⑥ 补贴的几乎全部，约 75% 以上（约 3750–5000 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 3750–5000)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+medical,200,1,① 基本不会额外多消费（用补贴支付原来计划的医疗支出，省下的现金存起来或还债）,"Essentially no additional consumption (use the subsidy to pay originally planned medical expenses, and save the freed cash or repay debt)",No verbal category1 cutoff,Absent
+medical,200,2,② 补贴的小部分，约 10% 以下（约 0–20 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–20)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,200,3,③ 补贴的一部分，约 10–25%（约 20–50 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 20–50)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,200,4,④ 补贴的大约一半，约 25–50%（约 50–100 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 50–100)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,200,5,⑤ 补贴的大部分，约 50–75%（约 100–150 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 100–150)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,200,6,⑥ 补贴的几乎全部，约 75% 以上（约 150–200 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 150–200)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+medical,1000,1,① 基本不会额外多消费（用补贴支付原来计划的医疗支出，省下的现金存起来或还债）,"Essentially no additional consumption (use the subsidy to pay originally planned medical expenses, and save the freed cash or repay debt)",No verbal category1 cutoff,Absent
+medical,1000,2,② 补贴的小部分，约 10% 以下（约 0–100 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–100)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,1000,3,③ 补贴的一部分，约 10–25%（约 100–250 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 100–250)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,1000,4,④ 补贴的大约一半，约 25–50%（约 250–500 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 250–500)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,1000,5,⑤ 补贴的大部分，约 50–75%（约 500–750 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 500–750)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,1000,6,⑥ 补贴的几乎全部，约 75% 以上（约 750–1000 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 750–1000)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T
+medical,5000,1,① 基本不会额外多消费（用补贴支付原来计划的医疗支出，省下的现金存起来或还债）,"Essentially no additional consumption (use the subsidy to pay originally planned medical expenses, and save the freed cash or repay debt)",No verbal category1 cutoff,Absent
+medical,5000,2,② 补贴的小部分，约 10% 以下（约 0–500 元）,"A small part of the subsidy, approximately below 10% (approximately RMB 0–500)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,5000,3,③ 补贴的一部分，约 10–25%（约 500–1250 元）,"A part of the subsidy, approximately 10–25% (approximately RMB 500–1250)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,5000,4,④ 补贴的大约一半，约 25–50%（约 1250–2500 元）,"About half of the subsidy, approximately 25–50% (approximately RMB 1250–2500)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,5000,5,⑤ 补贴的大部分，约 50–75%（约 2500–3750 元）,"Most of the subsidy, approximately 50–75% (approximately RMB 2500–3750)","Approximate yuan example, not exact spending",Approximate yuan example
+medical,5000,6,⑥ 补贴的几乎全部，约 75% 以上（约 3750–5000 元）,"Almost all of the subsidy, approximately above 75% (approximately RMB 3750–5000)","Approximate yuan example, not exact spending",Top verbal threshold open; parenthetical example ends at T

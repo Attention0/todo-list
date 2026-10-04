@@ -1,0 +1,7 @@
+comparison,wald,df,p,RMSE,type,holm3
+common vs saturated cells,40.10815780397876,7,1.2001899280176863e-06,30.759139331007695,diagnostic lack-of-fit,
+form_intercepts vs saturated cells,7.626071610722046,5,0.1780833202236032,18.277283014384928,diagnostic lack-of-fit,
+form_intercepts_slopes vs saturated cells,1.3805004065772881,3,0.7101118424215016,4.166863182570682,diagnostic lack-of-fit,
+common vs form intercepts,6.979348738982174,2,0.030510805803003905,,nested robust Wald,0.06102161160600781
+common slope vs form slopes,1.928365089908567,2,0.3812947637057158,,nested robust Wald,0.3812947637057158
+common vs form intercepts and slopes,22.76776576490097,4,0.00014089621212988479,,nested robust Wald,0.00042268863638965436
