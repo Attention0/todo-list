@@ -37,7 +37,7 @@ Attempted the standard document renderer; it failed because LibreOffice is unava
 - [x] Primary-source literature audit and claim ledger.
 - [x] Word formatting, page-by-page visual inspection and final audit.
 - [x] Author-information gaps preserved without invention.
-- [ ] Native publication and stacked draft PR verification (completed identifiers to follow).
+- [x] Native commit/push completed; PR20 verified open, draft, unmerged and targeting the exact PR19 base.
 
 ## Known issues
 
@@ -51,8 +51,12 @@ Base: `feature/jebo-review-revision` at `363313c8adc52cce252c11390a32e46c7a98d25
 
 ## Commit SHA
 
-Content commit: pending initial publication; to be recorded in the delivery-metadata follow-up commit.
+Content commit: `d5aed65aea0ef3e749001f09dd216a2b09a89608`. This result record is completed in a subsequent metadata-only commit; the PR head includes that follow-up.
 
 ## PR
 
-Pending creation as a stacked draft to `feature/jebo-review-revision`. Do not merge.
+[PR20 — JEBO v4: restore the three-puzzle narrative on top of PR19 evidence](https://github.com/Attention0/todo-list/pull/20).
+
+Verified at creation: open, draft, unmerged; base `feature/jebo-review-revision` at `363313c8adc52cce252c11390a32e46c7a98d25f`; head `feature/jebo-v4-narrative-rewrite`. No merge performed.
+
+Whitespace check: the new v4 package passes. Six Markdown hard-break trailing spaces are inherited unchanged in the copied main specification and intentionally preserved.
