@@ -1,0 +1,718 @@
+{
+  "base": "363313c8adc52cce252c11390a32e46c7a98d25f",
+  "branch": "feature/jebo-v4-narrative-rewrite",
+  "checks": [
+    {
+      "check": "Abstract length",
+      "passed": true,
+      "detail": "191"
+    },
+    {
+      "check": "Introduction length",
+      "passed": true,
+      "detail": "1628"
+    },
+    {
+      "check": "First three paragraphs contain puzzles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Next two paragraphs contain scale and anatomy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No internal workflow vocabulary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No source placeholders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main figure first-mention order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Five short highlights",
+      "passed": true,
+      "detail": "[76, 73, 78, 68, 75]"
+    },
+    {
+      "check": "Exact aggregate copy adult_cell_distribution.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact aggregate copy adult_share_yuan_table.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact aggregate copy affine_midpoint_fit.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact aggregate copy incremental_yuan_response.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact aggregate copy food_bindingness_raw_cells.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact aggregate copy scientific_family42.csv",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share cash 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan cash 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile cash 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share cash 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan cash 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile cash 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share cash 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan cash 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile cash 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share food 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan food 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile food 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share food 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan food 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile food 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share food 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan food 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile food 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share medical 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan medical 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile medical 200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share medical 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan medical 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile medical 1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed share medical 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Displayed yuan medical 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Six counts reconcile medical 5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction cash 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction cash 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction cash 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction cash 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction cash 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction cash 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction food 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction food 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction food 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction food 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction food 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction food 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction medical 1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction medical 2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction medical 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction medical 4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction medical 5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Descriptive subtraction medical 6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Complete scientific family",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen inference midpoint cash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen inference top75 cash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen inference ordinal cash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen inference top75 omnibus",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen inference top75 cash-food",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen inference top75 cash-medical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription midpoint/cash/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription midpoint/cash/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription midpoint/cash/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription ordinal/cash/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription ordinal/cash/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription ordinal/cash/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/omnibus/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/omnibus/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/omnibus/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash-food/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash-food/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash-food/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash-medical/p",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash-medical/holm42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Table 3 transcription top75/cash-medical/minP42",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number cash/1/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number cash/1/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number cash/6/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number cash/6/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number cash/3/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number cash/3/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/1/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/1/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/6/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/6/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/3/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/3/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/4/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number food/4/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/1/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/1/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/3/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/3/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/5/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/5/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/6/200",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anatomy number medical/6/5000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Food sign preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Measurement boundaries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Supplement reorganized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Supplement coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All original supplementary table values retained",
+      "passed": true,
+      "detail": "32"
+    },
+    {
+      "check": "Questionnaire Chinese and English unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All core references audited",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recent statuses bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Published Jappelli status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Body style JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Title style JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Indent JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure/table references retain body size JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No comments/tracked changes JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Page field JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Images JEBO_manuscript_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Body style JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Title style JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Indent JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure/table references retain body size JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No comments/tracked changes JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Page field JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Images JEBO_supplement_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Body style JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Title style JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Indent JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure/table references retain body size JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No comments/tracked changes JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Page field JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Images JEBO_Highlights_v4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No tracked PR19 file modified or deleted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Requested branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main authority JEBO_V4_WRITING_SPEC.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main authority JEBO_V4_WORK.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Complete paragraph claim ledger",
+      "passed": true,
+      "detail": "89"
+    }
+  ],
+  "passed": 141,
+  "total": 141,
+  "abstract_words": 191,
+  "intro_words": 1628,
+  "main_words_before_references": 7716,
+  "claim_paragraphs": 89,
+  "new_inferential_models": 0
+}
