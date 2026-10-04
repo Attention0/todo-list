@@ -794,3 +794,82 @@ The audit is complete only when:
 The goal is not to make the project look feasible.
 
 The goal is to establish the true research boundary of the CMDS data so that the next research-design stage can be ambitious **and** credible.
+
+
+---
+
+# Immediate next phase — 2026-10-04 reconciliation and identification-gap audit
+
+Before adding new mechanism regressions, read these two new design files:
+
+```
+fertility/DATA_ALIGNMENT_CHECKLIST.md
+fertility/IDENTIFICATION_UPGRADE_PLAN.md
+```
+
+They reflect Chat's current understanding and the identification program derived from the 2026 Labour Economics benchmark and stronger mover/place-effect papers.
+
+## Priority 1 — Correct Chat's data understanding
+
+Create:
+
+```
+fertility/DATA_RECONCILIATION.md
+```
+
+Follow `DATA_ALIGNMENT_CHECKLIST.md` row by row. For each item classify:
+
+- Confirmed;
+- Partially confirmed;
+- Incorrect;
+- Unknown.
+
+Use actual questionnaires, variable labels, raw/clean data, code and sample counts. The purpose is to make Chat and Work operate from the same verified facts.
+
+Do not silently adopt Chat's assumptions.
+
+## Priority 2 — Audit the identification program against actual CMDS feasibility
+
+Create:
+
+```
+fertility/IDENTIFICATION_GAP_AUDIT.md
+```
+
+Use `IDENTIFICATION_UPGRADE_PLAN.md` and classify each proposed test/design:
+
+- **A — feasible now** with current data/code;
+- **B — feasible after external merge or moderate reconstruction**;
+- **C — infeasible with current data**.
+
+For every item report:
+
+- exact required variables;
+- available survey years;
+- necessary sample restrictions;
+- estimated sample loss;
+- whether timing is directly observed or inferred;
+- which endogeneity concern the test addresses;
+- what residual identification problem remains.
+
+## Priority 3 — Do not prematurely shrink the main sample
+
+Keep the broad main sample as the starting population. Cross-province-only, balanced, one-move, recent-mover, work-mover and other restrictive definitions should normally be robustness/diagnostic samples unless a restriction is required for valid measurement.
+
+## Priority 4 — Execution after the audit
+
+After the two audit documents are complete, implement the **highest identification-value A-feasible tests first**, especially:
+
+1. independent/leave-out place measure;
+2. meaningful pre-move fertility and marriage trends;
+3. births/marriage immediately around migration and donut tests;
+4. within-origin comparisons;
+5. previous-residence versus hukou-origin definitions;
+6. multiple-move diagnostics;
+7. CMDS stock-sample / survivorship-selection diagnostics;
+8. group-specific placebo / overidentification tests;
+9. correct clustering/inference.
+
+Only after these are understood should Work move to China-specific mechanisms such as hukou access, fertility-policy interactions, marriage markets, family networks and economic constraints.
+
+If any earlier `SPEC.md` or `WORK.md` instruction conflicts with these priorities, preserve the earlier file and document the conflict in `DATA_RECONCILIATION.md`; do not silently overwrite the research history.
