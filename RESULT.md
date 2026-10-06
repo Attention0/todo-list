@@ -41,8 +41,8 @@ feature/fertility-reconciliation-20261004 (based on latest main; earlier PR #2 r
 
 ## Commit SHA
 
-Pending publication; to be replaced with the audit commit in the metadata follow-up.
+a2b4a3d12b1e4e77bd488f176abccfe3eaad53a3 (audit implementation; this result metadata is finalized in a follow-up documentation commit).
 
 ## PR
 
-Pending creation.
+https://github.com/Attention0/todo-list/pull/22
