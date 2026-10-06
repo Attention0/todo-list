@@ -1,0 +1,832 @@
+{
+  "base_n": 507225,
+  "master_n": 362245,
+  "duplicate_ids": 0,
+  "inputs": {
+    "/home/liuze/project-cmds_fertility/output/data_revision_20260914/cmds_2012_2018_mother_base_variables_FIXED.csv": "14192008ecfeaa55837494fddad8ddba6d7ce7b507645d26cb6944ece21529d4",
+    "/home/liuze/project-cmds_fertility/output/data_revision_20260914/final_analysis/fertility_main_women.csv": "5763b6ac13b78fb319ff066c304853cada4a22d9d4cf49f13c4ed3f20a10eafa",
+    "/mnt/h/Codex/2026-09-20/git-fertility-git/work/repo/fertility/audit/sample_definition_20260920.py": "c568e923fc57ef0a83c2d97dc2bd80b0c69cc1f048257073e04dde38df9cb88f"
+  },
+  "waves": [
+    {
+      "year": 2012,
+      "base": 74380,
+      "master": 59632,
+      "nonmissing": {
+        "first_marriage_year": 59914,
+        "first_marriage_month": 59914,
+        "first_leave_year": 74380,
+        "first_leave_month": 0,
+        "current_arrive_year": 74380,
+        "current_arrive_month": 0,
+        "origin_province_code": 74380,
+        "origin_province_name": 0,
+        "origin_county_code": 0,
+        "origin_county_name": 0,
+        "dest_city_name": 74380,
+        "dest_county_name": 74380,
+        "migration_count_total": 0,
+        "migration_city_count_total": 0,
+        "first_move_start_year": 0,
+        "first_move_city_code": 0,
+        "first_move_city_name": 0,
+        "mother_marital_status": 74380,
+        "spouse_education": 57117,
+        "spouse_hukou_nature": 57117,
+        "children_total_reported": 59960,
+        "child1_birth_year": 56099,
+        "child1_birth_month": 56099
+      },
+      "sources": {
+        "reported_fertility_module": 74380
+      },
+      "master_birth_age_range": [
+        1952.0,
+        1996.0
+      ]
+    },
+    {
+      "year": 2013,
+      "base": 92067,
+      "master": 72757,
+      "nonmissing": {
+        "first_marriage_year": 74805,
+        "first_marriage_month": 74805,
+        "first_leave_year": 91737,
+        "first_leave_month": 91737,
+        "current_arrive_year": 92067,
+        "current_arrive_month": 92067,
+        "origin_province_code": 92067,
+        "origin_province_name": 0,
+        "origin_county_code": 0,
+        "origin_county_name": 0,
+        "dest_city_name": 92067,
+        "dest_county_name": 92067,
+        "migration_count_total": 0,
+        "migration_city_count_total": 0,
+        "first_move_start_year": 0,
+        "first_move_city_code": 0,
+        "first_move_city_name": 0,
+        "mother_marital_status": 92067,
+        "spouse_education": 71479,
+        "spouse_hukou_nature": 71479,
+        "children_total_reported": 74806,
+        "child1_birth_year": 69897,
+        "child1_birth_month": 69897
+      },
+      "sources": {
+        "reported_fertility_module": 92067
+      },
+      "master_birth_age_range": [
+        1953.0,
+        1997.0
+      ]
+    },
+    {
+      "year": 2014,
+      "base": 7200,
+      "master": 5467,
+      "nonmissing": {
+        "first_marriage_year": 5484,
+        "first_marriage_month": 5484,
+        "first_leave_year": 7200,
+        "first_leave_month": 7200,
+        "current_arrive_year": 7200,
+        "current_arrive_month": 7200,
+        "origin_province_code": 0,
+        "origin_province_name": 0,
+        "origin_county_code": 0,
+        "origin_county_name": 0,
+        "dest_city_name": 7200,
+        "dest_county_name": 7200,
+        "migration_count_total": 0,
+        "migration_city_count_total": 0,
+        "first_move_start_year": 0,
+        "first_move_city_code": 0,
+        "first_move_city_name": 0,
+        "mother_marital_status": 7200,
+        "spouse_education": 5363,
+        "spouse_hukou_nature": 5363,
+        "children_total_reported": 5484,
+        "child1_birth_year": 5128,
+        "child1_birth_month": 5128
+      },
+      "sources": {
+        "reported_fertility_module": 7200
+      },
+      "master_birth_age_range": [
+        1954.0,
+        1996.0
+      ]
+    },
+    {
+      "year": 2015,
+      "base": 96692,
+      "master": 76743,
+      "nonmissing": {
+        "first_marriage_year": 77242,
+        "first_marriage_month": 77242,
+        "first_leave_year": 96691,
+        "first_leave_month": 96691,
+        "current_arrive_year": 96692,
+        "current_arrive_month": 96692,
+        "origin_province_code": 0,
+        "origin_province_name": 96692,
+        "origin_county_code": 0,
+        "origin_county_name": 0,
+        "dest_city_name": 96692,
+        "dest_county_name": 96692,
+        "migration_count_total": 0,
+        "migration_city_count_total": 0,
+        "first_move_start_year": 0,
+        "first_move_city_code": 0,
+        "first_move_city_name": 0,
+        "mother_marital_status": 96692,
+        "spouse_education": 76202,
+        "spouse_hukou_nature": 76202,
+        "children_total_reported": 77242,
+        "child1_birth_year": 71438,
+        "child1_birth_month": 71438
+      },
+      "sources": {
+        "reported_fertility_module": 96692
+      },
+      "master_birth_age_range": [
+        1955.0,
+        1999.0
+      ]
+    },
+    {
+      "year": 2016,
+      "base": 80912,
+      "master": 67483,
+      "nonmissing": {
+        "first_marriage_year": 68064,
+        "first_marriage_month": 68064,
+        "first_leave_year": 0,
+        "first_leave_month": 0,
+        "current_arrive_year": 80912,
+        "current_arrive_month": 80912,
+        "origin_province_code": 80912,
+        "origin_province_name": 0,
+        "origin_county_code": 0,
+        "origin_county_name": 0,
+        "dest_city_name": 80912,
+        "dest_county_name": 80912,
+        "migration_count_total": 80911,
+        "migration_city_count_total": 0,
+        "first_move_start_year": 14311,
+        "first_move_city_code": 0,
+        "first_move_city_name": 0,
+        "mother_marital_status": 80912,
+        "spouse_education": 64982,
+        "spouse_hukou_nature": 64982,
+        "children_total_reported": 68064,
+        "child1_birth_year": 61872,
+        "child1_birth_month": 61872
+      },
+      "sources": {
+        "reported_fertility_module": 80912
+      },
+      "master_birth_age_range": [
+        1923.0,
+        2000.0
+      ]
+    },
+    {
+      "year": 2017,
+      "base": 82118,
+      "master": 80163,
+      "nonmissing": {
+        "first_marriage_year": 0,
+        "first_marriage_month": 0,
+        "first_leave_year": 82118,
+        "first_leave_month": 82118,
+        "current_arrive_year": 82118,
+        "current_arrive_month": 82118,
+        "origin_province_code": 0,
+        "origin_province_name": 0,
+        "origin_county_code": 82118,
+        "origin_county_name": 82118,
+        "dest_city_name": 82118,
+        "dest_county_name": 82118,
+        "migration_count_total": 0,
+        "migration_city_count_total": 82118,
+        "first_move_start_year": 0,
+        "first_move_city_code": 82118,
+        "first_move_city_name": 82118,
+        "mother_marital_status": 82118,
+        "spouse_education": 66903,
+        "spouse_hukou_nature": 66903,
+        "children_total_reported": 82118,
+        "child1_birth_year": 57966,
+        "child1_birth_month": 57966
+      },
+      "sources": {
+        "household_roster_zero_assumed": 82118
+      },
+      "master_birth_age_range": [
+        1921.0,
+        2002.0
+      ]
+    },
+    {
+      "year": 2018,
+      "base": 73856,
+      "master": 0,
+      "nonmissing": {
+        "first_marriage_year": 63413,
+        "first_marriage_month": 63413,
+        "first_leave_year": 0,
+        "first_leave_month": 0,
+        "current_arrive_year": 73856,
+        "current_arrive_month": 73856,
+        "origin_province_code": 0,
+        "origin_province_name": 0,
+        "origin_county_code": 0,
+        "origin_county_name": 0,
+        "dest_city_name": 73856,
+        "dest_county_name": 73856,
+        "migration_count_total": 0,
+        "migration_city_count_total": 0,
+        "first_move_start_year": 0,
+        "first_move_city_code": 0,
+        "first_move_city_name": 0,
+        "mother_marital_status": 73856,
+        "spouse_education": 59980,
+        "spouse_hukou_nature": 59980,
+        "children_total_reported": 63413,
+        "child1_birth_year": 58865,
+        "child1_birth_month": 58865
+      },
+      "sources": {
+        "reported_fertility_module": 73856
+      },
+      "master_birth_age_range": []
+    }
+  ],
+  "date_quality": {
+    "future_child_women": 0,
+    "child_before_maternal_age10": 29,
+    "arrival_age_over45": 22612,
+    "survey_age_over45": 53638,
+    "2017_roster_total": 80163,
+    "2017_labeled_A": 0
+  },
+  "subsamples": {
+    "birth_direct_waves_2012_2016": {
+      "n": 282082,
+      "lost": 80163,
+      "lost_pct": 22.129
+    },
+    "marriage_date": {
+      "n": 281858,
+      "lost": 80387,
+      "lost_pct": 22.191
+    },
+    "origin_county_code": {
+      "n": 80163,
+      "lost": 282082,
+      "lost_pct": 77.871
+    },
+    "first_leave_known": {
+      "n": 294707,
+      "lost": 67538,
+      "lost_pct": 18.644
+    },
+    "same_leave_arrival_year": {
+      "n": 147388,
+      "lost": 214857,
+      "lost_pct": 59.313
+    },
+    "reported_one_move": {
+      "n": 54703,
+      "lost": 307542,
+      "lost_pct": 84.899
+    },
+    "reported_one_city": {
+      "n": 45183,
+      "lost": 317062,
+      "lost_pct": 87.527
+    },
+    "explicit_multi": {
+      "n": 47759,
+      "lost": 314486,
+      "lost_pct": 86.816
+    },
+    "inferred_B": {
+      "n": 168536,
+      "lost": 193709,
+      "lost_pct": 53.475
+    },
+    "recent_2years": {
+      "n": 135208,
+      "lost": 227037,
+      "lost_pct": 62.675
+    },
+    "work": {
+      "n": 231814,
+      "lost": 130431,
+      "lost_pct": 36.006
+    },
+    "education": {
+      "n": 257,
+      "lost": 361988,
+      "lost_pct": 99.929
+    },
+    "cross_province": {
+      "n": 183840,
+      "lost": 178405,
+      "lost_pct": 49.25
+    },
+    "within_province": {
+      "n": 178405,
+      "lost": 183840,
+      "lost_pct": 50.75
+    },
+    "known_nonfamily_nonmarriage": {
+      "n": 236379,
+      "lost": 125866,
+      "lost_pct": 34.746
+    },
+    "birth_donut_pm1": {
+      "n": 273440,
+      "lost": 88805,
+      "lost_pct": 24.515
+    },
+    "marriage_birth_donut_pm1_known_marriage": {
+      "n": 187759,
+      "lost": 174486,
+      "lost_pct": 48.168
+    },
+    "balanced_pm1_published": {
+      "n": 331779,
+      "lost": 30466,
+      "lost_pct": 8.41
+    },
+    "balanced_pm1_age15_45": {
+      "n": 308988,
+      "lost": 53257,
+      "lost_pct": 14.702
+    },
+    "birth_donut_pm2": {
+      "n": 236884,
+      "lost": 125361,
+      "lost_pct": 34.607
+    },
+    "marriage_birth_donut_pm2_known_marriage": {
+      "n": 159048,
+      "lost": 203197,
+      "lost_pct": 56.094
+    },
+    "balanced_pm3_published": {
+      "n": 220049,
+      "lost": 142196,
+      "lost_pct": 39.254
+    },
+    "balanced_pm3_age15_45": {
+      "n": 202191,
+      "lost": 160054,
+      "lost_pct": 44.184
+    },
+    "balanced_pm5_published": {
+      "n": 139184,
+      "lost": 223061,
+      "lost_pct": 61.577
+    },
+    "balanced_pm5_age15_45": {
+      "n": 125206,
+      "lost": 237039,
+      "lost_pct": 65.436
+    }
+  },
+  "reasons": {
+    "work_business": 231814,
+    "missing": 59632,
+    "follow_family": 47636,
+    "marriage": 8875,
+    "care_family": 6290,
+    "kinship_network": 2959,
+    "other": 2869,
+    "demolition_move": 1438,
+    "elderly_migration": 474,
+    "study_training": 257,
+    "military": 1
+  },
+  "marital": {
+    "2.0": 332994,
+    "1.0": 10325,
+    "4.0": 7702,
+    "3.0": 6399,
+    "5.0": 3434,
+    "6.0": 1391
+  },
+  "birth_relative_counts": {
+    "-3": 23820,
+    "-2": 25360,
+    "-1": 29582,
+    "0": 33249,
+    "1": 28228,
+    "2": 17901,
+    "3": 13050
+  },
+  "marriage_relative_counts": {
+    "-3": 14776,
+    "-2": 17046,
+    "-1": 20824,
+    "0": 26985,
+    "1": 9051,
+    "2": 6007,
+    "3": 4444
+  },
+  "event_support_age15_45": {
+    "-10": 256803,
+    "-9": 276148,
+    "-8": 294416,
+    "-7": 310106,
+    "-6": 322178,
+    "-5": 331250,
+    "-4": 337317,
+    "-3": 340981,
+    "-2": 342358,
+    "-1": 341871,
+    "0": 339633,
+    "1": 310348,
+    "2": 254279,
+    "3": 209179,
+    "4": 171051,
+    "5": 140486,
+    "6": 114491,
+    "7": 93589,
+    "8": 75866,
+    "9": 62188,
+    "10": 51600
+  },
+  "parity_at_arrival": {
+    "0": 126212,
+    "1": 149096,
+    "2": 74839,
+    "3": 10272,
+    "4": 1501,
+    "5": 323,
+    "6": 2
+  },
+  "year_ranges": {
+    "move": [
+      1956.0,
+      2017.0
+    ],
+    "survey": [
+      2012.0,
+      2017.0
+    ]
+  },
+  "legacy_columns": [
+    "mother_id",
+    "survey_year",
+    "mother_birth_year",
+    "mother_birth_month",
+    "age_at_survey",
+    "age_at_move",
+    "mother_education",
+    "mother_education_unified",
+    "mother_hukou_nature",
+    "mother_hukou_nature_unified",
+    "mother_marital_status",
+    "spouse_education",
+    "spouse_education_unified",
+    "spouse_hukou_nature",
+    "spouse_hukou_nature_unified",
+    "spouse_marital_status",
+    "spouse_match_count",
+    "spouse_roster_slot",
+    "origin_province_code",
+    "origin_province_name",
+    "origin_county_code",
+    "origin_county_name",
+    "origin_city_code",
+    "origin_geo_level",
+    "city_pair_available",
+    "dest_province_name",
+    "dest_city_name",
+    "dest_county_name",
+    "dest_city_code",
+    "current_arrive_year",
+    "current_arrive_month",
+    "first_leave_year",
+    "first_leave_month",
+    "current_move_scope",
+    "current_move_reason",
+    "current_move_reason_group",
+    "migration_count_total",
+    "migration_city_count_total",
+    "first_marriage_year",
+    "first_marriage_month",
+    "children_total_reported",
+    "children_count_source",
+    "child1_birth_year",
+    "child1_birth_month",
+    "child2_birth_year",
+    "child2_birth_month",
+    "child3_birth_year",
+    "child3_birth_month",
+    "child4_birth_year",
+    "child4_birth_month",
+    "child5_birth_year",
+    "child5_birth_month",
+    "child6_birth_year",
+    "child6_birth_month",
+    "child7_birth_year",
+    "child7_birth_month",
+    "child8_birth_year",
+    "child8_birth_month",
+    "child9_birth_year",
+    "child9_birth_month",
+    "origin_best_available",
+    "origin_prov",
+    "dest_prov",
+    "direct_move",
+    "observed_child_birth_years",
+    "complete_birth_history",
+    "balanced_event",
+    "move_year",
+    "move_reason",
+    "marriage_status_at_move",
+    "marriage_linked",
+    "delta_birth_move",
+    "delta_birth_pre1",
+    "delta_birth_pre3",
+    "delta_marriage_intensity_move",
+    "delta_marriage_intensity_pre1",
+    "delta_marriage_intensity_pre3",
+    "marriage_gap_move",
+    "marriage_gap_pre1",
+    "marriage_gap_pre3",
+    "delta_remarriage_intensity_move",
+    "delta_remarriage_intensity_pre1",
+    "delta_remarriage_intensity_pre3",
+    "delta_divorce_intensity_move",
+    "delta_divorce_intensity_pre1",
+    "delta_divorce_intensity_pre3",
+    "primary_support",
+    "definitely_married_on_arrival",
+    "definitely_unmarried_on_arrival",
+    "parity_on_arrival",
+    "parity_on_arrival_exact",
+    "family_stage",
+    "main_sample",
+    "any_birth_post_1_5",
+    "births_post_1_5",
+    "birth_years_post_1_5",
+    "any_birth_post_0_5",
+    "births_post_0_5",
+    "birth_years_post_0_5",
+    "any_birth_post_1_2",
+    "births_post_1_2",
+    "birth_years_post_1_2",
+    "any_birth_later_year_to_survey"
+  ],
+  "legacy_graph": {
+    "women": 21383,
+    "origins": 31,
+    "destinations": 31,
+    "directed_od": 707,
+    "components": [
+      31
+    ],
+    "od_quantiles": {
+      "0.25": 3.0,
+      "0.5": 9.0,
+      "0.75": 27.0,
+      "0.9": 68.0
+    },
+    "od_under5": 236,
+    "degree_min": 25,
+    "degree_max": 30
+  },
+  "legacy_gap": {
+    "count": 21383.0,
+    "mean": -0.7608556641568849,
+    "std": 3.676176283003591,
+    "min": -13.793333333333331,
+    "1%": -7.590000000000003,
+    "25%": -3.536666666666669,
+    "50%": -1.166666666666666,
+    "75%": 1.8466666666666656,
+    "99%": 7.845133333333333,
+    "max": 11.363333333333337
+  },
+  "legacy_gap_sign": {
+    "positive": 8345,
+    "negative": 13038,
+    "zero": 0
+  },
+  "broad_cbr": {
+    "matched": {
+      "n": 323949,
+      "lost": 38296,
+      "lost_pct": 10.572
+    },
+    "zero": 162441,
+    "positive": 64440,
+    "negative": 97068,
+    "by_wave": {
+      "2012": 49612,
+      "2013": 64129,
+      "2014": 4998,
+      "2015": 70831,
+      "2016": 61263,
+      "2017": 73116
+    },
+    "invalid_province": 1650,
+    "year_min": 2000.0,
+    "year_max": 2021.0,
+    "duplicate_province_year": 0,
+    "legacy_overlap_verified": 21255
+  },
+  "broad_graph": {
+    "valid_women": 360595,
+    "origins": 31,
+    "destinations": 31,
+    "directed_od": 922,
+    "components": [
+      31
+    ],
+    "od_quantiles": {
+      "0.25": 11.25,
+      "0.5": 54.0,
+      "0.75": 190.0,
+      "0.9": 663.9
+    },
+    "od_under5": 130,
+    "degree_excluding_self": {
+      "11.0": 30,
+      "12.0": 30,
+      "13.0": 30,
+      "14.0": 30,
+      "15.0": 30,
+      "21.0": 30,
+      "22.0": 30,
+      "23.0": 30,
+      "31.0": 30,
+      "32.0": 30,
+      "33.0": 30,
+      "34.0": 30,
+      "35.0": 30,
+      "36.0": 30,
+      "37.0": 30,
+      "41.0": 30,
+      "42.0": 30,
+      "44.0": 30,
+      "45.0": 30,
+      "46.0": 30,
+      "50.0": 30,
+      "51.0": 30,
+      "54.0": 30,
+      "61.0": 30,
+      "62.0": 30,
+      "63.0": 30,
+      "65.0": 30,
+      "43.0": 30,
+      "64.0": 30,
+      "52.0": 30,
+      "53.0": 30
+    },
+    "destination_counts": {
+      "44.0": 24910,
+      "33.0": 23134,
+      "31.0": 19208,
+      "32.0": 18705,
+      "11.0": 15938,
+      "37.0": 14325,
+      "65.0": 13419,
+      "35.0": 12929,
+      "42.0": 11510,
+      "51.0": 11392,
+      "34.0": 11187,
+      "43.0": 11021,
+      "12.0": 10851,
+      "13.0": 10548,
+      "61.0": 10517,
+      "15.0": 10242,
+      "50.0": 10108,
+      "45.0": 10100,
+      "14.0": 9917,
+      "41.0": 9650,
+      "53.0": 9427,
+      "62.0": 9303,
+      "21.0": 8764,
+      "46.0": 8633,
+      "23.0": 8612,
+      "36.0": 8338,
+      "52.0": 8291,
+      "64.0": 8225,
+      "63.0": 8092,
+      "22.0": 7830,
+      "54.0": 5646
+    }
+  },
+  "unmarried_selection": {
+    "2012": {
+      "base_unmarried": 14071,
+      "master_unmarried": 0
+    },
+    "2013": {
+      "base_unmarried": 17096,
+      "master_unmarried": 0
+    },
+    "2014": {
+      "base_unmarried": 1716,
+      "master_unmarried": 0
+    },
+    "2015": {
+      "base_unmarried": 17605,
+      "master_unmarried": 0
+    },
+    "2016": {
+      "base_unmarried": 12848,
+      "master_unmarried": 0
+    },
+    "2017": {
+      "base_unmarried": 11685,
+      "master_unmarried": 10325
+    },
+    "2018": {
+      "base_unmarried": 10442,
+      "master_unmarried": 0
+    }
+  },
+  "diagnostic_history": {
+    "rows": 51,
+    "persons": 11,
+    "path_local_only": "/mnt/h/Codex/2026-09-20/git-fertility-git/work/diagnostic_private_20261004/person_year_diagnostic.csv"
+  },
+  "settlement_raw_path_exists": true,
+  "settlement_2017": {
+    "Q314": {
+      "label": "今后一段时间，您是否打算继续留在本地",
+      "nonmissing": 80163,
+      "values": {
+        "1": 66404,
+        "3": 11818,
+        "2": 1941
+      }
+    },
+    "Q315": {
+      "label": "如果您打算留在本地，您预计自己将在本地留多久",
+      "nonmissing": 66403,
+      "values": {
+        "5.0": 25782,
+        "6.0": 16915,
+        "2.0": 9140,
+        "4.0": 5921,
+        "1.0": 5107,
+        "3.0": 3538
+      }
+    },
+    "Q317": {
+      "label": "如果您不打算留在本地，您是选择返乡还是去其他地方",
+      "nonmissing": 1941,
+      "values": {
+        "1.0": 1352,
+        "3.0": 295,
+        "2.0": 294
+      }
+    },
+    "Q318": {
+      "label": "您打算什么时候返乡",
+      "nonmissing": 1352,
+      "values": {
+        "1.0": 539,
+        "6.0": 402,
+        "2.0": 219,
+        "3.0": 130,
+        "4.0": 35,
+        "5.0": 27
+      }
+    },
+    "Q321A": {
+      "label": "您打算去的国内省份城市的行政区划代码",
+      "nonmissing": 179,
+      "values": {
+        "441901": 6,
+        "440101": 5,
+        "330101": 5,
+        "440301": 5,
+        "510101": 5,
+        "650101": 5,
+        "440601": 3,
+        "440104": 3
+      }
+    }
+  },
+  "questionnaire_raw_discrepancy_2017": {
+    "Q412": [],
+    "Q413": [],
+    "Q414": [],
+    "Q415": [],
+    "Q416": [],
+    "Q417": [],
+    "Q418": []
+  }
+}
