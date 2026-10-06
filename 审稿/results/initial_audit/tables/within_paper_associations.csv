@@ -1,0 +1,5 @@
+x,y,n,papers,beta,se_paper_cluster,p_asymptotic,fe,controls,interpretation
+institution_overlap_snapshot,rating_initial,4903,1325,0.07662243942868964,0.05231880467738516,0.14304929453572546,paper demeaned; informative papers only,none,descriptive association; snapshot timing and selection unresolved
+institution_overlap_snapshot,confidence_initial,4903,1325,0.010969879274168357,0.023385053999641737,0.6389996737664938,paper demeaned; informative papers only,none,descriptive association; snapshot timing and selection unresolved
+coauthor_overlap_undated,rating_initial,403,108,0.06616862326574177,0.2057647122048934,0.7477752898298385,paper demeaned; informative papers only,none,descriptive association; snapshot timing and selection unresolved
+coauthor_overlap_undated,confidence_initial,403,108,0.08858057630736396,0.08414101491260464,0.2924494684433009,paper demeaned; informative papers only,none,descriptive association; snapshot timing and selection unresolved

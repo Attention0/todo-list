@@ -1,0 +1,11 @@
+metric,n
+raw_submission_number_min,1
+raw_submission_number_max,10240
+raw_missing_numbers_in_range,150
+profiles_cache.json_records,19236
+profiles_cache.json_gender_nonempty,16976
+profiles_cache.json_race_nonempty,0
+profiles_cache.json_country_nonempty,19129
+profiles_cache.json_expertise_nonempty,16710
+nameprism_nat.json_records,34025
+nameprism_eth.json_records,34025
