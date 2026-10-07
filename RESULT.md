@@ -66,7 +66,7 @@ main基准 `1874d375231ed6a6a040bc8df0d336b5fc48474d`。原生Git同步遇到连
 - [x] 婚与育共同主结果；独立风险集、退出/累计量、禁止控制迁后婚姻。
 - [x] Tier0/1/2/3、A/B/C、样本成本和8项优先分析；不伪装未知为可行。
 - [x] 无机制或新因果模型；不改原SPEC/WORK、不merge。
-- [ ] GitHub发布与PR回读核验（待元数据更新）。
+- [x] GitHub已发布并创建PR #23；创建返回4个新增文件、无删除；随后更新本记录元数据并回读核验。
 
 ## Known issues
 
@@ -75,5 +75,5 @@ main基准 `1874d375231ed6a6a040bc8df0d336b5fc48474d`。原生Git同步遇到连
 ## Branch / Commit SHA / PR
 
 - Branch: `feature/fertility-mover-benchmark-20261007`
-- Commit SHA: 待首次审计提交后写入固定审计快照SHA；本记录后续更新自身元数据。
-- PR: 待创建；不自动merge。
+- Commit SHA（完整审计快照）: `aaf17f8581b3fd2583fc9d2436d272edcec7640f`。后续提交仅更新本RESULT的发布元数据；最终分支head以PR为准，避免自引用SHA。
+- PR: [#23 — mover identification benchmark audit](https://github.com/Attention0/todo-list/pull/23)，open；不自动merge。
