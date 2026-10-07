@@ -873,3 +873,34 @@ After the two audit documents are complete, implement the **highest identificati
 Only after these are understood should Work move to China-specific mechanisms such as hukou access, fertility-policy interactions, marriage markets, family networks and economic constraints.
 
 If any earlier `SPEC.md` or `WORK.md` instruction conflicts with these priorities, preserve the earlier file and document the conflict in `DATA_RECONCILIATION.md`; do not silently overwrite the research history.
+
+
+---
+
+# Current priority — mover-design benchmark audit
+
+Before running new causal models or mechanisms, read and execute:
+
+```
+fertility/MOVER_BENCHMARK_AUDIT_WORKORDER.md
+```
+
+This task supersedes mechanism expansion for the current phase.
+
+The immediate goal is to benchmark Wu & Zhu (2026) against the mover/place-effect literature in:
+
+```
+G:\桌面\科研\文章-生育地理
+```
+
+plus targeted external literature search, and produce:
+
+```
+fertility/MOVER_LITERATURE_IDENTIFICATION_MAP.md
+fertility/LABOUR_E_IDENTIFICATION_AUDIT.md
+fertility/MOVER_CORE_CHECKLIST.md
+```
+
+Treat **marriage and fertility as co-primary outcomes** under the umbrella “geography of family formation.”
+
+Do not estimate mechanisms yet. First establish the minimum defensible mover-design identification package and rank all tasks by the endogeneity threat they address.
