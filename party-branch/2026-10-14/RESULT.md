@@ -44,8 +44,12 @@
 
 ## Commit SHA
 
-成果提交后回填。
+成果提交：fa95a5ce9dff00a380a704d152c311b49ae8f5f7（本记录后续补充提交不改变成果文件）。
 
 ## PR
 
-创建后回填；不合并到main。
+https://github.com/Attention0/todo-list/pull/24（未合并到main）。
+
+## Publishing
+
+原生Git commit已创建；git push因GitHub网络连接失败。随后通过已授权GitHub API上传全部20个文件并创建分支提交和PR，没有使用浏览器手工上传。
