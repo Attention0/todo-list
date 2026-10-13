@@ -34,7 +34,7 @@
 feature/party-branch-2026-10-14-host-v2
 
 ## Commit SHA
-待发布后填入制品提交 SHA。
+31e12e23e5f1f386b687b929c3d60346bee0ea66（制品提交；本报告中的发布信息另作后续提交更新）
 
 ## PR
-待创建后填入。原生 Git 同步出现连接重置，按用户发布策略使用已授权 GitHub API，不重复登录。
+https://github.com/Attention0/todo-list/pull/25 。原生 Git 同步出现连接重置，按用户发布策略使用已授权 GitHub API，不重复登录。
